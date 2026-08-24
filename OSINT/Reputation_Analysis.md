@@ -8,7 +8,7 @@
 
 **Status:** Active Investigation
 
-**Version:** 1.0
+**Version:** 1.2
 
 ---
 
@@ -45,12 +45,12 @@ The objective is to determine whether the observed domains had previously been i
 # Reputation Summary
 
 | Domain | Overall Assessment |
-|----------|-------------------|
+|--------|--------------------|
 | occupationoasis.com | Legitimate / Professional Marketing Site |
-| linkroles.my | Highly Suspicious |
-| unitelmatch.top | Confirmed Malicious |
-| unitelmatch.cc | Confirmed Malicious |
-| unitelmatch.cyou | Confirmed Malicious |
+| linkroles.my        | Highly Suspicious                        |
+| unitelmatch.top     | Confirmed Malicious                      |
+| unitelmatch.cc      | Confirmed Malicious                      |
+| unitelmatch.cyou    | Confirmed Malicious                      |
 
 ---
 
@@ -325,12 +325,12 @@ Although public reputation services had not yet classified the domain as malicio
 # Reputation Comparison
 
 | Feature | OccupationOasis | LinkRoles | UnitelMatch.top | UnitelMatch.cc | UnitelMatch.cyou |
-|----------|:---------------:|:---------:|:---------------:|:--------------:|:----------------:|
-| VirusTotal Detection | 0/92 | 0/92 | 4/92 | 2/92 | 0/92 |
-| URLScan Classification | Jobs | Suspicious | Phishing | Limited | None |
-| Google Warning | No | Yes | Yes | Yes | No |
-| Cloudflare Protected | No | Yes | Yes | Yes | Yes |
-| Newly Registered | Yes | Yes | Yes | Yes | Yes |
+|---------|-----------------|-----------|-----------------|----------------|------------------|
+| VirusTotal Detection      | 0/92      | 0/92       | 4/92     | 2/92     | 0/92             |
+| URLScan Classification    | Jobs      | Suspicious | Phishing | Limited  | None             |
+| Google Warning            | No        | Yes        | Yes      | Yes      | No               |
+| Cloudflare Protected      | No        | Yes        | Yes      | Yes      | Yes              |
+| Newly Registered          | Yes       | Yes        | Yes      | Yes      | Yes              |
 
 ---
 
