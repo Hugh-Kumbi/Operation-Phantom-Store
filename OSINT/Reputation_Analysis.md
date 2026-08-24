@@ -449,6 +449,30 @@ These screenshots provide strong evidence linking technical infrastructure chang
 
 | Evidence ID | Description |
 |-------------|-------------|
+| [EV-066-01](), [EV-066-02](), [EV-066-03](), [EV-066-04]() |  VirusTotal Detection results & history – occupationoasis                               |
+| [EV-067-01](), [EV-067-02](), [EV-067-03](), [EV-067-04]() |  VirusTotal Detection results & history – linkroles                                     |
+| [EV-068-01](), [EV-068-02](), [EV-068-03](), [EV-068-04]() |  VirusTotal Detection results & history – unitelmatch.top                               |
+| [EV-069-01](), [EV-069-02](), [EV-069-03](), [EV-069-04]() |  VirusTotal Detection results & history – unitelmatch.cc                                |
+| [EV-070-01](), [EV-070-02](), [EV-070-03](), [EV-070-04]() |  VirusTotal Detection results & history – unitelmatch.cyou                              |
+
+| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – occupationoasis                               |
+| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – linkroles                                     |
+| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.top                               |
+| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.cc                                |
+| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.cyou                              |
+
+| [EV-037-01]() |  Browser warning – occupationoasis                               |
+| [EV-037-01]() |  Browser warning – linkroles                                     |
+| [EV-037-01]() |  Browser warning – unitelmatch.top                               |
+| [EV-037-01]() |  Browser warning – unitelmatch.cc                                |
+| [EV-037-01]() |  Browser warning – unitelmatch.cyou                              |
+
+| [EV-037-01]() |  Recruiter providing `unitelmatch.cc`                               |
+| [EV-037-01]() |  Analyst reporting the Google warning.                                     |
+| [EV-037-01]() |  Recruiter providing `unitelmatch.cyou`                               |
+| [EV-037-01]() |  Recruiter explaining that the warning was due to a "platform upgrade."                                |
+
+
 | [EV-037-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-037-01.png) | Browser warning for linkroles.my                              |
 | [EV-038-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-038-01.png) | Recruiter instructions directing migration to unitelmatch.top    |
 | [EV-039-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-039-01.png) | Browser observations during investigation                      |
@@ -470,14 +494,18 @@ These screenshots provide strong evidence linking technical infrastructure chang
 
 # Related Documents
 
-- [Domain_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
-- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
 - [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
-- [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
-- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
-- [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Domain_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
+- [Domain_Relationships.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
 - [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
+- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md    )
+- [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
+- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
+
 
 ---
 
