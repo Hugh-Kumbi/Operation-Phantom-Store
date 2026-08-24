@@ -390,13 +390,6 @@ While reputation data alone is insufficient to establish malicious intent, it pr
 
 # Screenshots
 
-Recommended additions:
-
-## VirusTotal
-
-- Detection results for all five domains.
-- Detection history (where available).
-
 ## URLScan
 
 - Scan summary pages.
@@ -449,23 +442,20 @@ These screenshots provide strong evidence linking technical infrastructure chang
 
 | Evidence ID | Description |
 |-------------|-------------|
-| [EV-066-01](), [EV-066-02](), [EV-066-03](), [EV-066-04]() |  VirusTotal Detection results & history – occupationoasis                               |
-| [EV-067-01](), [EV-067-02](), [EV-067-03](), [EV-067-04]() |  VirusTotal Detection results & history – linkroles                                     |
-| [EV-068-01](), [EV-068-02](), [EV-068-03](), [EV-068-04]() |  VirusTotal Detection results & history – unitelmatch.top                               |
-| [EV-069-01](), [EV-069-02](), [EV-069-03](), [EV-069-04]() |  VirusTotal Detection results & history – unitelmatch.cc                                |
-| [EV-070-01](), [EV-070-02](), [EV-070-03](), [EV-070-04]() |  VirusTotal Detection results & history – unitelmatch.cyou                              |
-
-| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – occupationoasis                               |
-| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – linkroles                                     |
-| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.top                               |
-| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.cc                                |
-| [EV-037-01]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.cyou                              |
-
-| [EV-037-01]() |  Browser warning – occupationoasis                               |
-| [EV-037-01]() |  Browser warning – linkroles                                     |
-| [EV-037-01]() |  Browser warning – unitelmatch.top                               |
-| [EV-037-01]() |  Browser warning – unitelmatch.cc                                |
-| [EV-037-01]() |  Browser warning – unitelmatch.cyou                              |
+| [EV-066-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-01.png), [EV-066-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-02.png), [EV-066-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-03.png), [EV-066-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-04.png), [EV-034-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-01.png), [EV-034-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-02.png), [EV-034-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-03.png) |  VirusTotal Detection results & history – occupationoasis                               |
+| [EV-067-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-01.png), [EV-067-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-02.png), [EV-067-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-03.png), [EV-067-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-04.png), [EV-034-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-04.png), [EV-034-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-05.png) |  VirusTotal Detection results & history – linkroles                                     |
+| [EV-068-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-01.png), [EV-068-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-02.png), [EV-068-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-03.png), [EV-068-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-04.png), [EV-034-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-06.png), [EV-034-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-07.png) |  VirusTotal Detection results & history – unitelmatch.top                               |
+| [EV-069-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-01.png), [EV-069-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-02.png), [EV-069-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-03.png), [EV-069-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-04.png), [EV-034-08](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-08.png), [EV-034-09](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-09.png) |  VirusTotal Detection results & history – unitelmatch.cc                                |
+| [EV-070-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-01.png), [EV-070-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-02.png), [EV-070-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-03.png), [EV-070-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-04.png), [EV-034-10](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-10.png), [EV-034-11](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-034-11.png) |  VirusTotal Detection results & history – unitelmatch.cyou                              |
+| [EV-071-01](), [EV-071-02](), [EV-071-03](), [EV-071-04](), [EV-071-05](), [EV-071-06](), [EV-071-07]() |  URLScan summary pages, Classification results & Structural similarity findings – occupationoasis                               |
+| [EV-072-01](), [EV-072-02](), [EV-072-03](), [EV-072-04](), [EV-072-05](), [EV-072-06](), [EV-072-07]() |  URLScan summary pages, Classification results & Structural similarity findings – linkroles                                     |
+| [EV-073-01](), [EV-073-02](), [EV-073-03](), [EV-073-04](), [EV-073-05](), [EV-073-06](), [EV-073-07]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.top                               |
+| [EV-074-01](), [EV-074-02](), [EV-074-03](), [EV-074-04](), [EV-074-05](), [EV-074-06](), [EV-074-07]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.cc                                |
+| [EV-075-01](), [EV-075-02](), [EV-075-03](), [EV-075-04](), [EV-075-05](), [EV-075-06](), [EV-075-07]() |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.cyou                              |
+| [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png) |  Browser warning – linkroles                                     |
+| [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png) |  Browser warning – unitelmatch.top                               |
+| [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png) |  Browser warning – unitelmatch.cc                                |
+| [EV-012-04]() |  Browser warning – unitelmatch.cyou                              |
 
 | [EV-037-01]() |  Recruiter providing `unitelmatch.cc`                               |
 | [EV-037-01]() |  Analyst reporting the Google warning.                                     |
