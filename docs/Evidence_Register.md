@@ -92,10 +92,7 @@ Evidence should not be modified after collection. Any redactions must be documen
 
 ## Document Information
 
-**Document Version:**  1.0  
 **Last Updated:**      August 2026  
 **Analyst:**           Hugh Chanetsa  
-**Project Status:**    ✅ COMPLETE        
 **Assessment Type:**   OSINT Investigation       
-**GitHub:**            https://github.com/Hugh-Kumbi/OSINT-Investigation-Analysis-of-a-Suspected-Remote-Recruitment-Platform     
-**Classification:**    Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
+**GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store
