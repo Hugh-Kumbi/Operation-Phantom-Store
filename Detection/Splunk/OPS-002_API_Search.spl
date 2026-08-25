@@ -1,0 +1,9 @@
+index=proxy
+
+"/tiny-shop/v1/"
+
+OR "/member/member/index"
+
+OR "/site/config"
+
+| stats count by src_ip,url

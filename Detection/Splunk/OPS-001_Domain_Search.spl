@@ -1,0 +1,10 @@
+index=proxy
+
+(occupationoasis.com
+OR linkroles.my
+OR unitelmatch.top
+OR unitelmatch.cc
+OR unitelmatch.cyou
+OR ioutrankap.cyou)
+
+| stats count by src_ip,url,user

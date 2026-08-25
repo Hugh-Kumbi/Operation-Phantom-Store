@@ -1,0 +1,33 @@
+title: Operation Phantom Store Infrastructure Correlation
+
+id: OPS-005
+
+status: experimental
+
+description: Correlates multiple known campaign domains.
+
+author: Hugh Chanetsa
+
+logsource:
+
+  category: proxy
+
+detection:
+
+  selection:
+
+    url|contains:
+
+      - occupationoasis
+
+      - linkroles
+
+      - unitelmatch
+
+      - ioutrankap
+
+  timeframe: 30d
+
+  condition: selection
+
+level: critical

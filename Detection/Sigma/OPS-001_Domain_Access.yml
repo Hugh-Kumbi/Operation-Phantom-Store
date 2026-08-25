@@ -1,0 +1,52 @@
+title: Operation Phantom Store Known Domain Access
+
+id: OPS-001
+
+status: experimental
+
+description: Detects access to known Operation Phantom Store domains.
+
+author: Hugh Chanetsa
+
+date: 2026-08-25
+
+logsource:
+  category: proxy
+
+detection:
+
+  selection:
+
+    url|contains:
+
+      - occupationoasis.com
+
+      - linkroles.my
+
+      - unitelmatch.top
+
+      - unitelmatch.cc
+
+      - unitelmatch.cyou
+
+      - ioutrankap.cyou
+
+  condition: selection
+
+falsepositives:
+
+  - Security research
+
+  - Threat intelligence investigations
+
+level: high
+
+tags:
+
+  - attack.t1583
+
+  - attack.t1584
+
+  - phishing
+
+  - operation_phantom_store

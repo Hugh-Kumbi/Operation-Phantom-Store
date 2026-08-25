@@ -445,7 +445,6 @@ While reputation data alone is insufficient to establish malicious intent, it pr
 - [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
 - [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
 
-
 ---
 
 ## Document Information

@@ -1,0 +1,31 @@
+title: Newly Registered Cloudflare Recruitment Domains
+
+id: OPS-004
+
+status: experimental
+
+description: Hunting rule for recently registered Cloudflare-hosted recruitment portals.
+
+author: Hugh Chanetsa
+
+logsource:
+
+  category: dns
+
+detection:
+
+  selection:
+
+    query|contains:
+
+      - unitelmatch
+
+      - linkroles
+
+  condition: selection
+
+falsepositives:
+
+  - Legitimate research
+
+level: medium

@@ -1,0 +1,8 @@
+index=*
+
+(merchant-id=42
+OR ioutrankap.cyou
+OR unitelmatch.cc
+OR unitelmatch.cyou)
+
+| table _time host src_ip url

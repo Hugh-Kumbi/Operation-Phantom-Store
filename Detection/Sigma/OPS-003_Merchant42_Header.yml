@@ -1,0 +1,33 @@
+title: Operation Phantom Store Merchant ID Header
+
+id: OPS-003
+
+status: experimental
+
+description: Detects HTTP requests containing the merchant-id value observed during the investigation.
+
+author: Hugh Chanetsa
+
+logsource:
+
+  category: proxy
+
+detection:
+
+  selection:
+
+    http_header|contains:
+
+      - merchant-id
+
+      - "42"
+
+  condition: selection
+
+level: high
+
+tags:
+
+  - operation_phantom_store
+
+  - attack.t1071
