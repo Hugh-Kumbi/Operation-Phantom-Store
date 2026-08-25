@@ -1,0 +1,12 @@
+alert http any any -> any any (
+
+msg:"Operation Phantom Store Merchant Header";
+
+content:"merchant-id";
+
+http.header;
+
+sid:100005;
+
+rev:1;
+)

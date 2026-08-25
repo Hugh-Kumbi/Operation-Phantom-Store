@@ -1,0 +1,23 @@
+alert http any any -> any any (
+msg:"Operation Phantom Store Domain";
+content:"unitelmatch";
+http.host;
+sid:100001;
+rev:1;
+)
+
+alert http any any -> any any (
+msg:"Operation Phantom Store LinkRoles";
+content:"linkroles.my";
+http.host;
+sid:100002;
+rev:1;
+)
+
+alert http any any -> any any (
+msg:"Operation Phantom Store Backend";
+content:"ioutrankap.cyou";
+http.host;
+sid:100003;
+rev:1;
+)
