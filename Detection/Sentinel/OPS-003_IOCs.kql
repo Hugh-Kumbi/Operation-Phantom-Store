@@ -1,0 +1,13 @@
+DeviceNetworkEvents
+
+| where RemoteUrl has_any (
+
+"unitelmatch",
+
+"linkroles",
+
+"ioutrankap"
+
+)
+
+| summarize count() by RemoteUrl

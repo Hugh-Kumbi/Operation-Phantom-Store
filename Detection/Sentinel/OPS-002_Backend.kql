@@ -1,0 +1,5 @@
+DeviceNetworkEvents
+
+| where RemoteUrl contains "/tiny-shop/v1/"
+
+| project Timestamp,DeviceName,RemoteUrl

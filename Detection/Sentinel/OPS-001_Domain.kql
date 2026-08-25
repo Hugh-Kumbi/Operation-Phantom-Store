@@ -1,0 +1,19 @@
+DeviceNetworkEvents
+
+| where RemoteUrl has_any (
+
+"occupationoasis.com",
+
+"linkroles.my",
+
+"unitelmatch.top",
+
+"unitelmatch.cc",
+
+"unitelmatch.cyou",
+
+"ioutrankap.cyou"
+
+)
+
+| project Timestamp,DeviceName,RemoteUrl
