@@ -12,6 +12,20 @@ The rules were derived from observed infrastructure, backend communications, app
 
 # Detection Categories
 
+## IOC Lists
+
+Machine-readable indicators.
+
+Includes:
+
+- Domains
+- URLs
+- IP addresses
+- Certificates
+- API paths
+
+---
+
 ## Sigma Rules
 
 Platform-independent SIEM detections.
