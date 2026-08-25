@@ -1,0 +1,11 @@
+Google Trust Services WE1
+
+Google Trust Services WR1
+
+Amazon RSA 2048 M01
+
+merchant-id: 42
+
+Cloudflare Browser Insights
+
+/tiny-shop/v1/
