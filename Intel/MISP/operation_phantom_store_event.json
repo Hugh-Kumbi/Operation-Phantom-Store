@@ -1,0 +1,66 @@
+{
+  "Event": {
+    "info": "Operation Phantom Store - Recruitment Fraud Campaign",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "distribution": "0",
+    "Attribute": [
+      {
+        "type": "domain",
+        "value": "occupationoasis.com"
+      },
+      {
+        "type": "domain",
+        "value": "linkroles.my"
+      },
+      {
+        "type": "domain",
+        "value": "unitelmatch.top"
+      },
+      {
+        "type": "domain",
+        "value": "unitelmatch.cc"
+      },
+      {
+        "type": "domain",
+        "value": "unitelmatch.cyou"
+      },
+      {
+        "type": "domain",
+        "value": "ioutrankap.cyou"
+      },
+      {
+        "type": "ip-src",
+        "value": "104.21.29.4"
+      },
+      {
+        "type": "ip-src",
+        "value": "172.67.171.54"
+      },
+      {
+        "type": "text",
+        "value": "merchant-id:42"
+      }
+    ],
+    "Tag": [
+      {
+        "name": "tlp:clear"
+      },
+      {
+        "name": "mitre-attack:T1583"
+      },
+      {
+        "name": "mitre-attack:T1584"
+      },
+      {
+        "name": "operation-phantom-store"
+      },
+      {
+        "name": "recruitment-fraud"
+      },
+      {
+        "name": "cryptocurrency-scam"
+      }
+    ]
+  }
+}

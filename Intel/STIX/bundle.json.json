@@ -1,0 +1,22 @@
+{
+  "type": "bundle",
+  "id": "bundle--operation-phantom-store",
+  "objects": [
+    {
+      "type": "campaign",
+      "name": "Operation Phantom Store"
+    },
+    {
+      "type": "threat-actor",
+      "name": "Unknown Recruitment Fraud Operators"
+    },
+    {
+      "type": "infrastructure",
+      "name": "Cloudflare Multi-Domain Infrastructure"
+    },
+    {
+      "type": "indicator",
+      "name": "Known Domains"
+    }
+  ]
+}

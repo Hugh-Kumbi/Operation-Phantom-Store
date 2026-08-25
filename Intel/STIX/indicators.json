@@ -1,0 +1,14 @@
+{
+  "type": "indicator",
+  "spec_version": "2.1",
+  "id": "indicator--domains",
+  "created": "2026-08-25T00:00:00Z",
+  "modified": "2026-08-25T00:00:00Z",
+  "name": "Operation Phantom Store Domains",
+  "indicator_types": [
+    "malicious-activity"
+  ],
+  "pattern_type": "stix",
+  "pattern": "[domain-name:value = 'occupationoasis.com' OR domain-name:value = 'linkroles.my' OR domain-name:value = 'unitelmatch.top' OR domain-name:value = 'unitelmatch.cc' OR domain-name:value = 'unitelmatch.cyou' OR domain-name:value = 'ioutrankap.cyou']",
+  "valid_from": "2026-08-25T00:00:00Z"
+}

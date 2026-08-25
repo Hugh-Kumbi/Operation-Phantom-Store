@@ -1,0 +1,7 @@
+ns-149.awsdns-18.com
+ns-865.awsdns-44.net
+ns-1883.awsdns-43.co.uk
+ns-1422.awsdns-49.org
+
+alina.ns.cloudflare.com
+bob.ns.cloudflare.com

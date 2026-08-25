@@ -1,0 +1,12 @@
+{
+  "type": "infrastructure",
+  "spec_version": "2.1",
+  "id": "infrastructure--phantom-store",
+  "created": "2026-08-25T00:00:00Z",
+  "modified": "2026-08-25T00:00:00Z",
+  "name": "Operation Phantom Store Infrastructure",
+  "description": "Cloudflare-protected frontend infrastructure using multiple domains and shared backend API.",
+  "infrastructure_types": [
+    "hosting-target-list"
+  ]
+}

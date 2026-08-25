@@ -1,0 +1,13 @@
+{
+  "type": "campaign",
+  "spec_version": "2.1",
+  "id": "campaign--operation-phantom-store",
+  "created": "2026-08-25T00:00:00Z",
+  "modified": "2026-08-25T00:00:00Z",
+  "name": "Operation Phantom Store",
+  "description": "Multi-domain recruitment fraud campaign using cryptocurrency payments and rotating infrastructure.",
+  "objective": "Recruit victims into fraudulent online store management scheme.",
+  "aliases": [
+    "Occupation Oasis Campaign"
+  ]
+}

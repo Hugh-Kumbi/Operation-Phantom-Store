@@ -1,0 +1,26 @@
+{
+  "campaign": "Operation Phantom Store",
+  "version": "2.0",
+  "date": "2026-08-25",
+  "domains": [
+    "occupationoasis.com",
+    "linkroles.my",
+    "unitelmatch.top",
+    "unitelmatch.cc",
+    "unitelmatch.cyou",
+    "ioutrankap.cyou"
+  ],
+  "merchant_id": "42",
+  "backend": "/tiny-shop/v1/",
+  "nameservers": [
+    "alina.ns.cloudflare.com",
+    "bob.ns.cloudflare.com"
+  ],
+  "tags": [
+    "Recruitment Fraud",
+    "Crypto Scam",
+    "OSINT",
+    "Threat Intelligence",
+    "Operation Phantom Store"
+  ]
+}

@@ -1,46 +1,81 @@
-# Threat Intelligence Package
+# Threat Intelligence Exports
 
 ## Overview
 
-This directory contains structured threat intelligence produced from the investigation.
+This directory contains structured Cyber Threat Intelligence (CTI) artefacts generated from the Operation Phantom Store investigation.
 
-Unlike the investigation documentation contained elsewhere in the repository, these artefacts are intended for direct consumption by CTI platforms, SOC teams, and security operations.
+Unlike the narrative reports contained elsewhere in this repository, these files are designed for automated intelligence sharing between organizations.
 
-The intelligence package consolidates infrastructure, indicators, behavioural observations, and ATT&CK mappings into formats suitable for operational use.
+The exports follow two widely adopted CTI standards:
+
+- STIX 2.1
+- MISP
+
+These formats allow indicators, infrastructure, campaigns, and relationships to be imported into Threat Intelligence Platforms (TIPs), SIEMs, and SOC workflows.
 
 ---
 
 ## Contents
 
-### Campaign Profile
-
-High-level intelligence summary.
-
-### Threat Summary
-
-Executive CTI report.
-
 ### STIX 2.1
 
-Structured threat intelligence.
+Structured cyber threat intelligence objects.
 
-### MISP Event
+Includes:
 
-Machine-readable intelligence event.
-
-### ATT&CK Navigator
-
-Visual ATT&CK mapping.
+- Campaign
+- Infrastructure
+- Indicators
+- Threat Actor
+- Relationships
 
 ---
 
-## Intended Audience
+### MISP
 
-- Threat Intelligence Analysts
-- SOC Analysts
-- DFIR Teams
-- Threat Hunters
-- Incident Responders
+Machine-readable event containing:
+
+- Domains
+- URLs
+- IP addresses
+- Infrastructure
+- Tags
+- MITRE ATT&CK references
+
+---
+
+## Investigation
+
+Operation Phantom Store
+
+Campaign Type:
+
+Recruitment Fraud
+
+Cryptocurrency Scam
+
+Multi-Domain Infrastructure
+
+Cloudflare-Protected Backend
+
+Shared API Architecture
+
+---
+
+## Intelligence Confidence
+
+Medium-High
+
+Confidence is based on:
+
+- Passive DNS
+- WHOIS
+- Certificate Transparency
+- URLScan
+- VirusTotal
+- Browser Analysis
+- Network Traffic
+- Recruiter Interaction
 
 ---
 

@@ -1,0 +1,7 @@
+/tiny-shop/v1/site/config
+
+/tiny-shop/v1/member/member/index
+
+/tiny-shop/v1/shop/product/my-product
+
+/tiny-shop/v1/index/index

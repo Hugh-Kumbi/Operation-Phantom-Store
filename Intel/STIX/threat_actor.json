@@ -1,0 +1,14 @@
+{
+  "type": "threat-actor",
+  "spec_version": "2.1",
+  "id": "threat-actor--phantom-store",
+  "created": "2026-08-25T00:00:00Z",
+  "modified": "2026-08-25T00:00:00Z",
+  "name": "Unknown Recruitment Fraud Operators",
+  "threat_actor_types": [
+    "crime-syndicate"
+  ],
+  "goals": [
+    "Financial Gain"
+  ]
+}

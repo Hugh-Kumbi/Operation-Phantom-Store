@@ -1,0 +1,21 @@
+Type,Value,Description
+
+Domain,occupationoasis.com,Initial recruiter portal
+
+Domain,linkroles.my,Secondary campaign portal
+
+Domain,unitelmatch.top,Tertiary campaign portal
+
+Domain,unitelmatch.cc,Replacement portal
+
+Domain,unitelmatch.cyou,Backup portal
+
+Domain,ioutrankap.cyou,Shared backend API
+
+Header,merchant-id:42,Observed tenant identifier
+
+API,/tiny-shop/v1/,Shared backend API path
+
+NameServer,alina.ns.cloudflare.com,Campaign infrastructure
+
+NameServer,bob.ns.cloudflare.com,Campaign infrastructure

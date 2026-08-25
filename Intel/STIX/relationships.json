@@ -1,0 +1,7 @@
+{
+  "type": "relationship",
+  "spec_version": "2.1",
+  "relationship_type": "uses",
+  "source_ref": "campaign--operation-phantom-store",
+  "target_ref": "infrastructure--phantom-store"
+}
