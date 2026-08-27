@@ -18,13 +18,17 @@ This document provides a high-level overview of the recruitment campaign observe
 
 Following an application submitted through the Occupation Oasis website, the analyst engaged with a recruiter who introduced multiple online platforms as part of an onboarding process for a purported remote e-commerce position.
 
-Throughout the investigation, three separate domains were identified as supporting different stages of the workflow:
+## Observed Campaign Infrastructure
 
-| Domain | Observed Role |
-|--------|---------------|
-| occupationoasis.com | Recruitment website                        |
-| linkroles.my        | Initial onboarding and registration portal |
-| unitelmatch.top     | Replacement operational platform           |
+During the investigation, the recruiter introduced multiple web domains as part of the onboarding workflow. As the investigation progressed, replacement portals were supplied following browser access issues and security warnings.
+
+| Domain | Observed Role | Status |
+|--------|---------------|--------|
+| occupationoasis.com | Initial recruitment platform  | Observed                                    |
+| linkroles.my        | Initial onboarding portal     | Replaced                                    |
+| unitelmatch.top     | Replacement onboarding portal | Replaced                                    |
+| unitelmatch.cc      | Updated onboarding portal     | Replaced following browser security warning |
+| unitelmatch.cyou    | Backup onboarding portal      | Active during investigation                 |
 
 The progression from one operational platform to another was documented and preserved as evidence for further technical analysis.
 
