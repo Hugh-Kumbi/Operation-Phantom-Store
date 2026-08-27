@@ -8,7 +8,7 @@
 
 **Status:** Active Investigation
 
-**Version:** 1.0
+**Version:** 1.1
 
 ---
 
@@ -81,8 +81,20 @@ Google Safe Browsing Warning Observed
 Recruiter Introduces unitelmatch.top
         │
         ▼
-Investigation Continues
+unitelmatch.cc
+        │
+        ▼
+Google Safe Browsing Warning
+        │
+        ▼
+unitelmatch.cyou
 ```
+
+### Infrastructure Evolution
+
+Unlike a static recruitment platform, the observed campaign evolved over time through the introduction of replacement onboarding portals. Following browser access issues and Google Safe Browsing warnings, the recruiter supplied alternative domains and instructed the investigator to continue the onboarding process using the newly provided links.
+
+This observed progression demonstrates continuity of the onboarding workflow despite changes in the supporting web infrastructure.
 
 ---
 
