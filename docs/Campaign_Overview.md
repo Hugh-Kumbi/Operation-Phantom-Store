@@ -218,9 +218,11 @@ The investigation identified multiple internet domains associated with the recru
 
 | Component | Observation |
 |-----------|-------------|
-| Recruitment Website  | occupationoasis.com |
-| Initial Platform     | linkroles.my        |
-| Replacement Platform | unitelmatch.top     |
+| Recruitment Website  | occupationoasis.com           |
+| Initial Platform     | linkroles.my                  |
+| Replacement Platform | unitelmatch.top               |
+| unitelmatch.cc       | Updated onboarding portal     | 
+| unitelmatch.cyou     | Backup onboarding portal      |
 
 Each platform will be analyzed independently within the technical sections of this repository.
 
