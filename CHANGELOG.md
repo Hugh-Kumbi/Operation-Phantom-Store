@@ -1,117 +1,125 @@
 # Changelog
 
-All notable changes to this investigation are documented in this file.
+All notable changes to **Operation Phantom Store** will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
+and this project follows Semantic Versioning (SemVer).
 
 ---
 
-## [1.1.0] - 2026-08-12
+## [1.2.0] - 2026-08-24
 
 ### Added
 
-#### Infrastructure
+#### New Campaign Infrastructure
+- Added analysis for **unitelmatch.cc**
+- Added analysis for **unitelmatch.cyou**
+- Documented campaign migration from `.top` to `.cc` and `.cyou`
+- Expanded campaign timeline to include infrastructure rotation
+- Updated domain relationship mapping
 
-- Added investigation of **unitelmatch.cc**.
-- Added investigation of **unitelmatch.cyou**.
-- Documented recruiter-supplied replacement domains.
-- Expanded campaign infrastructure from three to five observed domains.
+#### Technical Analysis
+- Added comprehensive DNS analysis
+- Added Passive DNS observations
+- Added Certificate Transparency analysis
+- Added WHOIS analysis
+- Added infrastructure evolution documentation
+- Added technology stack analysis
+- Added backend API relationship analysis
+- Added cross-domain infrastructure correlation
+
+#### Threat Intelligence
+- Added new Indicators of Compromise (IoCs)
+- Added STIX 2.1 intelligence objects
+- Added MISP-compatible intelligence
+- Added Sigma detection rules
+- Added Splunk detection queries
+- Added Microsoft Sentinel (KQL) detections
+- Added Suricata IDS signatures
+
+#### Intelligence Reporting
+- Added Executive Report
+- Added Campaign Evolution documentation
+- Added Infrastructure Evolution analysis
+- Added updated Diamond Model
+- Added updated MITRE ATT&CK mapping
+- Added updated Attack Lifecycle
+- Added updated Detection Opportunities
+- Added updated Findings
+- Added updated Confidence Assessment
 
 #### Documentation
-
-- Added [`osint/Domain_Relationships.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md).
-- Added [`Infrastructure_Evolution.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md).
-- Added [`Domain_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md).
-- Updated repository documentation to Version 1.1.
-
-#### Evidence
-
-- Added recruiter conversation documenting:
-  - Introduction of **unitelmatch.cc**
-  - Google Safe Browsing warning
-  - Recruiter explanation of browser warning
-  - Introduction of **unitelmatch.cyou**
-  - Platform upgrade explanation
-
-- Added new screenshots documenting platform migration.
-
-#### Intelligence Analysis
-
-- Updated campaign timeline.
-- Updated campaign overview.
-- Expanded infrastructure relationship analysis.
-- Expanded behavioral analysis.
-- Updated Indicators of Compromise (IOCs).
-- Updated Attack Lifecycle.
-- Updated Diamond Model.
-- Updated infrastructure evolution.
+- Updated README
+- Updated Investigation Timeline
+- Updated Campaign Overview
+- Updated Evidence Register
+- Added additional screenshots and supporting evidence
 
 ### Changed
 
-#### Campaign Assessment
+- Renamed project to **Operation Phantom Store**
+- Expanded investigation from three domains to five related domains
+- Refined campaign attribution using additional infrastructure evidence
+- Increased confidence in shared backend attribution through common API patterns and infrastructure reuse
 
-The investigation now documents an evolving multi-domain onboarding workflow consisting of five observed operational domains rather than three.
+### Security
 
-#### Infrastructure
+- Confirmed infrastructure migration from:
+  - occupationoasis.com
+  - linkroles.my
+  - unitelmatch.top
+  - unitelmatch.cc
+  - unitelmatch.cyou
 
-The observed campaign now includes:
+- Confirmed shared backend infrastructure:
+  - ioutrankap.cyou
 
-- occupationoasis.com
-- linkroles.my
-- unitelmatch.top
-- unitelmatch.cc
-- unitelmatch.cyou
+- Confirmed continued use of:
+  - Cloudflare CDN
+  - Cloudflare WAF
+  - Vue.js
+  - Shared API endpoints
+  - merchant-id: 42
+  - Cryptocurrency payment workflow
 
-#### Findings
+---
 
-Updated analytical findings to include:
+## [1.1.0] - 2026-08-18
 
-- Additional platform migration.
-- Browser security warning observations.
-- Recruiter-provided backup infrastructure.
-- Continued onboarding despite domain changes.
+### Added
 
-### Pending
-
-The following analysis remains outstanding for newly identified domains:
-
-- WHOIS
-- DNS
+- Initial CTI investigation
+- OSINT collection
+- Infrastructure analysis
+- WHOIS analysis
 - Passive DNS
-- Reverse DNS
 - Certificate Transparency
-- Technology Stack
-- Reputation Analysis
+- Technology stack analysis
+- MITRE ATT&CK mapping
+- Diamond Model
+- Detection Opportunities
+- Findings
+- Lessons Learned
+- Confidence Assessment
+- Initial IOC collection
 
-These findings will be incorporated into Version 1.2 after additional OSINT collection.
+### Changed
+
+- Expanded campaign from initial observations into a structured CTI investigation.
 
 ---
 
 ## [1.0.0] - 2026-08-10
 
-### Initial Release
+### Added
 
-Initial publication of the investigation.
+Initial public release.
 
 Included:
 
-- Campaign Overview
-- Investigation Timeline
-- Methodology
-- Findings
-- Executive Report
-- Infrastructure Analysis
-- Passive DNS
-- DNS Analysis
-- Certificate Analysis
-- Technology Stack
-- Reputation Analysis
-- MITRE ATT&CK Mapping
-- Diamond Model
-- Attack Lifecycle
-- Detection Opportunities
-- Indicators of Compromise
-- Confidence Assessment
-- Intelligence Gaps
-- Lessons Learned
-- Evidence Register
+- Occupation Oasis investigation
+- LinkRoles investigation
+- UnitelMatch.top investigation
+- Recruiter interaction timeline
+- Initial screenshots
+- Initial Indicators of Compromise
