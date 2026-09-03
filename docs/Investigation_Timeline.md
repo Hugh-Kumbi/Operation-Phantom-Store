@@ -140,7 +140,7 @@ During a subsequent conversation, the recruiter instructed the analyst to access
 
 **Evidence:**
 
-- [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png)
+- ![EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png)
 
 After attempting to access the site, the analyst observed that Google Safe Browsing displayed a warning indicating that the website was considered dangerous.
 
