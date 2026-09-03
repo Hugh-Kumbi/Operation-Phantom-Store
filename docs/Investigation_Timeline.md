@@ -138,23 +138,47 @@ During a subsequent conversation, the recruiter instructed the analyst to access
 
 **unitelmatch.cc**
 
+**Evidence:**
+
+- [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png)
+
 After attempting to access the site, the analyst observed that Google Safe Browsing displayed a warning indicating that the website was considered dangerous.
+
+**Evidence:**
+
+- ![EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png)
 
 The analyst informed the recruiter and requested clarification.
 
 The recruiter replied that they would consult their technical staff regarding the warning.
 
+**Evidence:**
+
+- ![EV-48-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-048-01.png)
+
 Shortly afterwards, the recruiter supplied another portal:
 
 **unitelmatch.cyou**
 
+**Evidence:**
+
+- ![EV-49-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
+
 The recruiter instructed the analyst to continue using the new portal while awaiting a technical explanation.
+
+**Evidence:**
+
+- ![EV-050-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png) 
 
 Later, the recruiter stated:
 
 > "That's just the platform upgrading, it's nothing to worry about."
 
 The investigation records this explanation as an observed statement made by the recruiter and does not independently verify its accuracy.
+
+**Evidence:**
+
+- ![EV-51-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png)
 
 ---
 
@@ -222,6 +246,7 @@ These observations are supported by recruiter communications, screenshots, analy
 | Evidence ID | Description |
 |-------------|-------------|
 | [EV-001-01 – EV-044-64](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Evidence/Screenshots)               | Initial investigation evidence (Version 1.0)                             |
+| [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png)             | **unitelmatch.cc** browser warning and domain migration |
 | [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png)             | Recruiter introduces **unitelmatch.cc**                                    |
 | [EV-046-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-046-01.png)             | Google Safe Browsing warning observed for **unitelmatch.cc**            |
 | [EV-047-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-047-01.png)             | Analyst questions the browser warning                                    |
