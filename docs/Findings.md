@@ -62,7 +62,7 @@ Throughout the investigation, the analyst remained in an observational role, avo
 
 # Key Findings
 
-## Finding: Campaign Infrastructure Expanded
+## Finding 1: Campaign Infrastructure Expanded
 
 Continued engagement with the recruiter identified two additional onboarding domains:
 
