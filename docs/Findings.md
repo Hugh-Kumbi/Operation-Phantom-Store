@@ -62,11 +62,16 @@ Throughout the investigation, the analyst remained in an observational role, avo
 
 # Key Findings
 
-## Finding 1 — Multi-Domain Operational Workflow
+## Finding: Campaign Infrastructure Expanded
 
-Three domains were observed supporting different stages of the recruitment process.
+Continued engagement with the recruiter identified two additional onboarding domains:
 
-The transition between domains suggests operational flexibility and the ability to continue onboarding despite browser security warnings.
+- unitelmatch.cc
+- unitelmatch.cyou
+
+These domains were introduced after the completion of the initial investigation and expanded the observed campaign infrastructure from three to five operational domains.
+
+The newly identified domains continued the same recruiter-guided onboarding workflow previously documented within the investigation.
 
 **Confidence:** High
 
