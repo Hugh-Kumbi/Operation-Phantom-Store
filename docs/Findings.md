@@ -77,15 +77,20 @@ The newly identified domains continued the same recruiter-guided onboarding work
 
 ---
 
-## Finding 2 — Legitimate Cloud Infrastructure
+## Finding 2: Browser Security Warning Triggered Platform Migration
 
-The observed platforms relied on widely used cloud services including:
+When attempting to access **unitelmatch.cc**, the investigator observed a Google Safe Browsing warning indicating that the website may be dangerous.
 
-- Amazon Web Services
-- Amazon CloudFront
-- Cloudflare
+The investigator reported the warning directly to the recruiter.
 
-These services are legitimate technologies and should not be interpreted as malicious indicators in isolation.
+Rather than requesting that the warning be bypassed, the recruiter supplied an alternative onboarding portal for continued access.
+
+This interaction was documented as part of the recruiter conversation.
+
+**Evidence**
+
+- [Screenshot_06_Unitelmatch_CC_Google_Warning.png]()
+- [Screenshot_09_Recruiter_Sends_Backup_Link.png]()
 
 **Confidence:** High
 
