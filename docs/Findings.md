@@ -137,7 +137,7 @@ This progression demonstrates observable infrastructure evolution during the inv
 
 ---
 
-## Finding 5 — Browser Warning and Platform Migration
+## Finding 5: Browser Warning and Platform Migration
 
 During onboarding, Google displayed a browser warning for **linkroles.my**.
 
@@ -149,9 +149,14 @@ The investigation documents the sequence of events but does not attribute a spec
 
 **Confidence:** High
 
+**Evidence**
+
+- ![linkroles_my_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/linkroles.my.png)
+- ![Unitelmatch_top_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/unitelmatch.top.png)
+
 ---
 
-## Finding 6 — Cryptocurrency in the Operational Workflow
+## Finding 6: Cryptocurrency in the Operational Workflow
 
 During training, the analyst observed:
 
