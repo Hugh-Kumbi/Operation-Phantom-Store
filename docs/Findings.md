@@ -8,7 +8,7 @@
 
 **Status:** Investigation Complete
 
-**Version:** 1.0
+**Version:** 1.1
 
 ---
 
@@ -44,19 +44,25 @@ The investigation sought to:
 
 # Summary of Investigation
 
-The investigation began after the analyst applied for a remote employment opportunity through **occupationoasis.com**.
+The investigation began after the investigator applied for a remote employment opportunity through **occupationoasis.com**.
 
 Following the application:
 
 - A recruiter initiated contact.
 - A structured conversation established rapport and discussed employment expectations.
-- The analyst was introduced to an e-commerce dropshipping business model.
-- The recruiter guided the analyst through platform registration.
+- The investigator was introduced to an e-commerce dropshipping business model.
+- The recruiter guided the investigator through platform registration.
 - The onboarding process initially took place on **linkroles.my**.
-- After a browser security warning, the recruiter directed the analyst to continue onboarding on **unitelmatch.top**.
+- After a browser security warning, the recruiter directed the investigator to continue onboarding on **unitelmatch.top**.
 - During training, cryptocurrency-related interfaces and OKX Wallet activity were observed.
 
-Throughout the investigation, the analyst remained in an observational role, avoided financial participation, and did not provide sensitive personal information.
+Throughout the investigation, the investigator remained in an observational role, avoided financial participation, and did not provide sensitive personal information.
+
+## Campaign Statistics
+
+Domains Investigated: 5
+Infrastructure Changes Observed: 4
+Browser Warnings Observed: 3
 
 ---
 
@@ -141,7 +147,7 @@ This progression demonstrates observable infrastructure evolution during the inv
 
 During onboarding, Google displayed a browser warning for **linkroles.my**.
 
-The recruiter immediately instructed the analyst to continue using **unitelmatch.top**.
+The recruiter immediately instructed the investigator to continue using **unitelmatch.top**.
 
 This transition demonstrates operational continuity despite disruption.
 
@@ -158,14 +164,14 @@ The investigation documents the sequence of events but does not attribute a spec
 
 ## Finding 6: Cryptocurrency in the Operational Workflow
 
-During training, the analyst observed:
+During training, the investigator observed:
 
 - OKX Wallet
 - Cryptocurrency-related screenshots
 - Apparent cryptocurrency transfer confirmations
 - Customer support conversations referencing cryptocurrency
 
-No cryptocurrency transactions were initiated by the analyst.
+No cryptocurrency transactions were initiated by the investigator.
 
 Recruiter wallet addresses and blockchain identifiers were collected.
 
@@ -184,7 +190,7 @@ Recruiter wallet addresses and blockchain identifiers were collected.
 
 ---
 
-## Finding 7 — No Technical Compromise Observed
+## Finding 7: No Technical Compromise Observed
 
 The investigation found no evidence of:
 
@@ -289,7 +295,7 @@ Several important questions remain unanswered, including:
 - True identity of the recruiter.
 - Organizational structure.
 - Backend platform architecture.
-- Cryptocurrency wallet addresses.
+- Other operational cryptocurrency wallet addresses.
 - Campaign scale.
 - Geographic targeting.
 - Additional infrastructure.
@@ -310,6 +316,16 @@ Although cryptocurrency-related activity formed part of the observed workflow, n
 Likewise, no technical compromise, malware delivery, or exploitation activity was observed.
 
 The assessment is therefore limited to the behaviors and infrastructure directly supported by collected evidence.
+
+## Updated Campaign Assessment
+
+The Version 1.1 investigation expands the documented campaign from three to five observed operational domains.
+
+The additional evidence strengthens the assessment that the onboarding process continued across multiple web platforms while maintaining consistent recruiter communications and onboarding procedures.
+
+The investigation does not attribute ownership or operational control of these domains beyond the documented observations.
+
+**Overall Confidence:** High
 
 ---
 
@@ -338,28 +354,28 @@ The resulting intelligence should be viewed as an evidence-based assessment rath
 
 # Related Documents
 
-- [Methodology.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Methodology.md)
 - [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
-- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
-- [Passive_DNS.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
-- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
 - [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
+- [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
+- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
 - [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
-- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
+- [Intelligence_Gaps.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Intelligence_Gaps.md)
+- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [Lessons_Learned.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md)
+- [Methodology.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Methodology.md)
+- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
+- [Passive_DNS.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
 - [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
 - [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
-- [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
-- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
-- [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
-- [Intelligence_Gaps.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Intelligence_Gaps.md)
-- [Lessons_Learned.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md)
+- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
 
 ---
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
