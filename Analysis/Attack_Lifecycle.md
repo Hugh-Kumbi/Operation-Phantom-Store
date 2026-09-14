@@ -10,7 +10,7 @@
 
 **Status:** Investigation Complete
 
-**Version:** 1.0
+**Version:** 1.1
 
 ---
 
@@ -55,43 +55,65 @@ No assumptions were made regarding stages that were not directly observed.
 # Campaign Lifecycle Overview
 
 ```text
-Job Application
-      │
-      ▼
-Recruiter Contact
-      │
-      ▼
-Rapport Building
-      │
-      ▼
-Employment Opportunity Presented
-      │
-      ▼
-Training Scheduled
-      │
-      ▼
-Platform Registration
-      │
-      ▼
-Guided Onboarding
-      │
-      ▼
-Browser Warning
-      │
-      ▼
-Migration to Alternate Domain
-      │
-      ▼
-Training Continues
-      │
-      ▼
-Cryptocurrency Introduced
-      │
-      ▼
-Evidence Collection
-      │
-      ▼
-Investigation Closed
+                   OPERATION PHANTOM STORE
+
+┌────────────────────────────────────────────────────────────┐
+│ 1. Recruitment                                             │
+│ • Job advertisement                                        │
+│ • occupationoasis.com                                      │
+└────────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 2. Initial Contact                                         │
+│ • Recruiter communication                                  │
+│ • Salary discussion                                        │
+│ • Trust building                                           │
+└────────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 3. Initial Onboarding                                      │
+│ • linkroles.my                                             │
+│ • Account registration                                     │
+│ • Store creation                                           │
+└────────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 4. Platform Migration                                      │
+│ • unitelmatch.top                                          │
+│ • Continued training                                       │
+│ • Operational workflow maintained                          │
+└────────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 5. Updated Portal                                          │
+│ • unitelmatch.cc                                           │
+│ • Browser warning observed                                 │
+└────────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 6. Recruiter Response                                      │
+│ • Technical staff mentioned                                │
+│ • Replacement platform issued                              │
+└────────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 7. Backup Portal                                           │
+│ • unitelmatch.cyou                                         │
+│ • Onboarding continues                                     │
+└────────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 8. Cryptocurrency Workflow                                 │
+│ • Coincheck observed                                       │
+│ • Customer support conversation                            │
+└────────────────────────────────────────────────────────────┘
 ```
 
 ---
