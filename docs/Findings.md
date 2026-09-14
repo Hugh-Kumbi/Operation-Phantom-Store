@@ -96,19 +96,24 @@ This interaction was documented as part of the recruiter conversation.
 
 ---
 
-## Finding 3 — Structured Recruiter-Led Onboarding
+## Finding 3: Recruiter Maintained Operational Continuity
 
-The recruiter maintained continuous communication throughout the investigation.
+Following notification of the browser warning, the recruiter:
 
-Observed behaviors included:
+- acknowledged the reported issue,
+- stated that technical staff would investigate,
+- supplied an alternative onboarding portal,
+- encouraged continuation of the onboarding workflow.
 
-- Scheduling conversations
-- Explaining the business model
-- Providing step-by-step instructions
-- Assisting with platform navigation
-- Directing migration to an alternative platform
+These observations demonstrate operational continuity despite changes in web infrastructure.
 
-This structured guidance reduced uncertainty and encouraged continued participation.
+The investigation documents these behaviors without attributing intent beyond the observed evidence.
+
+**Evidence**
+
+- [Recruiter_Explains_Warning.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png)
+- [Recruiter_Sends_Backup_Link.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
+- [Recruiter_States_Platform_Upgrade.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png)
 
 **Confidence:** High
 
