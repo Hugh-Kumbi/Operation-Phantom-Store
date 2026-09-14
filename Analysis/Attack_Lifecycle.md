@@ -269,6 +269,20 @@ The investigation does not infer the reason for the migration beyond the observe
 
 **High**
 
+## Lifecycle Stage: Infrastructure Evolution
+
+Following continued communication with the recruiter, additional onboarding domains were introduced.
+
+The investigator documented the following sequence:
+
+1. unitelmatch.cc
+2. Browser security warning observed
+3. Recruiter consultation with technical staff
+4. unitelmatch.cyou supplied as a replacement portal
+5. Recruiter attributed the issue to a platform upgrade
+
+Throughout these transitions, the onboarding workflow remained operationally consistent.
+
 ---
 
 # Stage 9 — Cryptocurrency Introduction
