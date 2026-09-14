@@ -95,8 +95,8 @@ This interaction was documented as part of the recruiter conversation.
 
 **Evidence**
 
-- ![Unitelmatch_cc_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/unitelmatch.cc.png)
-- ![Recruiter_Sends_Backup_Link](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
+![Unitelmatch_cc_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/unitelmatch.cc.png)
+![Recruiter_Sends_Backup_Link](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
 
 **Confidence:** High
 
@@ -117,9 +117,9 @@ The investigation documents these behaviors without attributing intent beyond th
 
 **Evidence**
 
-- [Recruiter_Explains_Warning.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png)
-- [Recruiter_Sends_Backup_Link.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
-- [Recruiter_States_Platform_Upgrade.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png)
+![Recruiter_Explains_Warning.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png)
+![Recruiter_Sends_Backup_Link.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
+![Recruiter_States_Platform_Upgrade.png](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png)
 
 **Confidence:** High
 
@@ -157,8 +157,8 @@ The investigation documents the sequence of events but does not attribute a spec
 
 **Evidence**
 
-- ![linkroles_my_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/linkroles.my.png)
-- ![Unitelmatch_top_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/unitelmatch.top.png)
+![linkroles_my_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/linkroles.my.png)
+![Unitelmatch_top_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/unitelmatch.top.png)
 
 ---
 
@@ -179,14 +179,14 @@ Recruiter wallet addresses and blockchain identifiers were collected.
 
 **Evidence**
 
-- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-01.png)
-- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-02.png)
-- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-03.png)
-- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-04.png)
-- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-05.png)
-- ![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-01.png)
-- ![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-02.png)
-- ![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-03.png)
+![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-01.png)
+![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-02.png)
+![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-03.png)
+![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-04.png)
+![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-05.png)
+![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-01.png)
+![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-02.png)
+![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-03.png)
 
 ---
 
