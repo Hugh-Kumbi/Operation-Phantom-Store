@@ -89,7 +89,7 @@ This interaction was documented as part of the recruiter conversation.
 
 **Evidence**
 
-- ![Unitelmatch_CC_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/unitelmatch.cc.png)
+- ![Unitelmatch_cc_Google_Warning](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Browser_Warnings/unitelmatch.cc.png)
 - ![Recruiter_Sends_Backup_Link](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
 
 **Confidence:** High
@@ -167,9 +167,20 @@ During training, the analyst observed:
 
 No cryptocurrency transactions were initiated by the analyst.
 
-No wallet addresses or blockchain identifiers were collected.
+Recruiter wallet addresses and blockchain identifiers were collected.
 
 **Confidence:** High
+
+**Evidence**
+
+- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-01.png)
+- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-02.png)
+- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-03.png)
+- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-04.png)
+- ![OKX_Wallet_observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-05.png)
+- ![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-01.png)
+- ![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-02.png)
+- ![Cryptocurrency_Observations](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-03.png)
 
 ---
 
