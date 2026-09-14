@@ -119,19 +119,19 @@ The investigation documents these behaviors without attributing intent beyond th
 
 ---
 
-## Finding 4 — Progressive Social Engineering
+## Finding 4: Progressive Infrastructure Evolution
 
-The onboarding workflow relied on incremental engagement rather than immediate requests for financial participation.
+Across both phases of the investigation, the recruiter introduced the following operational sequence:
 
-The recruiter gradually introduced:
+1. occupationoasis.com
+2. linkroles.my
+3. unitelmatch.top
+4. unitelmatch.cc
+5. unitelmatch.cyou
 
-- Employment discussion
-- Salary expectations
-- Platform registration
-- Onboarding tasks
-- Cryptocurrency-related concepts
+Each domain fulfilled a similar onboarding function while preserving the overall workflow.
 
-This progression aligns with commonly observed staged social engineering techniques.
+This progression demonstrates observable infrastructure evolution during the investigation period.
 
 **Confidence:** High
 
