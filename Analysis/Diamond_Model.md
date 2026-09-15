@@ -80,25 +80,24 @@ Where evidence was insufficient, analytical gaps are explicitly documented.
 │      INFRASTRUCTURE      │                             │        CAPABILITY        │
 │--------------------------│                             │--------------------------│
 │ occupationoasis.com      │                             │ Social Engineering       │
-│ linkroles.my             │                   │ Trust Building           │
-│ unitelmatch.top          │                   │ Guided Onboarding        │
-│ unitelmatch.cc           │                   │ Platform Migration       │
-│ unitelmatch.cyou         │                   │ Cryptocurrency Workflow  │
-│ AWS                      │                   │ Replacement Portals      │
-│ Cloudflare               │                   │                          │
-└───────────────┬──────────┘                   └──────────────┬───────────┘
-                │                                             │
-                └──────────────────────┬──────────────────────┘
-                                       │
-                                       ▼
-
-                         ┌─────────────────────────┐
-                         │         VICTIM          │
-                         │-------------------------│
-                         │ Job Seekers             │
-                         │ Investigator            │
-                         │ Prospective Candidates  │
-                         └─────────────────────────┘
+│ linkroles.my             │                             │ Trust Building           │
+│ unitelmatch.top          │                             │ Guided Onboarding        │
+│ unitelmatch.cc           │                             │ Platform Migration       │
+│ unitelmatch.cyou         │                             │ Cryptocurrency Workflow  │
+│ AWS                      │                             │ Replacement Portals      │
+│ Cloudflare               │                             │                          │
+└─────────────┬────────────┘                             └────────────┬─────────────┘
+              │                                                       │
+              └───────────────────────────┬───────────────────────────┘
+                                          │
+                                          ▼
+                           ┌─────────────────────────┐
+                           │         VICTIM          │
+                           │-------------------------│
+                           │ Job Seekers             │
+                           │ Investigator            │
+                           │ Prospective Candidates  │
+                           └─────────────────────────┘
 ```
 
 ---
