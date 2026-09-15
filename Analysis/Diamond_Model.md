@@ -10,7 +10,7 @@
 
 **Status:** Active Investigation
 
-**Version:** 1.0
+**Version:** 1.1
 
 ---
 
@@ -60,15 +60,45 @@ Where evidence was insufficient, analytical gaps are explicitly documented.
 # Diamond Model Overview
 
 ```
-                     Adversary
-                          ▲
-                          │
-                          │
-Capability ◄──────────────┼──────────────► Infrastructure
-                          │
-                          │
-                          ▼
-                        Victim
+                          DIAMOND MODEL
+                Operation Phantom Store (v1.1)
+
+                              ┌───────────────────────┐
+                              │       ADVERSARY       │
+                              │-----------------------│
+                              │ Unknown Individual(s) │
+                              │ Recruiter-led Contact │
+                              │ Identity Unconfirmed  │
+                              └───────────┬───────────┘
+                                          │
+                                          │
+              ┌───────────────────────────┼───────────────────────────┐
+              │                                                       │
+              │                                                       │
+              ▼                                                       ▼
+┌──────────────────────────┐                             ┌──────────────────────────┐
+│      INFRASTRUCTURE      │                             │        CAPABILITY        │
+│--------------------------│                             │--------------------------│
+│ occupationoasis.com      │                             │ Social Engineering       │
+│ linkroles.my             │                   │ Trust Building           │
+│ unitelmatch.top          │                   │ Guided Onboarding        │
+│ unitelmatch.cc           │                   │ Platform Migration       │
+│ unitelmatch.cyou         │                   │ Cryptocurrency Workflow  │
+│ AWS                      │                   │ Replacement Portals      │
+│ Cloudflare               │                   │                          │
+└───────────────┬──────────┘                   └──────────────┬───────────┘
+                │                                             │
+                └──────────────────────┬──────────────────────┘
+                                       │
+                                       ▼
+
+                         ┌─────────────────────────┐
+                         │         VICTIM          │
+                         │-------------------------│
+                         │ Job Seekers             │
+                         │ Investigator            │
+                         │ Prospective Candidates  │
+                         └─────────────────────────┘
 ```
 
 ---
@@ -77,7 +107,7 @@ Capability ◄──────────────┼───────
 
 ## Observations
 
-The investigation identified an individual acting as a recruiter who initiated communication after the analyst submitted a legitimate job application.
+The investigation identified an individual acting as a recruiter who initiated communication after the investigator submitted a legitimate job application.
 
 Observed behaviors included:
 
@@ -168,7 +198,7 @@ Observed providers:
 
 ## Operational Transition
 
-The recruiter instructed the analyst to migrate from:
+The recruiter instructed the investigator to migrate from:
 
 `linkroles.my`
 
@@ -231,14 +261,14 @@ Observed techniques included:
 
 ## Financial Workflow
 
-During onboarding, the analyst observed:
+During onboarding, the investigator observed:
 
 - OKX Wallet
 - Cryptocurrency-related screenshots
 - Commission-based explanations
 - Daily settlement descriptions
 
-The analyst did not participate in financial transactions.
+The investigator did not participate in financial transactions.
 
 ---
 
@@ -266,7 +296,7 @@ Observed capabilities are supported by technical analysis and recruiter interact
 
 ## Target Profile
 
-The analyst was targeted after applying for a remote employment opportunity.
+The investigator was targeted after applying for a remote employment opportunity.
 
 The campaign specifically addressed individuals seeking:
 
@@ -292,7 +322,7 @@ The communication progressed gradually through:
 
 ## Required Actions
 
-The analyst was instructed to:
+The investigator was instructed to:
 
 - Register accounts
 - Complete onboarding forms
@@ -301,9 +331,9 @@ The analyst was instructed to:
 
 ---
 
-## Analyst Actions
+## Investigator Actions
 
-During the investigation, the analyst:
+During the investigation, the investigator:
 
 - Collected evidence
 - Documented observations
@@ -327,7 +357,7 @@ Victim interactions were directly observed and documented.
 
 Observed relationship:
 
-The recruiter directed the analyst through multiple domains and online platforms during onboarding.
+The recruiter directed the investigator through multiple domains and online platforms during onboarding.
 
 Confidence: **High**
 
@@ -357,7 +387,7 @@ Confidence: **High**
 
 Observed relationship:
 
-The analyst engaged only to document and observe the recruitment workflow.
+The investigator engaged only to document and observe the recruitment workflow.
 
 No financial participation occurred.
 
@@ -430,7 +460,7 @@ This assessment reflects only the evidence collected during the investigation.
 
 5. Cryptocurrency-related activity formed part of the demonstrated workflow.
 
-6. The analyst remained in an observational role and did not participate in financial transactions.
+6. The investigator remained in an observational role and did not participate in financial transactions.
 
 ---
 
