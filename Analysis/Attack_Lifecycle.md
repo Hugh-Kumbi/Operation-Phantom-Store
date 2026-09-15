@@ -46,7 +46,7 @@ The lifecycle was reconstructed using:
 - Screenshots
 - Technical analysis
 - Infrastructure observations
-- Analyst notes
+- Investigator notes
 
 No assumptions were made regarding stages that were not directly observed.
 
@@ -122,7 +122,7 @@ No assumptions were made regarding stages that were not directly observed.
 
 ## Observation
 
-The analyst submitted an application through **occupationoasis.com** for a remote employment opportunity.
+The investigator submitted an application through **occupationoasis.com** for a remote employment opportunity.
 
 A recruiter subsequently initiated contact, referencing the application and establishing context for further discussion.
 
@@ -197,7 +197,7 @@ This created a structured recruitment experience.
 
 ## Observation
 
-The analyst was instructed to:
+The investigator was instructed to:
 
 - Create an account
 - Register a store
@@ -227,7 +227,7 @@ Instructions included:
 - When to wait for approval
 - How to navigate the platform
 
-The analyst completed only actions necessary for observation and documentation.
+The investigator completed only actions necessary for observation and documentation.
 
 ## Confidence
 
@@ -241,7 +241,7 @@ The analyst completed only actions necessary for observation and documentation.
 
 During onboarding, Google displayed a browser security warning when accessing **linkroles.my**.
 
-The recruiter acknowledged the issue and instructed the analyst to continue using a different platform.
+The recruiter acknowledged the issue and instructed the investigator to continue using a different platform.
 
 ## Confidence
 
@@ -253,7 +253,7 @@ The recruiter acknowledged the issue and instructed the analyst to continue usin
 
 ## Observation
 
-The recruiter directed the analyst to:
+The recruiter directed the investigator to:
 
 **unitelmatch.top**
 
@@ -289,14 +289,14 @@ Throughout these transitions, the onboarding workflow remained operationally con
 
 ## Observation
 
-During the training session, the analyst observed:
+During the training session, the investigator observed:
 
 - OKX Wallet
 - Screenshots of cryptocurrency transfers
 - Customer support conversations containing cryptocurrency-related images
 - Explanations of commission payments
 
-No financial transactions were initiated by the analyst.
+No financial transactions were initiated by the investigator.
 
 ## Confidence
 
@@ -308,7 +308,7 @@ No financial transactions were initiated by the analyst.
 
 ## Observation
 
-Throughout the engagement, the analyst:
+Throughout the engagement, the investigator:
 
 - Collected screenshots
 - Recorded recruiter communications
@@ -367,6 +367,18 @@ The campaign exhibited a gradual increase in user commitment:
 
 Each stage built upon the previous one, reducing friction and increasing engagement.
 
+## Additional Observed Behaviors
+
+Version 1.1 of the investigation identified additional operational behaviors.
+
+These included:
+
+- Introduction of replacement onboarding portals.
+- Recruiter-assisted platform migration.
+- Continued communication following browser security warnings.
+- Explanation of browser warnings as platform upgrades.
+- Maintenance of onboarding continuity through alternative infrastructure.
+
 ---
 
 # Defensive Opportunities by Lifecycle Stage
@@ -394,6 +406,14 @@ The immediate migration to a second operational domain after a browser warning d
 No evidence was collected indicating malware delivery, exploitation of software vulnerabilities, or post-compromise activity.
 
 Accordingly, the lifecycle is best characterized as a recruiter-led social engineering campaign supported by coordinated web infrastructure.
+
+## Version 1.1 Assessment
+
+The additional evidence strengthens the assessment that the observed onboarding process continued across multiple operational domains while maintaining consistent recruiter engagement.
+
+Rather than terminating the onboarding process following browser security warnings, alternative infrastructure was supplied to maintain continuity.
+
+This assessment is based solely on documented observations collected during the investigation.
 
 ---
 
@@ -442,15 +462,16 @@ Accordingly, the lifecycle is best characterized as a recruiter-led social engin
 # Related Documents
 
 - [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
-- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
-- [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
-- [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
-- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
 - [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
-- [Intelligence_Gaps.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Intelligence_Gaps.md)
+- [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
+- [Domain_Relationships.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
 - [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
+- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [Intelligence_Gaps.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Intelligence_Gaps.md)
 - [Lessons_Learned.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md)
+- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
+- [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
 
 ---
 
