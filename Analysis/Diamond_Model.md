@@ -215,6 +215,27 @@ after a browser warning interrupted the onboarding process.
 
 All infrastructure observations are supported by technical evidence.
 
+### Version 1.1 Update
+
+The investigation identified two additional operational domains that expanded the documented campaign infrastructure.
+
+Newly observed domains:
+
+- unitelmatch.cc
+- unitelmatch.cyou
+
+These domains were introduced directly by the recruiter during continued onboarding activities.
+
+The infrastructure now consists of five observed operational domains:
+
+1. occupationoasis.com
+2. linkroles.my
+3. unitelmatch.top
+4. unitelmatch.cc
+5. unitelmatch.cyou
+
+The additional domains extended the documented onboarding workflow while preserving consistent operational behavior.
+
 ---
 
 # Capability
