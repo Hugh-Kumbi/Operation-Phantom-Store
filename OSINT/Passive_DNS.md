@@ -8,7 +8,7 @@
 
 **Status:** Active Investigation
 
-**Version:** 1.0
+**Version:** 1.1
 
 ---
 
@@ -158,7 +158,7 @@ Historical DNS findings will receive confidence ratings according to:
 
 ---
 
-# Analyst Notes
+# Investigator Notes
 
 At the time of writing, passive DNS collection is ongoing.
 
@@ -178,7 +178,7 @@ This document will be updated as additional historical DNS evidence is collected
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
