@@ -8,7 +8,7 @@
 
 **Status:** Active Investigation
 
-**Version:** 1.2
+**Version:** 1.1
 
 ---
 
@@ -34,6 +34,12 @@ Observed campaign infrastructure consisted of:
 - unitelmatch.top
 - unitelmatch.cc
 - unitelmatch.cyou
+
+## Version 1.1 Update
+
+Continued engagement with the recruiter identified two additional operational domains that expanded the documented infrastructure from three to five observed domains.
+
+The additional indicators were collected directly during investigator interactions and have been incorporated into this IOC reference to support future detection and correlation activities.
 
 ## Shared Backend
 
@@ -316,6 +322,39 @@ Observed characteristics included:
 - Multiple operational portals.
 - Consistent Vue.js application architecture.
 
+The following behaviors were observed during Version 1.1 of the investigation.
+
+| Indicator | Description |
+|-----------|-------------|
+| Platform Migration           | Recruiter supplied replacement onboarding domains during the investigation  |
+| Backup Infrastructure        | Alternative onboarding portal provided after browser warning                |
+| Continued Onboarding         | Recruiter encouraged continuation using replacement infrastructure          |
+| Platform Upgrade Explanation | Browser warning described by recruiter as resulting from a platform upgrade |
+
+---
+
+# Browser Security Indicators
+
+The investigator observed a Google Safe Browsing warning when attempting to access:
+
+- unitelmatch.cc
+
+Following notification of the warning, the recruiter supplied a replacement onboarding portal rather than requesting the warning be bypassed.
+
+This observation should be considered alongside the broader campaign timeline and infrastructure evolution.
+
+---
+
+# Recruiter Communication Indicators
+
+Observed communication patterns included:
+
+- Immediate provision of replacement infrastructure.
+- Continued onboarding support following browser security warnings.
+- Reference to technical staff.
+- Explanation of browser warning as a platform upgrade.
+- Encouragement to continue onboarding using alternative domains.
+
 ---
 
 # Infrastructure Relationships
@@ -349,6 +388,20 @@ unitelmatch.cyou
 
 www.ioutrankap.cyou
 ```
+
+## Infrastructure Correlation
+
+The observed onboarding sequence now consists of:
+
+1. occupationoasis.com
+2. linkroles.my
+3. unitelmatch.top
+4. unitelmatch.cc
+5. unitelmatch.cyou
+
+Each domain served a similar onboarding function during different stages of the investigation.
+
+The investigation does not attribute ownership of these domains beyond documented observations.
 
 ---
 
@@ -403,6 +456,30 @@ Connections exhibiting:
 
 ---
 
+# IOC Statistics
+
+| Metric | Version 1.0 | Version 1.1 |
+|--------|-------------|-------------|
+|  Domains                          |  3  |  5  |
+|  URLs                             |  3  |  5  |
+|  Browser Warnings                 |  1  |  4  |
+|  Recruiter Platform Changes       |  1  |  2  |
+|  Infrastructure Evolution Events  |  2  |  4  |
+
+## Defensive Considerations
+
+Defenders should monitor for:
+
+- Newly registered domains introduced during ongoing recruitment conversations.
+- Repeated changes to onboarding portals within a single recruitment process.
+- Browser security warnings associated with recruiter-supplied infrastructure.
+- Recruiters directing candidates to alternative domains after access issues.
+- Recruitment workflows involving cryptocurrency payment platforms.
+
+These indicators may warrant additional verification before users continue interacting with the supplied infrastructure.
+
+---
+
 # Confidence Assessment
 
 | Indicator | Confidence |
@@ -420,20 +497,6 @@ The investigation documents observed technical similarities. These indicators su
 
 ---
 
-# CHANGELOG
-
-## Version 1.2
-
-- Added IoCs for `unitelmatch.cc`.
-- Added IoCs for `unitelmatch.cyou`.
-- Added shared backend indicators (`www.ioutrankap.cyou`).
-- Added API endpoint indicators.
-- Added HTTP header indicators.
-- Expanded network and behavioural indicators.
-- Updated campaign infrastructure relationships.
-
----
-
 # Evidence
 
 | Evidence ID | Description |
@@ -447,10 +510,10 @@ The investigation documents observed technical similarities. These indicators su
 | [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png), [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png), [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png), [EV-012-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-04.png) | Browser warning observations |
 | [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png) |  Recruiter providing `unitelmatch.cc`  |
 | [EV-46-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-046-01.png) | Browser warning – `unitelmatch.cc`  |
-| [EV-047-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-047-01.png) |  Analyst reporting the Google warning.  |
+| [EV-047-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-047-01.png) |  Investigator reporting the Google warning.  |
 | [EV-48-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-048-01.png) | Recruiter explaining that they would contact the IT team  |
 | [EV-49-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png) | Recruiter providing `unitelmatch.cyou`  |
-| [EV-50-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png) |Recruiter checking if analyst has logged in."  |
+| [EV-50-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png) |Recruiter checking if investigator has logged in."  |
 | [EV-51-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png) | Recruiter explaining that the warning was due to a "platform upgrade."  |
 | [EV-055-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-055-01.png) | Browser Developer Tools (Network tab) – occupationoasis.com  |
 | [EV-056-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-056-01.png) | Browser Developer Tools (Network tab) – unitelmatch.top      |
@@ -489,6 +552,7 @@ The investigation documents observed technical similarities. These indicators su
 # Related Documents
 
 - [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
+- [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
 - [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
 - [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
 - [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
@@ -498,6 +562,7 @@ The investigation documents observed technical similarities. These indicators su
 - [Evidence_Register.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Evidence_Register.md)
 - [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
 - [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
 - [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
 - [Passive_DNS.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
 - [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
