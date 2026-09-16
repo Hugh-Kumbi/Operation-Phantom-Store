@@ -123,3 +123,12 @@ Included:
 - Recruiter interaction timeline
 - Initial screenshots
 - Initial Indicators of Compromise
+
+---
+
+## Document Information
+
+**Last Updated:**      September 2026  
+**Analyst:**           Hugh Chanetsa  
+**Assessment Type:**   OSINT Investigation       
+**GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
