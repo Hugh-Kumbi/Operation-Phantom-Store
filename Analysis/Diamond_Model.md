@@ -310,6 +310,20 @@ Unknowns include:
 
 Observed capabilities are supported by technical analysis and recruiter interactions.
 
+### Additional Observed Capabilities
+
+Version 1.1 identified several additional operational capabilities.
+
+Observed behaviors included:
+
+- Introduction of replacement onboarding portals.
+- Recruiter-assisted platform migration.
+- Continued onboarding following browser security warnings.
+- Explanation of browser warnings as platform upgrades.
+- Maintenance of workflow continuity through alternative infrastructure.
+
+These observations are documented from recruiter communications and investigator interactions.
+
 ---
 
 # Victim
@@ -390,6 +404,16 @@ Observed relationship:
 Cloud-hosted infrastructure supported the recruitment workflow, onboarding process, and platform transitions.
 
 Confidence: **High**
+
+### Infrastructure and Capability Relationship
+
+The additional evidence demonstrates that changes in web infrastructure did not interrupt the onboarding process.
+
+Instead, replacement domains were introduced while recruiter communications remained consistent.
+
+This suggests operational continuity across multiple web platforms without changing the overall onboarding workflow.
+
+The investigation records this as an observed relationship and does not infer intent beyond the available evidence.
 
 ---
 
