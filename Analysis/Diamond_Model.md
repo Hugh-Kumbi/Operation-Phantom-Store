@@ -338,6 +338,14 @@ The campaign specifically addressed individuals seeking:
 - Flexible employment
 - Online income opportunities
 
+### Version 1.1 Observation
+
+The investigator continued documenting interactions after the initial investigation had concluded.
+
+This resulted in the identification of additional onboarding infrastructure and provided further evidence regarding the campaign's operational behavior.
+
+The expanded dataset strengthened the overall analytical assessment while remaining based on voluntary interactions and passive OSINT collection.
+
 ---
 
 ## Targeting Method
@@ -394,6 +402,14 @@ Observed relationship:
 The recruiter directed the investigator through multiple domains and online platforms during onboarding.
 
 Confidence: **High**
+
+### Adversary and Infrastructure Relationship
+
+Throughout the investigation, each newly identified domain was supplied directly by the recruiter during active communication.
+
+This chronological relationship strengthens the analytical assessment that the observed infrastructure formed part of a single recruiter-guided onboarding process.
+
+The investigation does not attribute ownership or operational control of the domains beyond these documented interactions.
 
 ---
 
@@ -489,6 +505,16 @@ No malware delivery, exploitation of software vulnerabilities, or post-compromis
 Accordingly, the campaign appears to rely primarily on user interaction and structured social engineering rather than technical exploitation.
 
 This assessment reflects only the evidence collected during the investigation.
+
+## Updated Analytical Assessment
+
+Version 1.1 strengthens the relationships between the Infrastructure and Capability vertices through the observation of repeated platform migration during ongoing recruiter communications.
+
+The documented infrastructure expanded from three to five operational domains while maintaining consistent onboarding procedures.
+
+These observations increase confidence in the documented operational relationships but do not alter attribution.
+
+Overall analytical confidence remains High.
 
 ---
 
