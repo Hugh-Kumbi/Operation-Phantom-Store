@@ -103,7 +103,7 @@ Where historical information was unavailable, this has been documented.
 
 ### Observations
 
-occupationoasis.com is the oldest domain in this cluster, registered on 29 June 2026 (79 days old) with a one-year registration expiring 29 June 2027. The domain was most recently updated on 19 August 2026, indicating active management. It remains accessible and has not received a Google warning, distinguishing it from the other domains in this set. The historical resolution data shows a migration from Amazon CloudFront IPs (18.154.101.x, 13.249.74.x) to other hosting providers (195.110.124.154, 81.88.57.96, 74.208.106.209), with AWS Route 53 name servers throughout. 
+`occupationoasis.com` is the oldest domain in this cluster, registered on 29 June 2026 (79 days old) with a one-year registration expiring 29 June 2027. The domain was most recently updated on 19 August 2026, indicating active management. It remains accessible and has not received a Google warning, distinguishing it from the other domains in this set. The historical resolution data shows a migration from Amazon CloudFront IPs (18.154.101.x, 13.249.74.x) to other hosting providers (195.110.124.154, 81.88.57.96, 74.208.106.209), with AWS Route 53 name servers throughout. 
 
 ---
 
@@ -123,15 +123,15 @@ occupationoasis.com is the oldest domain in this cluster, registered on 29 June 
 
 | Property | Value |
 |----------|-------|
-| Domain Age      | XXXXX                                                                                                 |
-| Created         | XXXXX                                                                                                  |
-| Expires         | XXXXX |
-| Last Updated    | XXXXX                |
-| Current Status  | XXXXX                                                                  |
+| Domain Age      | 59 days                   |
+| Created         | 19-07-2026                |
+| Expires         | 19-07-2027                |
+| Last Updated    | 13-09-2026                |
+| Current Status  | Google warning displayed  |
 
 ### Observations
 
-Historical DNS data will be populated as evidence becomes available.
+`linkroles.my` was registered on 19 July 2026 (59 days old) with a one-year registration expiring 19 July 2027. The domain was last updated on 13 September 2026, indicating recent modification. It now displays a Google warning, suggesting the site has been flagged for malicious or deceptive content. Historical resolution shows exclusive use of Cloudflare infrastructure, including both IPv4 and IPv6 addresses, with four different Cloudflare name servers (alina, bob, leah, micah) observed during a very short window (22–23 July 2026). The minimal hosting changes and brief observation period are consistent with a rapidly deployed, short-lived malicious campaign.
 
 ---
 
@@ -151,15 +151,15 @@ Historical DNS data will be populated as evidence becomes available.
 
 | Property | Value |
 |----------|-------|
-| Domain Age      | XXXXX                                                                                                 |
-| Created         | XXXXX                                                                                                  |
-| Expires         | XXXXX |
-| Last Updated    | XXXXX                |
-| Current Status  | XXXXX                                                                  |
+| Domain Age      | 55 days                   |
+| Created         | 23-07-2026                |
+| Expires         | 23-07-2027                |
+| Last Updated    | 25-07-2026                |
+| Current Status  | Google warning displayed  |
 
 ### Observations
 
-Investigation ongoing.
+`unitelmatch.top` was registered on 23 July 2026 (55 days old) with a one-year registration expiring 23 July 2027. The domain was last updated just two days after creation (25 July 2026), suggesting minimal post-registration management. It now displays a Google warning. Historical resolution shows Cloudflare IPs (IPv4 and IPv6) but non-standard name servers (`a.share-dns.com`, `b.share-dns.net`), which may indicate a third-party DNS service proxying through Cloudflare or a DNS migration during the observation window. The 2 hosting changes over a 0-year span reflect rapid infrastructure changes within a short timeframe.
 
 ---
 
@@ -179,15 +179,15 @@ Investigation ongoing.
 
 | Property | Value |
 |----------|-------|
-| Domain Age      | XXXXX                                                                                                 |
-| Created         | XXXXX                                                                                                  |
-| Expires         | XXXXX |
-| Last Updated    | XXXXX                |
-| Current Status  | XXXXX                                                                  |
+| Domain Age      | 55 days                   |
+| Created         | 23-07-2026                |
+| Expires         | 23-07-2027                |
+| Last Updated    | 02-09-2026                |
+| Current Status  | Google warning displayed  |
 
 ### Observations
 
-Investigation ongoing.
+`unitelmatch.cc` was registered on 23 July 2026 (55 days old) with a one-year registration expiring 23 July 2027. The domain was last updated on 2 September 2026, indicating recent modification. It now displays a Google warning. Historical resolution shows exclusive use of Cloudflare IPs (IPv4 and IPv6), with name servers including Cloudflare's standard `alina` and `bob` servers plus `dns.cloudflare.com`. The single-day observation window (04 August 2026) and 2 hosting changes suggest a rapidly changing configuration, possibly transitional or short-lived.
 
 ---
 
@@ -208,15 +208,15 @@ Investigation ongoing.
 
 | Property | Value |
 |----------|-------|
-| Domain Age      | XXXXX                                                                                                 |
-| Created         | XXXXX                                                                                                  |
-| Expires         | XXXXX |
-| Last Updated    | XXXXX                |
-| Current Status  | XXXXX                                                                  |
+| Domain Age      | 54 days                   |
+| Created         | 24-07-2026                |
+| Expires         | 24-07-2027                |
+| Last Updated    | 11-09-2026                |
+| Current Status  | Google warning displayed  |
 
 ### Observations
 
-Investigation ongoing.
+`unitelmatch.cyou` was registered on 24 July 2026 (54 days old) with a one-year registration expiring 24 July 2027. The domain was last updated on 11 September 2026, indicating recent modification. It now displays a Google warning. Historical resolution shows exclusive use of Cloudflare IPv4 addresses, with Cloudflare's standard `alina` and `bob` name servers. The observation window spans 04–11 August 2026, with 2 hosting changes over a 0-year period. The consistent use of Cloudflare infrastructure across all `unitelmatch` domains (`.top`, `.cc`, `.cyou`) suggests a common operator or shared hosting strategy.
 
 ---
 
