@@ -85,11 +85,11 @@ Where historical information was unavailable, this has been documented.
 
 | Property | Value |
 |----------|-------|
-| First Observed          | 21 July, 2026 |
-| Last Observed           | 17 July, 2026 |
+| First Observed          | 21 July, 2026                                                                              |
+| Last Observed           | 17 July, 2026                                                                              |
 | Historical IPs          | 18.154.101.74, 18.154.101.65, 18.154.101.49, 18.154.101.2, 13.249.74.87, 13.249.74.65, 13.249.74.17, 13.249.74.108, 195.110.124.154, 81.88.57.96, 74.208.106.209 |
-| Historical Name Servers | NS-1422.AWSDNS-49.ORG, NS-149.AWSDNS-18.COM, NS-1883.AWSDNS-43.CO.UK, NS-865.AWSDNS-44.NET |
-| Hosting Changes         | 6 changes on 5 unique name servers over 3 years |
+| Historical Name Servers | ns-1422.awsdns-49.org, ns-149.awsdns-18.com, ns-1883.awsdns-43.co.uk, ns-865.awsdns-44.net |
+| Hosting Changes         | 6 changes on 5 unique name servers over 3 years                                            |
 
 ### Observations
 
@@ -103,11 +103,11 @@ No historical DNS conclusions have been made pending additional evidence.
 
 | Property | Value |
 |----------|-------|
-| First Observed          | 22 July, 2026 |
-| Last Observed           | Pending |
-| Historical IPs          | Pending |
-| Historical Name Servers | Pending |
-| Hosting Changes         | Pending |
+| First Observed          | 22 July, 2026                                                                                                  |
+| Last Observed           | 23 July, 2026                                                                                                  |
+| Historical IPs          | 172.67.174.52, 104.21.30.243, 188.114.96.0, 188.114.97.0, 2606:4700:3032::6815:1ef3, 2606:4700:3037::ac43:ae34 |
+| Historical Name Servers | alina.ns.cloudflare.com, bob.ns.cloudflare.com, leah.ns.cloudflare.com, micah.ns.cloudflare.com                |
+| Hosting Changes         | 1 change on 2 unique name servers over 0 year                                                                  |
 
 ### Observations
 
@@ -121,11 +121,48 @@ Historical DNS data will be populated as evidence becomes available.
 
 | Property | Value |
 |----------|-------|
-| First Observed          | Pending |
-| Last Observed           | Pending |
-| Historical IPs          | Pending |
-| Historical Name Servers | Pending |
-| Hosting Changes         | Pending |
+| First Observed          | 23 July, 2026                                                                       |
+| Last Observed           | 04 August, 2026                                                                     |
+| Historical IPs          | 172.67.206.231, 104.21.22.200, 2606:4700:3032::ac43:cee7, 2606:4700:3035::6815:16c8 |
+| Historical Name Servers |a.share-dns.com, b.share-dns.net                                                     |
+| Hosting Changes         | 2 changes on 2 unique name servers over 0 year                                      |
+
+### Observations
+
+Investigation ongoing.
+
+---
+
+## unitelmatch.cc
+
+### Historical Resolution
+
+| Property | Value |
+|----------|-------|
+| First Observed          | XX XXXXX, 2026                                                                       |
+| Last Observed           | XX XXXXX, 2026                                                                     |
+| Historical IPs          | XX XXXXX |
+| Historical Name Servers | XX XXXXX                                                     |
+| Hosting Changes         | XX XXXXX                                      |
+
+### Observations
+
+Investigation ongoing.
+
+---
+
+
+## unitelmatch.cyou
+
+### Historical Resolution
+
+| Property | Value |
+|----------|-------|
+| First Observed          | XX XXXXX, 2026                                                                       |
+| Last Observed           | XX XXXXX, 2026                                                                     |
+| Historical IPs          | XX XXXXX |
+| Historical Name Servers | XX XXXXX                                                     |
+| Hosting Changes         | XX XXXXX                                      |
 
 ### Observations
 
