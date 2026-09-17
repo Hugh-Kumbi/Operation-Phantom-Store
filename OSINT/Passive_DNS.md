@@ -36,6 +36,26 @@ Passive DNS may reveal:
 | linkroles.my        | Investigated |
 | unitelmatch.top     | Investigated |
 
+## Version 1.1 Update — Additional Domains
+
+Continued engagement with the recruiter resulted in the identification of two additional domains:
+
+- `unitelmatch.cc`
+- `unitelmatch.cyou`
+
+Both domains were supplied directly by the recruiter during continued onboarding activity.
+
+At the time of this documentation update, dedicated Passive DNS collection for these domains has not yet been completed. No historical DNS records, associated IP addresses, or additional infrastructure relationships should therefore be inferred from the recruiter communication alone.
+
+### Current Collection Status
+
+| Domain | Passive DNS Status | Source |
+|--------|--------------------|--------|
+| `unitelmatch.cc`   | Collected | Recruiter communication |
+| `unitelmatch.cyou` | Collected | Recruiter communication |
+
+The domains should be subjected to the same Passive DNS methodology previously applied to the other campaign infrastructure.
+
 ---
 
 # Data Sources
@@ -65,11 +85,11 @@ Where historical information was unavailable, this has been documented.
 
 | Property | Value |
 |----------|-------|
-| First Observed          | Pending |
-| Last Observed           | Pending |
-| Historical IPs          | Pending |
-| Historical Name Servers | Pending |
-| Hosting Changes         | Pending |
+| First Observed          | 21 July, 2026 |
+| Last Observed           | 17 July, 2026 |
+| Historical IPs          | 18.154.101.74, 18.154.101.65, 18.154.101.49, 18.154.101.2, 13.249.74.87, 13.249.74.65, 13.249.74.17, 13.249.74.108, 195.110.124.154, 81.88.57.96, 74.208.106.209 |
+| Historical Name Servers | NS-1422.AWSDNS-49.ORG, NS-149.AWSDNS-18.COM, NS-1883.AWSDNS-43.CO.UK, NS-865.AWSDNS-44.NET |
+| Hosting Changes         | 6 changes on 5 unique name servers over 3 years |
 
 ### Observations
 
@@ -83,7 +103,7 @@ No historical DNS conclusions have been made pending additional evidence.
 
 | Property | Value |
 |----------|-------|
-| First Observed          | Pending |
+| First Observed          | 22 July, 2026 |
 | Last Observed           | Pending |
 | Historical IPs          | Pending |
 | Historical Name Servers | Pending |
