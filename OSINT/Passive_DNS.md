@@ -86,14 +86,24 @@ Where historical information was unavailable, this has been documented.
 | Property | Value |
 |----------|-------|
 | First Observed          | 21 July, 2026                                                                              |
-| Last Observed           | 17 July, 2026                                                                              |
+| Last Observed           | 17 September, 2026                                                                         |
 | Historical IPs          | 18.154.101.74, 18.154.101.65, 18.154.101.49, 18.154.101.2, 13.249.74.87, 13.249.74.65, 13.249.74.17, 13.249.74.108, 195.110.124.154, 81.88.57.96, 74.208.106.209 |
 | Historical Name Servers | ns-1422.awsdns-49.org, ns-149.awsdns-18.com, ns-1883.awsdns-43.co.uk, ns-865.awsdns-44.net |
 | Hosting Changes         | 6 changes on 5 unique name servers over 3 years                                            |
 
+### Registration
+
+| Property | Value |
+|----------|-------|
+| Domain Age      | 79 days            |
+| Created         | 29-06-2026         |
+| Expires         | 29-06-2027         |
+| Last Updated    | 19-08-2026         |
+| Current Status  | Still accessible   |
+
 ### Observations
 
-No historical DNS conclusions have been made pending additional evidence.
+occupationoasis.com is the oldest domain in this cluster, registered on 29 June 2026 (79 days old) with a one-year registration expiring 29 June 2027. The domain was most recently updated on 19 August 2026, indicating active management. It remains accessible and has not received a Google warning, distinguishing it from the other domains in this set. The historical resolution data shows a migration from Amazon CloudFront IPs (18.154.101.x, 13.249.74.x) to other hosting providers (195.110.124.154, 81.88.57.96, 74.208.106.209), with AWS Route 53 name servers throughout. 
 
 ---
 
@@ -109,6 +119,16 @@ No historical DNS conclusions have been made pending additional evidence.
 | Historical Name Servers | alina.ns.cloudflare.com, bob.ns.cloudflare.com, leah.ns.cloudflare.com, micah.ns.cloudflare.com                |
 | Hosting Changes         | 1 change on 2 unique name servers over 0 year                                                                  |
 
+### Registration
+
+| Property | Value |
+|----------|-------|
+| Domain Age      | XXXXX                                                                                                 |
+| Created         | XXXXX                                                                                                  |
+| Expires         | XXXXX |
+| Last Updated    | XXXXX                |
+| Current Status  | XXXXX                                                                  |
+
 ### Observations
 
 Historical DNS data will be populated as evidence becomes available.
@@ -121,11 +141,21 @@ Historical DNS data will be populated as evidence becomes available.
 
 | Property | Value |
 |----------|-------|
-| First Observed          | 23 July, 2026                                                                       |
-| Last Observed           | 04 August, 2026                                                                     |
-| Historical IPs          | 172.67.206.231, 104.21.22.200, 2606:4700:3032::ac43:cee7, 2606:4700:3035::6815:16c8 |
-| Historical Name Servers |a.share-dns.com, b.share-dns.net                                                     |
-| Hosting Changes         | 2 changes on 2 unique name servers over 0 year                                      |
+| First Observed          | 23 July, 2026                                                                        |
+| Last Observed           | 04 August, 2026                                                                      |
+| Historical IPs          | 172.67.206.231, 104.21.22.200, 2606:4700:3032::ac43:cee7, 2606:4700:3035::6815:16c8  |
+| Historical Name Servers | a.share-dns.com, b.share-dns.net                                                     |
+| Hosting Changes         | 2 changes on 2 unique name servers over 0 year                                       |
+
+### Registration
+
+| Property | Value |
+|----------|-------|
+| Domain Age      | XXXXX                                                                                                 |
+| Created         | XXXXX                                                                                                  |
+| Expires         | XXXXX |
+| Last Updated    | XXXXX                |
+| Current Status  | XXXXX                                                                  |
 
 ### Observations
 
@@ -139,11 +169,21 @@ Investigation ongoing.
 
 | Property | Value |
 |----------|-------|
-| First Observed          | XX XXXXX, 2026                                                                       |
-| Last Observed           | XX XXXXX, 2026                                                                     |
-| Historical IPs          | XX XXXXX |
-| Historical Name Servers | XX XXXXX                                                     |
-| Hosting Changes         | XX XXXXX                                      |
+| First Observed          | 04 August, 2026                                                                       |
+| Last Observed           | 04 August, 2026                                                                       |
+| Historical IPs          | 172.67.171.54, 104.21.29.4, 2606:4700:3033::ac43:ab36, 2606:4700:3030::6815:1d04      |
+| Historical Name Servers | alina.ns.cloudflare.com, dns.cloudflare.com, bob.ns.cloudflare.com                    |
+| Hosting Changes         | 2 changes on 2 unique name servers over 0 year                                        |
+
+### Registration
+
+| Property | Value |
+|----------|-------|
+| Domain Age      | XXXXX                                                                                                 |
+| Created         | XXXXX                                                                                                  |
+| Expires         | XXXXX |
+| Last Updated    | XXXXX                |
+| Current Status  | XXXXX                                                                  |
 
 ### Observations
 
@@ -158,11 +198,21 @@ Investigation ongoing.
 
 | Property | Value |
 |----------|-------|
-| First Observed          | XX XXXXX, 2026                                                                       |
-| Last Observed           | XX XXXXX, 2026                                                                     |
-| Historical IPs          | XX XXXXX |
-| Historical Name Servers | XX XXXXX                                                     |
-| Hosting Changes         | XX XXXXX                                      |
+| First Observed          | 04 August, 2026                                                                       |
+| Last Observed           | 24 August, 2026                                                                       |
+| Historical IPs          | 172.67.211.59, 104.21.45.78                                                           |
+| Historical Name Servers | alina.ns.cloudflare.com, bob.ns.cloudflare.com                                        |
+| Hosting Changes         | 2 changes on 2 unique name servers over 0 year                                        |
+
+### Registration
+
+| Property | Value |
+|----------|-------|
+| Domain Age      | XXXXX                                                                                                 |
+| Created         | XXXXX                                                                                                  |
+| Expires         | XXXXX |
+| Last Updated    | XXXXX                |
+| Current Status  | XXXXX                                                                  |
 
 ### Observations
 
