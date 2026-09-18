@@ -8,7 +8,7 @@
 
 **Status:** Investigation Updated
 
-**Version:** 1.1
+**Version:** 2.0
 
 ---
 
@@ -206,26 +206,50 @@ The investigation now documents five observed domains associated with the recrui
 
 # Domain Progression
 
-```text
+```
+Application Submitted
+        │
+        ▼
 occupationoasis.com
+        │
+        ▼
+Recruiter Contact
         │
         ▼
 linkroles.my
         │
- Google Safe Browsing Warning
+        ▼
+Store Registration
+        │
+        ▼
+Training Activities
+        │
+        ▼
+Google Safe Browsing Warning
         │
         ▼
 unitelmatch.top
         │
- Google Safe Browsing Warning
+        ▼
+Initial Investigation Completed
         │
         ▼
-unitelmatch.cc
-        │
- Google Safe Browsing Warning
+Recruiter Supplies unitelmatch.cc
         │
         ▼
-unitelmatch.cyou
+Google Safe Browsing Warning
+        │
+        ▼
+Recruiter Consults Technical Staff
+        │
+        ▼
+unitelmatch.cyou Provided
+        │
+        ▼
+Platform Upgrade Explanation
+        │
+        ▼
+Investigation Expanded (Version 2.0)
 ```
 
 ---
@@ -258,6 +282,11 @@ These observations are supported by recruiter communications, screenshots, analy
 | [EV-050-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png)             | Recruiter instructs analyst to continue onboarding using the backup portal |
 | [EV-051-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png)             | Recruiter explains the issue as a platform upgrade                         |
 | [EV-052-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-052-01.png)             | Repository updated to Version 1.1                                           |
+
+## Change log
+| Version | Date | Change |
+|---------|------|--------|
+| 2.0 | 2026-09-17 | Updated Campaign Overview to document expansion from three to five observed operational domains and added infrastructure evolution narrative. |
 
 ---
 

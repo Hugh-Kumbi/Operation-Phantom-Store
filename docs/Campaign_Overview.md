@@ -8,7 +8,7 @@
 
 **Status:** Active Investigation
 
-**Version:** 1.1
+**Version:** 2.0
 
 ---
 
@@ -282,6 +282,11 @@ No conclusions regarding malicious intent or fraudulent activity are presented i
 | Recruiter introduced unitelmatch.cc           | High |
 | Recruiter introduced unitelmatch.cyou         | High |
 | Multiple domains involved in workflow         | High |
+
+## Change log
+| Version | Date | Change |
+|---------|------|--------|
+| 2.0 | 2026-09-17 | Updated Campaign Overview to document expansion from three to five observed operational domains and added infrastructure evolution narrative. |
 
 ---
 
