@@ -8,7 +8,7 @@
 
 **Status:** Active Investigation
 
-**Version:** 1.0
+**Version:** 2.0
 
 ---
 
@@ -220,6 +220,19 @@ This detection is more suitable for user awareness or browser telemetry than tra
 ## Detection Priority
 
 **Medium**
+
+### Application Fingerprinting
+
+Organizations monitoring outbound web traffic may identify similar platforms by searching for HTTP requests containing:
+
+- merchant-id: 42
+- /tiny-shop/v1/
+- GET /site/config
+- GET /member/member/index
+- GET /shop/product/my-product
+- GET /index/index
+
+Combined with domains hosted behind Cloudflare and recently registered onboarding portals, these indicators may assist threat hunting activities.
 
 ---
 
@@ -453,6 +466,11 @@ Organizations implementing behavioral analytics, DNS monitoring, browser telemet
 | Threat hunting hypotheses | Medium                 |
 | Endpoint detections       | Low (limited evidence) |
 | Malware detections        | Not Applicable         |
+
+## Change log
+| Version | Date | Change |
+|---------|------|--------|
+| 2.0 | 2026-09-21 | Added Application Fingerprinting section documenting HTTP request indicators (merchant-id, /tiny-shop/v1/ paths, and specific API endpoints) and Cloudflare-hosted domains for threat hunting. |
 
 ---
 
