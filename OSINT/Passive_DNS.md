@@ -1,9 +1,13 @@
 # Passive DNS Analysis
 
 **Case ID:** OSINT-2026-001  
-**Investigation title:** Suspected multi-domain remote-recruitment phishing campaign  
-**Classification:** OSINT / Cyber Threat Intelligence (CTI)  
-**Status:** Active investigation  
+
+**Investigation title:** Analysis of a Suspected multi-domain remote-recruitment phishing campaign  
+
+**Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
+
+**Status:** Investigation Updated  
+
 **Version:** 2.0  
 
 > **Handling note:** This report is an analytical assessment based on the evidence listed below. Infrastructure overlap supports association, but does not by itself establish legal attribution or the identity of an operator.

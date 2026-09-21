@@ -2,11 +2,11 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Remote Recruitment Platform
+**Investigation Title:** Analysis of a Suspected multi-domain remote-recruitment phishing campaign 
 
 **Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
-**Status:** Active Investigation
+**Status:** Investigation Updated
 
 **Version:** 2.0
 
@@ -304,7 +304,7 @@ No conclusions regarding malicious intent or fraudulent activity are presented i
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     

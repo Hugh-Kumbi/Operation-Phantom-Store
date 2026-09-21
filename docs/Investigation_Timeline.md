@@ -2,9 +2,9 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Recruitment Campaign
+**Investigation Title:** Analysis of a Suspected multi-domain remote-recruitment phishing campaign 
 
-**Classification:** Cyber Threat Intelligence (CTI)
+**Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
 **Status:** Investigation Updated
 
@@ -140,25 +140,25 @@ During a subsequent conversation, the recruiter instructed the analyst to access
 
 **Evidence:**
 
-- ![EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png)
+![EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png)
 
 After attempting to access the site, the analyst observed that Google Safe Browsing displayed a warning indicating that the website was considered dangerous.
 
 **Evidence:**
 
-- ![EV-046-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-046-01.png)
+![EV-046-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-046-01.png)
 
 The analyst informed the recruiter and requested clarification.
 
 **Evidence:**
 
-- ![EV-047-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-047-01.png)
+![EV-047-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-047-01.png)
 
 The recruiter replied that they would consult their technical staff regarding the warning.
 
 **Evidence:**
 
-- ![EV-48-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-048-01.png)
+![EV-48-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-048-01.png)
 
 Shortly afterwards, the recruiter supplied another portal:
 
@@ -166,13 +166,13 @@ Shortly afterwards, the recruiter supplied another portal:
 
 **Evidence:**
 
-- ![EV-49-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
+![EV-49-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png)
 
 The recruiter instructed the analyst to continue using the new portal while awaiting a technical explanation.
 
 **Evidence:**
 
-- ![EV-050-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png) 
+![EV-050-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png) 
 
 Later, the recruiter stated:
 
@@ -182,7 +182,7 @@ The investigation records this explanation as an observed statement made by the 
 
 **Evidence:**
 
-- ![EV-51-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png)
+![EV-51-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png)
 
 ---
 
@@ -306,7 +306,7 @@ These observations are supported by recruiter communications, screenshots, analy
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     

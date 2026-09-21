@@ -2,9 +2,9 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Remote Recruitment Platform
+**Investigation Title:** Analysis of a Suspected multi-domain remote-recruitment phishing campaign 
 
-**Classification:** Cyber Threat Intelligence (CTI)
+**Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
 **Status:** Investigation Complete
 
@@ -349,6 +349,11 @@ This investigation demonstrates how publicly available information, technical an
 By documenting infrastructure, operational workflows, social engineering techniques, and detection opportunities, the investigation provides a repeatable methodology for analyzing similar campaigns in the future.
 
 The resulting intelligence should be viewed as an evidence-based assessment rather than definitive attribution. Future investigations incorporating additional data sources may further refine these conclusions.
+
+## Change log
+| Version | Date | Change |
+|---------|------|--------|
+| 2.0 | 2026-09-17 | Expanded investigative findings following identification of unitelmatch.cc and unitelmatch.cyou, including browser security warnings, recruiter-supplied replacement infrastructure, and updated campaign assessment. |
 
 ---
 
