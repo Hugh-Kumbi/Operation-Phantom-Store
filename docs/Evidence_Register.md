@@ -110,12 +110,12 @@
 | [EV-053-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-05.png) | Domain_Relationships.png | Assets graphics for Executive report | Collected |
 | [EV-053-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-06.png) | Infrastructure_Relationship.png | Assets graphics for Executive report | Collected |
 | [EV-053-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-07.png) | Reputation_Timeline.png | Assets graphics for Executive report | Collected |
-| [EV-053-08]() | Infrastructure_Model.png | Assets graphics for Executive report | Collected |
-| [EV-053-09]() | MITRE_ATT&CK_Matrix.png | Assets graphics for Executive report | Collected |
-| [EV-053-10]() | Certificate_Timeline.png | Assets graphics for Executive report | Collected |
-| [EV-053-11]() | Application_Architecture.png | Assets graphics for Executive report | Collected |
-| [EV-053-12]() | Attack_Lifecycle.png | Assets graphics for Executive report | Collected |
-| [EV-053-13]() | Timeline_Diagram.png | Assets graphics for Executive report | Collected |
+| [EV-053-08](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-08.png) | Infrastructure_Model.png | Assets graphics for Executive report | Collected |
+| [EV-053-09](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-09.png) | MITRE_ATT&CK_Matrix.png | Assets graphics for Executive report | Collected |
+| [EV-053-10](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-10.png) | Certificate_Timeline.png | Assets graphics for Executive report | Collected |
+| [EV-053-11](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-11.png) | Application_Architecture.png | Assets graphics for Executive report | Collected |
+| [EV-053-12](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-12.png) | Attack_Lifecycle.png | Assets graphics for Executive report | Collected |
+| [EV-053-13](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-13.png) | Timeline_Diagram.png | Assets graphics for Executive report | Collected |
 | [EV-054-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-01.png), [EV-054-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-02.png), [EV-054-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-03.png), [EV-054-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-04.png), [EV-054-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-05.png) | AWS Route53 records  – occupationoasis.com    | ... | Collected |
 | [EV-055-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-055-01.png) | Browser Developer Tools (Network tab) – occupationoasis.com  | ... | Collected |
 | [EV-056-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-056-01.png) | Browser Developer Tools (Network tab) – unitelmatch.top      | ... | Collected |
