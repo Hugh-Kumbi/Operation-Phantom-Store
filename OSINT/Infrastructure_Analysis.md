@@ -8,7 +8,7 @@
 
 **Status:** Active Investigation
 
-**Version:** 1.2
+**Version:** 2.0
 
 ---
 
@@ -322,21 +322,6 @@ The investigation documents these technical relationships as observed evidence. 
 
 ---
 
-# CHANGELOG
-
-## Version 1.2
-
-- Added analysis for `unitelmatch.cc`.
-- Added analysis for `unitelmatch.cyou`.
-- Documented the shared backend (`www.ioutrankap.cyou`).
-- Added infrastructure evolution timeline.
-- Added hosting provider comparison.
-- Expanded reverse DNS analysis.
-- Included application-layer infrastructure relationships.
-- Distinguished recruitment infrastructure from operational infrastructure.
-
----
-
 # Evidence
 
 | Evidence ID | Description |
@@ -390,9 +375,16 @@ The investigation documents these technical relationships as observed evidence. 
 
 ---
 
+# Change log
+| Version | Date | Change |
+|---------|------|--------|
+| 2.0 | 2026-09-21 | Added analysis for `unitelmatch.cc` and `unitelmatch.cyou`; documented the shared backend (`www.ioutrankap.cyou`); added infrastructure evolution timeline; added hosting provider comparison; expanded reverse DNS analysis; included application-layer infrastructure relationships; and distinguished recruitment infrastructure from operational infrastructure. |
+
+---
+
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
