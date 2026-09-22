@@ -1,7 +1,7 @@
 # Evidence Register
 
 | Evidence ID | Type | Description | Status |
-|-------------|------|-------------|--------|
+|:-----------:|------|-------------|--------|
 | [CTI-2026-07_add_products_store_attract_customers](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_add_products_store_attract_customers.png) | Chat | Recruiter communication  | Collected |
 | [CTI-2026-07_additional_30_deposited_open_order](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_additional_30_deposited_open_order.png) | Chat | Recruiter communication  | Collected |
 | [CTI-2026-07_balance_insufficient_221_help_center](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_balance_insufficient_221_help_center.png) | Chat | Recruiter communication  | Collected |
