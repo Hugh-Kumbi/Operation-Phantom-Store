@@ -151,48 +151,152 @@ unitelmatch.cyou
 # Repository Structure
 
 ```text
-.
+Operation-Phantom-Store/
+│
 ├── README.md
+├── CHANGELOG.md
+├── DISCLAIMER.md
+├── LICENSE
 │
-├── docs
-│   ├── Campaign_Overview.md
-│   ├── Methodology.md
-│   ├── Investigation_Timeline.md
-│   ├── Findings.md
-│   ├── Lessons_Learned.md
-│   ├── Evidence_Register.md
-│   └── Executive_Report.pdf
-│
-├── osint
-│   ├── Passive_DNS.md
-│   ├── DNS_Analysis.md
-│   ├── Certificate_Analysis.md
-│   ├── Infrastructure.md
-│   ├── Technology_Stack.md
-│   ├── Reputation.md
-│   └── Domain_Relationships.md
-│
-├── analysis
-│   ├── Social_Engineering_Analysis.md
-│   ├── MITRE_ATT&CK_Mapping.md
-│   ├── Diamond_Model.md
+├── Analysis/
 │   ├── Attack_Lifecycle.md
-│   ├── Indicators_of_Compromise.md
+│   ├── Confidence_Assessment.md
 │   ├── Detection_Opportunities.md
+│   ├── Diamond_Model.md
+│   ├── Indicators_of_Compromise.md
 │   ├── Intelligence_Gaps.md
-│   └── Confidence_Assessment.md
+│   ├── MITRE_ATT&CK_Mapping.md
+│   └── Social_Engineering_Analysis.md
 │
-├── evidence
-│   ├── Screenshots/
-│   ├── Recruiter_Chat/
-│   └── Browser_Warnings/
+├── Assets/
+│   ├── Application_Architecture.png
+│   ├── Attack_Lifecycle.png
+│   ├── Campaign_Infrastructure.png
+│   ├── Campaign_Lifecycle.png
+│   ├── Campaign_Overview.png
+│   ├── Certificate_Timeline.png
+│   ├── Diamond_Model.png
+│   ├── Domain_Relationships.png
+│   ├── Infrastructure_Model.png
+│   ├── Infrastructure_Relationship.png
+│   ├── Investigation_Timeline.png
+│   ├── IOC_Timeline.png
+│   ├── MITRE_ATT&CK_Matrix.png
+│   ├── Reputation_Timeline.png
+│   └── Timeline_Diagram.png
 │
-└── assets
-    ├── Campaign_Flow.png
-    ├── Infrastructure_Diagram.png
-    ├── MITRE_ATT&CK.png
-    ├── Diamond_Model.png
-    └── Timeline.png
+├── Detection/
+│   ├── DISCLAIMER.md
+│   ├── README.md
+│   ├── IOCs/
+│   │   ├── api_endpoints.txt
+│   │   ├── certificates.txt
+│   │   ├── domains.txt
+│   │   ├── ips.txt
+│   │   └── urls.txt
+│   ├── Sentinel/
+│   │   ├── OPS-001_Domain.kql
+│   │   ├── OPS-002_Backend.kql
+│   │   └── OPS-003_IOCs.kql
+│   ├── Sigma/
+│   │   ├── OPS-001_Domain_Access.yml
+│   │   ├── OPS-002_Backend_API_Access.yml
+│   │   ├── OPS-003_Merchant42_Header.yml
+│   │   ├── OPS-004_Newly_Registered_Cloudflare_Domains.yml
+│   │   └── OPS-005_Recruitment_Campaign_Domains.yml
+│   ├── Splunk/
+│   │   ├── OPS-001_Domain_Search.spl
+│   │   ├── OPS-002_API_Search.spl
+│   │   └── OPS-003_IOC_Search.spl
+│   └── Suricata/
+│       ├── OPS-001_Domains.rules
+│       ├── OPS-002_Backend.rules
+│       └── OPS-003_API.rules
+│
+├── docs/
+│   ├── Campaign_Overview.md
+│   ├── Evidence_Register.md
+│   ├── Executive_Report.docx        
+│   ├── Executive_Summary.md         
+│   ├── Findings.md
+│   ├── Investigation_Timeline.md
+│   ├── Lessons_Learned.md
+│   └── Methodology.md
+│
+├── Evidence/
+│   ├── Browser_Warnings/
+│   │   ├── linkroles.my.png
+│   │   ├── unitelmatch.cc.png
+│   │   └── unitelmatch.top.png
+│   ├── Recruiter_Communications/
+│   │   ├── COMM-001_Recruiter_Communication_Initial_Contact.md
+│   │   ├── COMM-002_Recruiter_Communication_Onboarding.md
+│   │   ├── COMM-003_Recruiter_Communication_Platform_Migration.md
+│   │   ├── COMM-004_Recruiter_Communication_Operational_Training.md
+│   │   ├── COMM-005_Recruiter_Communication_Financial_Escalation.md
+│   │   ├── COMM-006_Recruiter_Communication_Campaign_Closure.md
+│   │   ├── Conversation_Index.md
+│   │   ├── README.md
+│   │   └── Recruiter_Chat_Transcript.md
+│   └── Screenshots/
+│       ├── README.md
+│       ├── CTI-2026-07_*.png          (≈120 screenshots)
+│       ├── EV-001-01.png … EV-077-07.png
+│       └── Screenshot (2175).png      ← stray file, consider renaming
+│
+├── Intel/
+│   ├── Attack_Graph.md
+│   ├── Campaign_Profile.md
+│   ├── DISCLAIMER.md
+│   ├── README.md
+│   ├── Threat_Summary.md
+│   ├── MISP/
+│   │   ├── operation_phantom_store_event.json
+│   │   └── README.md
+│   ├── Navigator/
+│   │   └── ATTACK_Navigator.json
+│   └── STIX/
+│       ├── bundle.json
+│       ├── campaign.json
+│       ├── indicators.json
+│       ├── infrastructure.json
+│       ├── relationships.json
+│       └── threat_actor.json
+│
+├── IOCs/
+│   ├── api_endpoints.txt
+│   ├── certificates.txt
+│   ├── certificates_sha256.txt
+│   ├── domains.txt
+│   ├── iocs.csv
+│   ├── iocs.json
+│   ├── ips.txt
+│   ├── ipv4.txt
+│   ├── ipv6.txt
+│   ├── merchant_ids.txt
+│   ├── nameservers.txt
+│   ├── README.md
+│   └── urls.txt
+│
+├── OSINT/
+│   ├── Application_Architecture.md
+│   ├── Certificate_Analysis.md
+│   ├── DNS_Analysis.md
+│   ├── Domain_Analysis.md
+│   ├── Domain_Relationships.md
+│   ├── Infrastructure_Analysis.md
+│   ├── Infrastructure_Evolution.md
+│   ├── Passive_DNS.md
+│   ├── Reputation_Analysis.md
+│   └── Technology_Stack.md
+│
+└── Playbooks/
+    ├── Executive_Incident_Brief.md
+    ├── Incident_Response_Playbook.md
+    ├── IOC_Response_Checklist.md
+    ├── README.md
+    ├── SOC_Runbook.md
+    └── Threat_Hunting_Guide.md
 ```
 
 ---

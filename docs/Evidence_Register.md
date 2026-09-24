@@ -232,6 +232,8 @@
 | [EV-053-12](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-12.png) | Attack_Lifecycle.png | Assets graphics for Executive report | Collected |
 | [EV-053-13](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-13.png) | Timeline_Diagram.png | Assets graphics for Executive report | Collected |
 | [EV-053-14](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-13.png) | Reputation_Timeline.png | Assets graphics for Executive report | Collected |
+| [EV-053-15](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-14.png) | IOC_Timeline.png | Assets graphics for Executive report | Collected |
+| [EV-053-16](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-053-16.png) | Campaign_Infrastructure | Assets graphics for Executive report | Collected |
 | [EV-054-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-01.png), [EV-054-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-02.png), [EV-054-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-03.png), [EV-054-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-04.png), [EV-054-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-054-05.png) | Interactive DNS intelligence, network topology, and IP enrichment | AWS Route53 records – `occupationoasis.com` | Collected |
 | [EV-055-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-055-01.png) | Network tab | Browser Developer Tools – `occupationoasis.com` | Collected |
 | [EV-056-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-056-01.png) | Network tab | Browser Developer Tools – `unitelmatch.top` | Collected |
@@ -271,6 +273,9 @@
 | [MITRE_ATT&CK_Matrix](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/MITRE_ATT%26CK_Matrix.png)                 | Intelligence Collection | Assets graphics |Collected |
 | [Timeline_Diagram](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Timeline_Diagram.png)                         | Intelligence Collection | Assets graphics | Collected |
 | [Reputation_Timeline](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Reputation_Timeline.png)                   | Intelligence Collection | Assets graphics | Collected |
+| [IOC_Timeline](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/IOC_Timeline.png)                                 | Intelligence Collection | Assets graphics | Collected |
+| [Campaign_Infrastructure](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Campaign_Infrastructure.png)                                 | Intelligence Collection | Assets graphics | Collected |
+
 ---
 
 ## Evidence Handling
