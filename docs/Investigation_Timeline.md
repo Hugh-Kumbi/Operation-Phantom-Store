@@ -283,7 +283,10 @@ These observations are supported by recruiter communications, screenshots, analy
 | [EV-051-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png)             | Recruiter explains the issue as a platform upgrade                         |
 | [EV-052-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-052-01.png)             | Repository updated to Version 1.1                                           |
 
-## Change log
+---
+
+# Change Log
+
 | Version | Date | Change |
 |---------|------|--------|
 | 2.0 | 2026-09-17 | Updated Campaign Overview to document expansion from three to five observed operational domains and added infrastructure evolution narrative. |
