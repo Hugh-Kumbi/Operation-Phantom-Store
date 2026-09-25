@@ -291,12 +291,17 @@ Operation-Phantom-Store/
 │   └── Technology_Stack.md
 │
 └── Playbooks/
-    ├── Executive_Incident_Brief.md
-    ├── Incident_Response_Playbook.md
-    ├── IOC_Response_Checklist.md
-    ├── README.md
-    ├── SOC_Runbook.md
-    └── Threat_Hunting_Guide.md
+│   ├── Executive_Incident_Brief.md
+│   ├── Incident_Response_Playbook.md
+│   ├── IOC_Response_Checklist.md
+│   ├── README.md
+│   ├── SOC_Runbook.md
+│   └── Threat_Hunting_Guide.md
+│
+├── yara/
+│   ├── README.md
+│   └── unitelmatch_frontend.yar
+│
 ```
 
 ---
