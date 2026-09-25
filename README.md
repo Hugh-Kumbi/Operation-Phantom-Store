@@ -7,13 +7,13 @@ A structured Open Source Intelligence (OSINT) and Cyber Threat Intelligence (CTI
 ---
 
 **Case ID:** OSINT-2026-001  
-**Project Type:** Cyber Threat Intelligence (CTI) Case Study  
-**Version:** 1.1  
-**Status:** Complete (Version 1.1)
+**Project Type:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI) Case Study
+**Version:** 2.0  
+**Status:** Complete
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.1-blue)
+![Version](https://img.shields.io/badge/version-2.0-blue)
 ![Status](https://img.shields.io/badge/status-Complete-success)
 ![OSINT](https://img.shields.io/badge/OSINT-Investigation-green)
 ![CTI](https://img.shields.io/badge/Cyber%20Threat%20Intelligence-Case%20Study-red)
