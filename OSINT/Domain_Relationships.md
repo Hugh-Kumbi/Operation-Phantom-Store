@@ -360,6 +360,16 @@ This document supports:
 
 ---
 
+# Change Log
+
+| Version | Date | Change |
+|---------|------|--------|
+| 1.0 | 2026-08-03 | Initial document created to document observed relationships between campaign domains. |
+| 1.1 | 2026-08-15 | Added `unitelmatch.cc` and `unitelmatch.cyou`, expanded domain progression, infrastructure comparison, and confidence assessment. |
+| 2.0 | 2026-09-28 | Expanded from a domain relationship summary into a comprehensive infrastructure correlation assessment. Added campaign infrastructure inventory, infrastructure correlation matrix, shared application fingerprints, backend architecture relationships, updated confidence assessment, revised intelligence gaps, enhanced analytical assessment, and aligned terminology with the completed Operation Phantom Store CTI investigation. |
+
+---
+
 ## Document Information
 
 **Last Updated:**      September 2026  

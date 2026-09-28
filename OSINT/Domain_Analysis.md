@@ -6,7 +6,7 @@
 
 **Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
-**Status:** Investigation Updated
+**Status:** Completed Intelligence Assessment
 
 **Version:** 2.0
 
@@ -14,9 +14,9 @@
 
 # Purpose
 
-This document provides a consolidated analysis of all domains identified during the investigation.
+This document provides a consolidated analysis of all domains identified during Operation Phantom Store. It correlates technical artifacts, recruiter communications, infrastructure observations, and application fingerprints to assess how each domain supported the observed recruitment workflow.
 
-The analysis combines technical observations, recruiter communications, and infrastructure characteristics to understand the role of each domain within the observed onboarding workflow.
+The objective is to move beyond individual domain analysis and identify recurring infrastructure, operational patterns, and evidence-supported relationships across the campaign.
 
 No attribution is made beyond the available evidence.
 
@@ -24,13 +24,13 @@ No attribution is made beyond the available evidence.
 
 # Domain Summary
 
-| Domain | Observed Role | Status |
-|--------|---------------|--------|
-| occupationoasis.com | Recruitment website           | Observed                    |
-| linkroles.my        | Initial onboarding portal     | Replaced                    |
-| unitelmatch.top     | Replacement onboarding portal | Replaced                    |
-| unitelmatch.cc      | Updated onboarding portal     | Replaced                    |
-| unitelmatch.cyou    | Backup onboarding portal      | Active during investigation |
+| Domain              | Operational Role      | Lifecycle Status            | Primary Function                            |
+| ------------------- | --------------------- | --------------------------- | ------------------------------------------- |
+| occupationoasis.com | Recruitment Portal    | Initial Access              | Job advertisement and candidate acquisition |
+| linkroles.my        | Onboarding Portal     | Retired                     | Initial registration and training           |
+| unitelmatch.top     | Migration Portal      | Retired                     | Continued onboarding                        |
+| unitelmatch.cc      | Updated Portal        | Retired                     | Replacement after browser warning           |
+| unitelmatch.cyou    | Current Backup Portal | Active during investigation | Continuation of onboarding                  |
 
 ---
 
@@ -62,13 +62,13 @@ unitelmatch.cyou
 
 # Comparative Analysis
 
-| Domain | Hosting | Registrar | Primary Technologies | Browser Warning |
-|--------|---------|-----------|----------------------|-----------------|
-| occupationoasis.com | AWS / CloudFront | Amazon Registrar     | Nuxt.js, Vue.js | No                                  |
-| linkroles.my        | Cloudflare       | Gname.com            | Cloudflare      | Yes (observed during investigation) |
-| unitelmatch.top     | Cloudflare       | Global Asset Domains | Vue.js          | Yes                                 |
-| unitelmatch.cc      | Cloudflare       | Dynadot Inc          | Cloudflare      | Yes                                 |
-| unitelmatch.cyou    | Cloudflare       | Global Asset Domains | Cloudflare      | Not observed                        |
+| Domain              | Hosting    | Framework | Shared Backend | TLS Issued Immediately After Registration | Browser Warning |
+| ------------------- | ---------- | --------- | -------------- | ----------------------------------------- | --------------- |
+| occupationoasis.com | AWS        | Nuxt.js   | No             | Yes                                       | No              |
+| linkroles.my        | Cloudflare | Vue.js    | Yes            | Yes                                       | Yes             |
+| unitelmatch.top     | Cloudflare | Vue.js    | Yes            | Yes                                       | Yes             |
+| unitelmatch.cc      | Cloudflare | Vue.js    | Yes            | Yes                                       | Yes             |
+| unitelmatch.cyou    | Cloudflare | Vue.js    | Yes            | Yes                                       | No              |
 
 ---
 
