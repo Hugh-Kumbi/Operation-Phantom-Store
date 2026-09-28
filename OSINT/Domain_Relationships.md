@@ -2,27 +2,25 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Recruitment Campaign
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign
 
-**Classification:** Open Source Intelligence (OSINT)
+**Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
-**Status:** Investigation Updated
+**Status:** Final Intelligence Assessment
 
-**Version:** 1.1
+**Version:** 2.0
 
 ---
 
 # Purpose
 
-This document correlates the domains identified throughout the investigation.
+This document correlates the domains observed throughout Operation Phantom Store to determine whether they represent isolated websites or components of a coordinated infrastructure cluster. The analysis combines chronological evidence, infrastructure characteristics, backend architecture, application fingerprints, and operational behavior to identify recurring patterns across the campaign.
 
-Rather than analyzing each domain individually, this document focuses on their observed relationships, operational roles, infrastructure similarities, and chronological use during recruiter-led onboarding.
-
-The document does **not** attribute ownership or control of the domains. It records only relationships supported by observed evidence and technical analysis.
+The purpose is **not** to attribute ownership, but to demonstrate evidence-based infrastructure correlation suitable for cyber threat intelligence reporting.
 
 ---
 
-# Observed Domains
+# Campaign Infrastructure Inventory
 
 | Domain | Role During Investigation | Status |
 |--------|---------------------------|--------|
@@ -39,24 +37,29 @@ The document does **not** attribute ownership or control of the domains. It reco
 The recruiter introduced multiple portals throughout the onboarding process.
 
 ```text
+Recruitment Advertisement
 occupationoasis.com
         │
         ▼
+Initial Onboarding
 linkroles.my
         │
  Google Safe Browsing Warning
         │
         ▼
+Replacement Portal
 unitelmatch.top
         │
  Google Safe Browsing Warning
         │
         ▼
+Infrastructure Rotation
 unitelmatch.cc
         │
  Google Safe Browsing Warning
         │
         ▼
+Fallback Portal
 unitelmatch.cyou
 ```
 
@@ -106,7 +109,7 @@ Purpose:
 - Training
 - Platform access
 
-The analyst observed cryptocurrency-related activity while using this portal.
+The investigator observed cryptocurrency-related activity while using this portal.
 
 ---
 
@@ -119,7 +122,7 @@ Purpose:
 - Continued access to the platform
 - Ongoing onboarding
 
-The analyst observed a Google Safe Browsing warning when attempting to access the site.
+The investigator observed a Google Safe Browsing warning when attempting to access the site.
 
 The recruiter subsequently supplied another portal.
 
@@ -135,7 +138,7 @@ Purpose:
 - Replacement platform
 - Ongoing training
 
-The recruiter instructed the analyst to continue using this domain while the reported issue with the previous portal was being investigated.
+The recruiter instructed the investigator to continue using this domain while the reported issue with the previous portal was being investigated.
 
 ---
 
@@ -161,48 +164,71 @@ The recruiter instructed the analyst to continue using this domain while the rep
 | unitelmatch.cc      | Cloudflare       | Dynadot Inc          | Google Trust Services /  SSL.com      | Vue.js                    |
 | unitelmatch.cyou    | Cloudflare       | Global Asset Domains | SSL.com / Google Trust Services       | Nuxt.js, Vue.js           |
 
+## Infrastructure Correlation Matrix
+
+| Indicator                 | OccupationOasis | LinkRoles | UnitelMatch.top | UnitelMatch.cc | UnitelMatch.cyou |
+| ------------------------- | --------------- | --------- | --------------- | -------------- | ---------------- |
+| Vue.js                    | ✓               | ✓         | ✓              | ✓              | ✓                |
+| Cloudflare                | ✗               | ✓         | ✓              | ✓              | ✓                |
+| Google Trust Services TLS | ✗               | ✓         | ✓              | ✓              | ✓                |
+| Backend API               | ✗               | Unknown   | Shared          | Shared         | Shared           |
+| Merchant-ID 42            | ✗               | Unknown   | ✓               | ✓              | ✓                |
+| API Path `/tiny-shop/v1/` | ✗               | Unknown   | ✓               | ✓              | ✓                |
+| Cloudflare Name Servers   | ✗               | ✓         | ✓               | ✓              | ✓                |
+| Infrastructure Rotation   | —               | ✓         | ✓               | ✓              | ✓                |
+
+
 ---
 
 # Shared Characteristics
 
-The investigation identified several recurring characteristics across the observed infrastructure.
+The investigation identified several recurring characteristics across the observed infrastructure. These are grouped into infrastructure, application, and operational layers.
+
+## Infrastructure
+
+- Cloudflare proxy
+- Shared name servers
+- Shared CDN (Amazon CloudFront)
+- HTTP/3
+- QUIC
+- Browser Insights
+- Observed providers also included Amazon Web Services and Cloudflare
+
+These services are commonly used by legitimate organizations as well as malicious actors. Their presence alone is not evidence of malicious activity.
+
+---
+
+## Application
+
+- Vue.js SPA (single-page application)
+- Nuxt.js
+- Similar JavaScript bundles
+- Identical API structure
+- Same merchant-id: 42
+- Shared backend endpoint
+- Same routing pattern
+- Google Tag Manager
+- Google Analytics
+- TLS 1.3
+
+---
+
+## Operational
+
+- Recruiter-led migration
+- Progressive onboarding
+- Replacement after browser warnings
+- Cryptocurrency workflow
+- Same training methodology
+- Consistent social engineering
+
+---
 
 ## Recently Registered Domains
 
 Several onboarding portals were newly registered shortly before their use.
 
 This observation is documented in the WHOIS analysis.
-
----
-
-## Commercial Cloud Infrastructure
-
-Observed providers included:
-
-- Amazon Web Services
-- Amazon CloudFront
-- Cloudflare
-
-These services are commonly used by legitimate organizations as well as malicious actors.
-
-Their presence alone is not evidence of malicious activity.
-
----
-
-## Modern Web Technologies
-
-Observed technologies included:
-
-- Vue.js
-- Nuxt.js
-- Cloudflare CDN
-- Amazon CloudFront
-- Google Tag Manager
-- Google Analytics
-- Browser Insights
-- HTTP/3
-- QUIC
-- TLS 1.3
 
 ---
 
@@ -263,74 +289,81 @@ These behaviors remained stable across all observed domains.
 
 # Analytical Assessment
 
-Based on the available evidence, the investigation assesses that the identified domains formed part of a single recruiter-led onboarding workflow.
+Multiple independent technical and behavioral indicators support the assessment that the observed domains formed part of a coordinated infrastructure cluster supporting a single recruitment workflow. Evidence includes repeated infrastructure rotation, shared frontend architecture, common backend API design, recurring application fingerprints, identical merchant identifiers, and consistent recruiter-driven migration between domains.
 
-This assessment is supported by:
-
-- Chronological recruiter communications
-- Consistent onboarding procedures
-- Repeated migration between portals
-- Similar operational purpose
-- Comparable technical characteristics
-
-The investigation does not attribute ownership or operational control of the domains beyond these observed relationships.
+While definitive attribution to a specific threat actor is outside the scope of this investigation, the cumulative evidence strongly supports the conclusion that these domains were operationally related and served interchangeable roles within the same campaign.
 
 ---
 
-# Intelligence Gaps
+# Remaining Intelligence Gaps
 
-Additional analysis remains outstanding for:
-
-- unitelmatch.cc
-- unitelmatch.cyou
-
-Recommended collection activities include:
-
-- WHOIS
-- DNS
-- Passive DNS
-- Reverse DNS
-- SSL certificates
-- Certificate Transparency
-- Technology stack
-- Reputation
-- Historical DNS
-- Historical certificates
-
-These findings should be incorporated into Version 1.2 if additional evidence becomes available.
+- Historical Passive DNS prior to campaign discovery
+- Registrar account reuse across related domains
+- Shared hosting origin behind Cloudflare
+- Historical TLS certificate reuse
+- Additional infrastructure linked to ioutrankap.cyou
+- Cryptocurrency wallet attribution
+- Victim reporting from additional regions
 
 ---
 
 # Confidence Assessment
 
-| Assessment | Confidence |
-|------------|------------|
-| Domains participated in the same onboarding workflow              | High   |
-| Domains were introduced sequentially by the recruiter             | High   |
-| Recruiter supplied replacement portals following browser warnings | High   |
-| Infrastructure exhibits recurring technical characteristics       | Medium |
-| Domains share common operational management                       | Medium |
-| Attribution to a specific threat actor or organization            | Low    |
+| Assessment                                                | Confidence  |
+| --------------------------------------------------------- | ----------- |
+| Domains participated in the same recruitment workflow     | High        |
+| Infrastructure rotation occurred during active onboarding | High        |
+| Shared frontend architecture across replacement domains   | High        |
+| Shared backend API infrastructure                         | High        |
+| Common operational management is likely                   | Medium–High |
+| Attribution to a specific threat actor                    | Low         |
+
+---
+
+# Intelligence Value
+
+This document supports:
+
+- Infrastructure clustering
+- IOC enrichment
+- Threat hunting
+- Detection engineering
+- Campaign tracking
+- SOC investigations
+- Future infrastructure correlation
+- Intelligence sharing (STIX/MISP)
 
 ---
 
 # Related Documents
 
-- [Passive_DNS.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
-- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
-- [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
-- [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
-- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
-- [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
-- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
-- [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
+- [Application_Architecture.md]()
 - [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
+- [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
+- [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
+- [Confidence_Assessment.md]()
+- [Detection_Opportunities.md]()
+- [Detection/]()
+- [IOCs/]()
+- [MISP/]()
+- [STIX/]()
+- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Executive_Report.pdf]()
+- [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [Infrastructure_Evolution.md]()
+- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [Passive_DNS.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
+- [MITRE_ATTACK_Mapping.md]()
+- [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
+- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
+
+- []()
 
 ---
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store 
