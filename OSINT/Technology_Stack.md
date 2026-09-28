@@ -14,9 +14,9 @@
 
 # Objective
 
-This document identifies the technologies observed during the investigation, including publicly visible web technologies, infrastructure components, and operational technologies encountered during recruiter interactions.
+This document identifies the publicly observable technologies, application frameworks, infrastructure components, and operational technologies associated with the domains analysed during Operation Phantom Store. 
 
-The objective is to establish a technical profile of the infrastructure supporting the observed recruitment workflow while distinguishing between evidence collected from website fingerprinting and observations made during the investigation.
+The analysis combines passive website fingerprinting, infrastructure observations, and evidence collected during recruiter interactions to establish a defensible technical profile of the observed recruitment workflow. Only technologies directly observed during the investigation are documented; no conclusions are drawn regarding technologies that could not be verified through passive collection.
 
 ---
 
@@ -397,58 +397,93 @@ The following operational technologies were observed during recruiter interactio
 
 # Technology Assessment
 
-The investigation identified two distinct technology environments.
+The investigation identified two distinct technology environments supporting the observed recruitment workflow: a public-facing recruitment platform and a series of operational onboarding portals.
 
-## Recruitment Website
+## Recruitment Infrastructure
 
-The initial recruitment website (`occupationoasis.com`) is hosted within the Amazon Web Services ecosystem and uses a modern Vue.js/Nuxt.js application architecture.
+The initial recruitment website (`occupationoasis.com`) was hosted within the Amazon Web Services (AWS) ecosystem and employed a modern Vue.js/Nuxt.js application architecture.
 
-Observed supporting technologies include:
+Observed supporting technologies included:
 
 - Amazon Route 53
 - Amazon CloudFront
 - Amazon S3
+- AWS Certificate Manager
 - Google Analytics
 - Google Tag Manager
-- AWS Certificate Manager
+- TLS 1.3
+
+The infrastructure and application design were consistent with a professionally developed cloud-hosted web application. No publicly observable indicators suggested the use of a traditional Content Management System (CMS).
 
 ---
 
-## Operational Platforms
+## Operational Infrastructure
 
-The onboarding platforms (`linkroles.my` and `unitelmatch.top`) are protected by Cloudflare infrastructure.
+The onboarding platforms (`linkroles.my`, `unitelmatch.top`, `unitelmatch.cc`, and `unitelmatch.cyou`) consistently relied on Cloudflare services for DNS resolution, content delivery, and edge protection.
 
-While `unitelmatch.top` exposed a Vue.js application and Cloudflare Browser Insights, `linkroles.my` could not be fingerprinted using automated tools during the investigation.
+Passive fingerprinting identified recurring technical characteristics across the operational domains, including:
+
+- Vue.js-based frontend applications
+- Cloudflare CDN and DNS services
+- HTTP/3 and QUIC support (where observable)
+- Modern TLS configurations
+- Consistent application behaviour across successive domains
+
+Although automated fingerprinting produced different levels of visibility for individual domains, the overall technology profile remained consistent throughout the infrastructure evolution documented elsewhere in this investigation.
 
 ---
 
-## Operational Workflow
+## Observed Operational Workflow
 
-During recruiter-led onboarding, the analyst additionally observed:
+During recruiter-led onboarding sessions, the investigator additionally observed operational technologies associated with the recruitment workflow, including:
 
 - Cryptocurrency-related activity
-- Apparent use of OKX Wallet
-- Screenshots depicting cryptocurrency transfers within a "Customer Support" conversation
+- Apparent use of the OKX Wallet platform
+- Screenshots depicting cryptocurrency transfer confirmations within a "Customer Support" conversation
+- Recruiter-guided transitions between replacement onboarding portals
 
-These observations are documented as part of the operational workflow and are not sufficient, on their own, to determine the purpose or legitimacy of the transactions.
+These observations form part of the documented operational workflow and are included as contextual evidence. They do not, on their own, establish ownership, intent, or the legitimacy of any financial activity.
+
+Overall, the technology assessment indicates that while the public recruitment website and operational onboarding platforms differed in their hosting environments, the onboarding portals maintained a consistent application architecture and technology profile throughout the observed infrastructure evolution.
 
 ---
 
 # Key Observations
 
-The following observations are supported by the evidence collected:
+The following observations are directly supported by evidence collected during the investigation:
 
-1. `occupationoasis.com` employs a modern Vue.js/Nuxt.js application hosted entirely within Amazon Web Services.
+1. `occupationoasis.com` employed a modern Vue.js/Nuxt.js application hosted within the Amazon Web Services ecosystem, incorporating CloudFront, Route 53, Amazon S3, and AWS Certificate Manager.
 
-2. `linkroles.my` and `unitelmatch.top` rely on Cloudflare for DNS and edge infrastructure.
+2. The operational onboarding portals (`linkroles.my`, `unitelmatch.top`, `unitelmatch.cc`, and `unitelmatch.cyou`) consistently relied on Cloudflare infrastructure for DNS services, content delivery, and edge protection.
 
-3. `unitelmatch.top` exposes a Vue.js application and Cloudflare Browser Insights, while `linkroles.my` could not be fingerprinted by Wappalyzer during collection.
+3. Multiple operational domains exhibited recurring application characteristics, including Vue.js-based frontends, modern TLS configurations, and similar deployment patterns, supporting the documented infrastructure evolution.
 
-4. No publicly identifiable Content Management System (CMS) was observed for any of the three domains.
+4. Automated fingerprinting produced varying levels of visibility across domains. Where technologies could not be positively identified, no conclusions were drawn beyond the limitations of passive collection techniques.
 
-5. Recruiter interactions included observable cryptocurrency-related activity and apparent use of the OKX Wallet platform as part of the onboarding workflow.
+5. No publicly identifiable Content Management System (CMS) was observed on any of the analysed domains during the investigation.
 
-These observations describe technologies visible during the investigation and should not be interpreted as indicators of malicious activity without additional corroborating evidence.
+6. Recruiter-led onboarding included observable cryptocurrency-related activity, apparent use of the OKX Wallet platform, and screenshots depicting cryptocurrency transfer confirmations. These observations are documented as contextual evidence only and are not independently verified.
+
+7. The consistent technology profile observed across successive onboarding portals complements the infrastructure correlation, domain relationship, and application architecture analyses presented elsewhere in this investigation.
+
+These observations describe technologies and behaviours directly observed during the investigation. They should be interpreted alongside the supporting infrastructure, application architecture, and behavioural analyses rather than as standalone indicators of malicious activity.
+
+---
+
+# Confidence Assessment
+
+| Finding | Confidence |
+|---------|------------|
+| AWS technology stack identified for occupationoasis.com                              | High   |
+| Cloudflare infrastructure identified for linkroles.my                                | High   |
+| Cloudflare infrastructure identified for unitelmatch.top                             | High   |
+| Vue.js identified on occupationoasis.com                                             | High   |
+| Vue.js identified on unitelmatch.top                                                 | High   |
+| No identifiable CMS observed                                                         | Medium |
+| Cryptocurrency-related activity observed during training                             | High   |
+| OKX Wallet interface observed during training                                        | High   |
+| unitelmatch.cc shares technology characteristics with earlier onboarding platforms   | High   |
+| unitelmatch.cyou shares technology characteristics with earlier onboarding platforms | High   |
 
 ---
 
@@ -486,31 +521,18 @@ These observations describe technologies visible during the investigation and sh
 
 ---
 
-# Confidence Assessment
-
-| Finding | Confidence |
-|---------|------------|
-| AWS technology stack identified for occupationoasis.com  | High   |
-| Cloudflare infrastructure identified for linkroles.my    | High   |
-| Cloudflare infrastructure identified for unitelmatch.top | High   |
-| Vue.js identified on occupationoasis.com                 | High   |
-| Vue.js identified on unitelmatch.top                     | High   |
-| No identifiable CMS observed                             | Medium |
-| Cryptocurrency-related activity observed during training | High   |
-| OKX Wallet interface observed during training            | High   |
-
----
-
 # Related Documents
 
-- [Domain_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
-- [Passive_DNS.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
-- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Application_Architecture.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Application_Architecture.md)
 - [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
+- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Domain_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
+- [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
 - [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [Infrastructure_Evolution.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Evolution.md)
+- [Passive_DNS.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
 - [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
 - [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
 
 ---
 
@@ -519,7 +541,7 @@ These observations describe technologies visible during the investigation and sh
 | Version | Date | Change |
 |---------|------|--------|
 | 1.0 | 2026-08-27 | Initial investigation methodology created. |
-| 2.0 | Xxxx |
+| 2.0 | 2026-09-28 | Expanded analysis from three to five observed domains; added technology profiles for unitelmatch.cc and unitelmatch.cyou; updated technology comparison matrix; documented observed financial technologies and recruiter workflow; added evidence and confidence sections; aligned terminology with the Operation Phantom Store repository; and updated related documents and metadata. |
 
 ---
 
