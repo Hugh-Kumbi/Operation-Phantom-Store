@@ -67,7 +67,7 @@ No conclusions were based on a single unsupported source.
 | Evidence Source | Reliability | Notes |
 |-----------------|-------------|-------|
 | Recruiter conversations       | High   | First-hand observations recorded during the investigation.               |
-| Screenshots                   | High   | Captured directly by the analyst.                                        |
+| Screenshots                   | High   | Captured directly by the investigator.                                   |
 | DNS records                   | High   | Retrieved from authoritative public sources.                             |
 | WHOIS records                 | High   | Public registry information.                                             |
 | Certificate Transparency logs | High   | Independent certificate records.                                         |
@@ -113,14 +113,14 @@ The domains were directly observed during the investigation and independently ve
 
 ### Assessment
 
-The recruiter followed a structured process designed to guide the analyst through account creation and platform onboarding.
+The recruiter followed a structured process designed to guide the investigator through account creation and platform onboarding.
 
 ### Supporting Evidence
 
 - Conversation transcripts
 - Timeline
 - Screenshots
-- Analyst notes
+- investigator notes
 
 ### Confidence
 
@@ -128,7 +128,7 @@ The recruiter followed a structured process designed to guide the analyst throug
 
 ### Rationale
 
-The analyst directly participated in the onboarding process and documented each stage.
+The investigator directly participated in the onboarding process and documented each stage.
 
 ---
 
@@ -177,7 +177,7 @@ Cryptocurrency-related material formed part of the onboarding process.
 
 ### Rationale
 
-The analyst directly observed cryptocurrency-related content during training.
+The investigator directly observed cryptocurrency-related content during training.
 
 No financial participation occurred.
 
@@ -390,7 +390,7 @@ The investigation considered the following potential biases:
 
 ## Observer Bias
 
-The analyst participated directly in the onboarding process.
+The investigator participated directly in the onboarding process.
 
 Mitigation:
 
@@ -494,7 +494,7 @@ The investigation's strongest conclusions relate to:
 - Domain relationships
 - Social engineering workflow
 
-These conclusions are supported by multiple independent evidence sources and direct analyst observations.
+These conclusions are supported by multiple independent evidence sources and direct investigator observations.
 
 Conclusions regarding attribution, campaign scale, and organizational structure remain tentative due to the absence of corroborating evidence.
 

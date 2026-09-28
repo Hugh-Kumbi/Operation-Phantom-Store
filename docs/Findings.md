@@ -2,13 +2,13 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected multi-domain remote-recruitment phishing campaign 
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign 
 
 **Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
 **Status:** Investigation Complete
 
-**Version:** 1.1
+**Version:** 2.0
 
 ---
 
@@ -350,11 +350,6 @@ By documenting infrastructure, operational workflows, social engineering techniq
 
 The resulting intelligence should be viewed as an evidence-based assessment rather than definitive attribution. Future investigations incorporating additional data sources may further refine these conclusions.
 
-## Change log
-| Version | Date | Change |
-|---------|------|--------|
-| 2.0 | 2026-09-17 | Expanded investigative findings following identification of unitelmatch.cc and unitelmatch.cyou, including browser security warnings, recruiter-supplied replacement infrastructure, and updated campaign assessment. |
-
 ---
 
 # Related Documents
@@ -375,6 +370,13 @@ The resulting intelligence should be viewed as an evidence-based assessment rath
 - [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
 - [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
 - [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
+
+---
+
+# Change Log
+| Version | Date | Change |
+|---------|------|--------|
+| 2.0 | 2026-09-17 | Expanded investigative findings following identification of `unitelmatch.cc` and `unitelmatch.cyou`, including browser security warnings, recruiter-supplied replacement infrastructure, and updated campaign assessment. |
 
 ---
 

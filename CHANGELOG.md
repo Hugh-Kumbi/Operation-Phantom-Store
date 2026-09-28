@@ -152,6 +152,7 @@ Included:
 - Enhanced Detection Opportunities with Sigma, Splunk, Microsoft Sentinel (KQL), and Suricata detections.
 - Updated the Confidence Assessment to reflect the expanded evidence base and revised analytical confidence.
 - Revised the Executive Report and presentation to align with the completed investigation.
+- Updated `Executive_Summary.md` to Version 2.0. Reflected the transition from an active OSINT investigation to a completed CTI case study, expanded campaign coverage from three to five observed domains, incorporated backend infrastructure correlation, updated investigation scope and objectives, revised confidence and status sections, and synchronized the document with the final intelligence package.
 
 ### Security Intelligence
 

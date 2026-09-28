@@ -2,7 +2,7 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Remote Recruitment Platform
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign 
 
 **Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
@@ -298,14 +298,6 @@ Future investigations of similar campaigns should:
 
 ---
 
-# Change Log
-
-| Version | Date | Change |
-|---------|------|--------|
-| 2.0 | 2026-09-24 | Expanded lessons to reflect the transition from a single-domain investigation to a multi-domain campaign analysis; added lessons regarding infrastructure rotation, backend correlation, browser security warnings, and evidence preservation; and updated recommended screenshots and related documentation. |
-
----
-
 # Related Documents
 
 - [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
@@ -321,6 +313,14 @@ Future investigations of similar campaigns should:
 - [Methodology.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Methodology.md)
 - [MITRE_ATT&CK_Mapping.md.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
 - [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
+
+---
+
+# Change Log
+
+| Version | Date | Change |
+|---------|------|--------|
+| 2.0 | 2026-09-24 | Expanded lessons to reflect the transition from a single-domain investigation to a multi-domain campaign analysis; added lessons regarding infrastructure rotation, backend correlation, browser security warnings, and evidence preservation; and updated recommended screenshots and related documentation. |
 
 ---
 
