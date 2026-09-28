@@ -6,7 +6,7 @@
 
 **Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
-**Status:** Investigation Updated
+**Status:** Investigation Complete
 
 **Version:** 2.0
 
@@ -16,8 +16,7 @@
 
 This document assesses the external reputation of the domains identified during the investigation using publicly available threat intelligence and reputation services.
 
-The analysis incorporates observations from:
-
+- The analysis incorporates observations from:
 - VirusTotal
 - URLScan.io
 - Google Safe Browsing
@@ -26,7 +25,7 @@ The analysis incorporates observations from:
 - Browser security warnings
 - Passive OSINT
 
-The objective is to determine whether the observed domains had previously been identified as malicious, suspicious, or associated with phishing activity, and to examine how their reputation evolved throughout the campaign.
+The objective is to determine whether publicly available reputation services had identified the observed domains as malicious, suspicious, or associated with phishing activity at the time of collection, and to examine how their reputation evolved throughout the campaign.
 
 ---
 
@@ -44,13 +43,13 @@ The objective is to determine whether the observed domains had previously been i
 
 # Reputation Summary
 
-| Domain | Overall Assessment |
-|--------|--------------------|
-| occupationoasis.com | Legitimate / Professional Marketing Site |
-| linkroles.my        | Highly Suspicious                        |
-| unitelmatch.top     | Confirmed Malicious                      |
-| unitelmatch.cc      | Confirmed Malicious                      |
-| unitelmatch.cyou    | Confirmed Malicious                      |
+| Domain              | Reputation Assessment                                                                          |
+| ------------------- | ---------------------------------------------------------------------------------------------- |
+| occupationoasis.com | No significant reputation indicators observed                                                  |
+| linkroles.my        | Suspicious; browser security warning observed                                                  |
+| unitelmatch.top     | Multiple public reputation detections                                                          |
+| unitelmatch.cc      | Multiple public reputation detections and browser warning observed                             |
+| unitelmatch.cyou    | Limited public reputation data; technically correlated with previously observed infrastructure |
 
 ---
 
@@ -170,6 +169,8 @@ Suspicious
 
 During the investigation, Google Chrome displayed a security warning identifying the website as dangerous.
 
+Google Safe Browsing warning was observed directly by the investigator and preserved within the evidence register.
+
 This warning prompted the recruiter to migrate the investigation to another operational portal.
 
 ---
@@ -228,7 +229,7 @@ Protected by Cloudflare.
 
 ## Assessment
 
-This represents the first observed operational portal that had accumulated multiple malicious classifications.
+This was the first observed onboarding portal for which multiple public reputation services reported malicious or phishing-related classifications.
 
 ---
 
@@ -271,6 +272,8 @@ Likely influenced by Cloudflare protections.
 ## Assessment
 
 The browser warning and immediate domain migration represent one of the strongest behavioural indicators observed during the investigation.
+
+The immediate transition to an alternate domain following the browser warning provides behavioural context that complements, but does not replace, technical evidence.
 
 ---
 
@@ -318,7 +321,7 @@ The domain appears to have been deployed before widespread reputation systems ha
 
 ## Assessment
 
-Although public reputation services had not yet classified the domain as malicious, its infrastructure, application behaviour, and structural similarity strongly aligned with previously identified operational portals.
+Although public reputation services had not yet classified the domain as malicious, its infrastructure, application behaviour, and structural similarity exhibited technical characteristics consistent with previously identified operational portals.
 
 ---
 
@@ -334,7 +337,7 @@ Although public reputation services had not yet classified the domain as malicio
 
 ---
 
-# Behavioural Observations
+# Observed Infrastructure Rotation
 
 Throughout the investigation, the recruiter repeatedly migrated victims between newly registered domains.
 
@@ -384,7 +387,19 @@ The reputation analysis demonstrates a clear divergence between the recruitment 
 - Shared infrastructure.
 - Frequent domain rotation.
 
-While reputation data alone is insufficient to establish malicious intent, it provides valuable supporting evidence when considered alongside the infrastructure, application, and behavioural analysis documented elsewhere in this investigation.
+While reputation data alone is insufficient to establish malicious intent, it provides valuable supporting evidence when considered alongside the infrastructure, application, and behavioural analysis documented elsewhere in this investigation. Reputation data should be interpreted alongside infrastructure analysis, application fingerprinting, behavioural observations, and preserved evidence rather than in isolation.
+
+---
+
+# Confidence Assessment
+
+| Assessment                                                                                                    | Confidence                      |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| Browser security warnings were observed during the investigation                                              | High                            |
+| Public reputation services identified `unitelmatch.top` and `unitelmatch.cc` as malicious or phishing-related | High                            |
+| `unitelmatch.cyou` shared technical characteristics with previously observed infrastructure                   | Medium                          |
+| Domain rotation occurred in response to operational disruption or browser warnings                            | Medium                          |
+| All onboarding domains were operated by the same threat actor                                                 | Low (not directly attributable) |
 
 ---
 
@@ -437,13 +452,15 @@ While reputation data alone is insufficient to establish malicious intent, it pr
 
 | Version | Date | Change |
 |---------|------|--------|
-| 2.0 | 2026-09-24 | AAdded reputation analysis for `unitelmatch.cc` and `unitelmatch.cyou`; expanded analysis from three to five domains; documented Google Safe Browsing warnings; added infrastructure rotation analysis; correlated browser warnings with recruiter behaviour; and included URLScan structural similarity observations. |
-
+| 1.0 | 2026-08-27 | Initial investigation methodology created. |
+| 1.1 | 2026-09-24 | AAdded reputation analysis for `unitelmatch.cc` and `unitelmatch.cyou`; expanded analysis from three to five domains; documented Google Safe Browsing warnings; added infrastructure rotation analysis; correlated browser warnings with recruiter behaviour; and included URLScan structural similarity observations. |
+| 2.1 | 2026-09-28 | Refined reputation assessments using evidence-based language; replaced categorical labels with observed public reputation indicators; added Confidence Assessment and Evidence sections; expanded behavioural analysis of infrastructure rotation; aligned terminology with the Operation Phantom Store repository; and updated document metadata and references. |
 ---
 
 ## Document Information
 
-**Last Updated:**      september 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
+**Review Status:**     Portfolio Release Candidate
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
