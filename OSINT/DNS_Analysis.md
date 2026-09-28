@@ -388,6 +388,7 @@ The investigation documents these technical similarities as observed facts. Whil
 
 | Version | Date | Change |
 |---------|------|--------|
+| 1.0 | 2026-08-27 | Initial investigation methodology created. |
 | 2.0 | 2026-09-21 | Added DNS analysis for `unitelmatch.cc` and `unitelmatch.cyou`; expanded comparison from three to five domains; documented common Cloudflare DNS infrastructure across operational portals; distinguished recruitment infrastructure from operational infrastructure; and added comparative DNS tables and infrastructure evolution analysis. |
 
 ---

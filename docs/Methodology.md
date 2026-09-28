@@ -2,11 +2,11 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Remote Recruitment Platform
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign
 
 **Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
-**Version:** 1.0
+**Version:** 2.0
 
 ---
 
@@ -17,6 +17,8 @@ This document describes the methodology used throughout the investigation.
 The objective of establishing a documented methodology is to ensure that evidence collection, analysis, reporting, and conclusions are performed in a consistent, repeatable, and evidence-based manner.
 
 The methodology combines industry-recognized cybersecurity investigation practices with passive Open Source Intelligence (OSINT) techniques appropriate for publicly accessible information.
+
+The methodology evolved throughout the investigation as additional infrastructure was identified and correlated. While the investigation began as a passive OSINT assessment of a single recruitment website, it expanded into a structured Cyber Threat Intelligence (CTI) case study documenting a multi-domain campaign exhibiting consistent infrastructure, application architecture, and operational behavior.
 
 ---
 
@@ -31,6 +33,10 @@ The investigation was conducted according to the following principles:
 - Clear separation of facts, observations, assessments, and hypotheses
 - Respect for legal and ethical boundaries
 - Protection of personal information through redaction where appropriate
+- Reproducibility of analytical findings
+- Correlation across multiple independent data sources
+- Separation of observable evidence from analytical assessment
+- Traceability from findings to supporting evidence
 
 No conclusions are presented unless supported by collected evidence.
 
@@ -38,10 +44,14 @@ No conclusions are presented unless supported by collected evidence.
 
 # Scope
 
-The investigation focuses on publicly observable information relating to a remote recruitment workflow.
+The investigation focuses on the collection, preservation, and analysis of publicly observable artifacts associated with a suspected multi-domain recruitment campaign. The scope includes infrastructure analysis, application fingerprinting, backend correlation, social engineering observations, and production of intelligence products suitable for defensive use.
 
 Activities included:
 
+- Publicly available information
+- Passive OSINT
+- Voluntary interactions initiated by the recruiter
+- Technical observations of publicly accessible web resources
 - Recruiter communication analysis
 - Website observation
 - Domain intelligence
@@ -49,6 +59,14 @@ Activities included:
 - Passive reputation analysis
 - Website technology identification
 - Social engineering assessment
+- Certificate Transparency analysis
+
+Analysis & Outputs included:
+
+- Detection engineering
+- IOC development
+- STIX 2.1 modelling
+- MISP intelligence sharing
 
 The investigation excludes:
 
@@ -58,6 +76,7 @@ The investigation excludes:
 - Malware execution
 - Active network scanning against third-party infrastructure
 - Service disruption
+- Credential attacks
 
 ---
 
@@ -75,25 +94,31 @@ Evidence Preservation
 Recruiter Communication Analysis
         │
         ▼
-OSINT Collection
+Infrastructure Discovery
         │
         ▼
-Domain Intelligence
+Passive DNS Collection
         │
         ▼
-Infrastructure Analysis
+DNS Analysis
         │
         ▼
-Technology Fingerprinting
+Certificate Analysis
         │
         ▼
-Reputation Assessment
+Application Architecture Analysis
         │
         ▼
-Social Engineering Analysis
+Infrastructure Correlation
         │
         ▼
-Risk Assessment
+Threat Intelligence Analysis
+        │
+        ▼
+Detection Engineering
+        │
+        ▼
+IOC Production
         │
         ▼
 Reporting
@@ -103,7 +128,7 @@ Reporting
 
 # Phase 1 – Case Initiation
 
-The investigation began after the analyst applied for a remote position advertised through the Occupation Oasis recruitment platform.
+The investigation began after the investigator applied for a remote position advertised through the Occupation Oasis recruitment platform.
 
 A case file was created to document:
 
@@ -139,8 +164,8 @@ Example:
 |-------------|-------------|
 | [EV-001-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-001-01.png), [EV-001-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-001-02.png), [EV-001-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-001-03.png), [EV-001-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-001-04.png) | Occupation Oasis job advertisement |
 | [EV-002-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-002-01.png) | Initial recruiter communication |
-| [EV-009-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-009-01.png) | Registration URL |
-| [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png), [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png), [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png) | Google Safe Browsing warning |
+| [EV-009-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-009-01.png) | Registration website – `linkroles.my` |
+| [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png), [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png), [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png) | Google Safe Browsing warnings |
 
 ---
 
@@ -185,7 +210,26 @@ Changes in infrastructure over time were documented separately to establish an o
 
 ---
 
-# Phase 5 – Social Engineering Analysis
+# Phase 5 – Infrastructure Correlation
+
+Infrastructure artifacts collected from each domain were compared to identify shared characteristics.
+
+Correlation included:
+
+- Cloudflare name servers
+- Hosting providers
+- TLS certificate issuance patterns
+- Application fingerprints
+- Shared JavaScript bundles
+- Shared backend API
+- Merchant identifier
+- API endpoint structure
+
+This phase enabled the identification of multiple domains operating as components of a single infrastructure cluster rather than independent websites.
+
+---
+
+# Phase 6 – Social Engineering Analysis
 
 Recruiter communications were analyzed to identify recurring themes and techniques observed during the recruitment process.
 
@@ -202,7 +246,7 @@ Descriptions are limited to observed behaviors and do not infer intent without s
 
 ---
 
-# Phase 6 – Risk Assessment
+# Phase 7 – Risk Assessment
 
 Each finding was evaluated using a qualitative risk model based on:
 
@@ -212,6 +256,36 @@ Each finding was evaluated using a qualitative risk model based on:
 - Confidence level
 
 Risk assessments are intended to assist readers in prioritizing areas for further investigation rather than to provide definitive conclusions.
+
+---
+
+# Phase 8 – Detection Engineering
+
+Technical artifacts identified during the investigation were translated into defensive detection content.
+
+Detection artifacts include:
+
+- Sigma rules
+- Microsoft Sentinel (KQL)
+- Splunk SPL
+- Suricata IDS signatures
+
+The purpose of these detections is to enable identification of similar infrastructure and behaviors within enterprise environments.
+
+---
+
+# Phase 9 – Threat Intelligence Production
+
+Structured intelligence products were generated to facilitate information sharing.
+
+Outputs include:
+
+- STIX 2.1 bundle
+- MISP event
+- IOC feeds (CSV, JSON, TXT)
+- Executive report
+- PowerPoint presentation
+- CTI documentation
 
 ---
 
@@ -238,7 +312,7 @@ An event personally witnessed during the investigation.
 
 Example:
 
-> The analyst observed a Google Safe Browsing warning when attempting to access the onboarding platform.
+> The investigator observed a Google Safe Browsing warning when attempting to access the onboarding platform.
 
 ---
 
@@ -304,7 +378,7 @@ Accordingly, the investigation should be viewed as a point-in-time assessment ba
 
 This investigation was conducted in accordance with responsible cybersecurity research practices.
 
-The analyst did not:
+The investigator did not:
 
 - Attempt unauthorized access
 - Exploit vulnerabilities
@@ -323,16 +397,52 @@ This methodology is informed by publicly available cybersecurity guidance, inclu
 - NIST Special Publication 800-61 Rev. 2 – *Computer Security Incident Handling Guide*
 - NIST Special Publication 800-86        – *Guide to Integrating Forensic Techniques into Incident Response*
 - MITRE ATT&CK Framework
+- MITRE ATT&CK Enterprise Matrix
+- MITRE CTI Best Practices
 - Diamond Model of Intrusion Analysis
 - OSINT best practices for passive intelligence collection
+- STIX™ Version 2.1 Specification (OASIS)
+- MISP Project Documentation
+- Sigma Rule Specification
 
 These references informed the investigation approach but were adapted to fit the scope of a passive, evidence-based OSINT case study.
 
 ---
 
+# Related Documents
+
+The methodology described in this document is implemented throughout the repository and is supported by the following analyses:
+
+- [Application_Architecture.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Application_Architecture.md)
+- [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
+- [Confidence_Assessment.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
+- [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
+- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Domain_Relationships.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
+- [Executive_Summary.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Executive_Summary.md)
+- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+- [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [Infrastructure_Evolution.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Evolution.md)
+- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
+- [Passive_DNS.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
+- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
+
+---
+
+# Change Log
+
+| Version | Date | Change |
+|---------|------|--------|
+| 1.0 | 2026-08-11 | Initial investigation methodology created. |
+| 2.0 | 2026-09-28 |  Updated methodology to align with the completed Operation Phantom Store investigation. Added infrastructure correlation, application architecture analysis, detection engineering, threat intelligence production, expanded lifecycle, updated references, and related document cross-references. |
+
+---
+
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     

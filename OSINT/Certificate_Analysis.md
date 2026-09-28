@@ -356,6 +356,7 @@ These characteristics strengthen the correlation between the operational domains
 
 | Version | Date | Change |
 |---------|------|--------|
+| 1.0 | 2026-08-28 | Initial investigation methodology created. |
 | 2.0 | 2026-09-24 | Added certificate analysis for `unitelmatch.cc` and `unitelmatch.cyou`; expanded comparison from three to five domains; added certificate issuance timeline; documented Cloudflare-managed certificate provisioning; added certificate relationship analysis; and included certificate lifecycle observations. |
 
 ---

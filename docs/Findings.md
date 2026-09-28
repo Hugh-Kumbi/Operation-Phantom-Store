@@ -376,6 +376,7 @@ The resulting intelligence should be viewed as an evidence-based assessment rath
 # Change Log
 | Version | Date | Change |
 |---------|------|--------|
+| 1.0 | 2026-08-21 | Initial investigation methodology created. |
 | 2.0 | 2026-09-17 | Expanded investigative findings following identification of `unitelmatch.cc` and `unitelmatch.cyou`, including browser security warnings, recruiter-supplied replacement infrastructure, and updated campaign assessment. |
 
 ---

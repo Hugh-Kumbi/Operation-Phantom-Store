@@ -300,6 +300,7 @@ No conclusions regarding malicious intent or fraudulent activity are presented i
 # Change Log
 | Version | Date | Change |
 |---------|------|--------|
+| 1.0 | 2026-08-24 | Initial investigation methodology created. |
 | 2.0 | 2026-09-17 | Updated Campaign Overview to document expansion from three to five observed operational domains and added infrastructure evolution narrative. |
 
 ---

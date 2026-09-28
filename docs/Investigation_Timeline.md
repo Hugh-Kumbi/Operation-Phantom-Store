@@ -286,14 +286,6 @@ These observations are supported by recruiter communications, screenshots, inves
 
 ---
 
-# Change Log
-
-| Version | Date | Change |
-|---------|------|--------|
-| 2.0 | 2026-09-17 | Updated Campaign Overview to document expansion from three to five observed operational domains and added infrastructure evolution narrative. |
-
----
-
 # Related Documents
 
 - [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
@@ -305,6 +297,15 @@ These observations are supported by recruiter communications, screenshots, inves
 - [Evidence_Register.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Evidence_Register.md)
 - [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
 - [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+
+---
+
+# Change Log
+
+| Version | Date | Change |
+|---------|------|--------|
+| 1.0 | 2026-08-30 | Initial investigation methodology created. |
+| 2.0 | 2026-09-17 | Updated Campaign Overview to document expansion from three to five observed operational domains and added infrastructure evolution narrative. |
 
 ---
 

@@ -320,6 +320,7 @@ Future investigations of similar campaigns should:
 
 | Version | Date | Change |
 |---------|------|--------|
+| 1.0 | 2026-08-03 | Initial investigation methodology created. |
 | 2.0 | 2026-09-24 | Expanded lessons to reflect the transition from a single-domain investigation to a multi-domain campaign analysis; added lessons regarding infrastructure rotation, backend correlation, browser security warnings, and evidence preservation; and updated recommended screenshots and related documentation. |
 
 ---
