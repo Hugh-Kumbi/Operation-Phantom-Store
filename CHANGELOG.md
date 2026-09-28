@@ -126,6 +126,49 @@ Included:
 
 ---
 
+## [2.0] - 2026-09-28
+
+### Added
+
+- Added analysis of `unitelmatch.cc` and `unitelmatch.cyou`.
+- Expanded campaign timeline to document continued domain rotation.
+- Added Application Architecture documentation.
+- Added YARA detection rule and supporting documentation.
+- Added machine-readable IOC feeds (CSV, JSON, TXT).
+- Added STIX 2.1 and MISP intelligence exports.
+- Added comprehensive PowerPoint presentation.
+- Added professionally formatted Executive Report.
+- Added infrastructure evolution analysis.
+- Added campaign evolution documentation.
+
+### Changed
+
+- Renamed the project to **Operation Phantom Store**.
+- Updated Campaign Overview to reflect the complete campaign lifecycle.
+- Expanded Infrastructure Analysis with backend API correlation.
+- Updated DNS, Passive DNS, Certificate, Reputation, and Domain analyses.
+- Revised Findings to incorporate additional infrastructure and campaign evidence.
+- Updated Indicators of Compromise with newly identified domains, IPs, certificates, and behavioral indicators.
+- Enhanced Detection Opportunities with Sigma, Splunk, Microsoft Sentinel (KQL), and Suricata detections.
+- Updated the Confidence Assessment to reflect the expanded evidence base and revised analytical confidence.
+- Revised the Executive Report and presentation to align with the completed investigation.
+
+### Security Intelligence
+
+- Confirmed infrastructure reuse across multiple frontend domains.
+- Identified consistent backend communications with `ioutrankap.cyou`.
+- Confirmed shared `merchant-id: 42` across campaign infrastructure.
+- Documented repeated use of Cloudflare proxying and short-lived TLS certificates.
+- Correlated multiple domains into a single phishing infrastructure cluster using technical indicators rather than domain reputation alone.
+
+### Documentation
+
+- Standardized terminology and document structure across the repository.
+- Added cross-references between OSINT, CTI, detection engineering, and reporting documents.
+- Improved versioning and repository organization.
+
+---
+
 ## Document Information
 
 **Last Updated:**      September 2026  

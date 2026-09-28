@@ -2,7 +2,7 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected multi-domain remote-recruitment phishing campaign 
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign 
 
 **Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 

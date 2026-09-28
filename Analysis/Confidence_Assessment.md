@@ -1,14 +1,14 @@
-    # Confidence Assessment
+# Confidence Assessment
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Remote Recruitment Platform
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign 
 
-**Classification:** Cyber Threat Intelligence (CTI)
+**Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
 **Status:** Investigation Complete
 
-**Version:** 1.0
+**Version:** 2.0
 
 ---
 
@@ -49,6 +49,14 @@ The investigation relied on multiple independent evidence sources, including:
 - Technology fingerprinting
 - Public reputation services
 - Passive OSINT
+- URLScan
+- VirusTotal
+- BuiltWith
+- Wappalyzer
+- Censys
+- Cloudflare observations
+- Browser Developer Tools
+- HTTP request analysis
 
 No conclusions were based on a single unsupported source.
 
@@ -75,11 +83,13 @@ No conclusions were based on a single unsupported source.
 
 ### Assessment
 
-The recruitment process involved three separate domains:
+The recruitment process involved five separate domains:
 
 - occupationoasis.com
 - linkroles.my
 - unitelmatch.top
+- unitelmatch.cc
+- unitelmatch.cyou
 
 ### Supporting Evidence
 
@@ -126,13 +136,13 @@ The analyst directly participated in the onboarding process and documented each 
 
 ### Assessment
 
-A browser warning for `linkroles.my` was immediately followed by recruiter instructions to continue using `unitelmatch.top`.
+A browser warning for `linkroles.my` was immediately followed by recruiter instructions to continue using `unitelmatch.top`. Subsequent recruiter communications directed the transition to `unitelmatch.cc`, and later to `unitelmatch.cyou`, establishing a multi-stage domain migration chain.
 
 ### Supporting Evidence
 
-- Browser warning
-- Recruiter messages
-- Timeline
+- Browser warning (`linkroles.my`; `unitelmatch.top`; `unitelmatch.cc`; `unitelmatch.cyou`)
+- Recruiter messages directing each domain transition
+- Timeline of domain migration sequence
 - Screenshots
 
 ### Confidence
@@ -141,9 +151,11 @@ A browser warning for `linkroles.my` was immediately followed by recruiter instr
 
 ### Rationale
 
-The sequence was directly observed and recorded.
+The migration sequence was directly observed and recorded via recruiter chat instructions. The chain progressed as follows:
 
-The investigation does not infer why the migration occurred beyond the observable evidence.
+`linkroles.my` → `unitelmatch.top` → `unitelmatch.cc` → `unitelmatch.cyou`
+
+The investigation does not infer why the migrations occurred beyond the observable evidence.
 
 ---
 
@@ -196,7 +208,68 @@ However, the use of legitimate cloud services is not, by itself, evidence of mal
 
 ---
 
-## Finding 6 — Coordinated Campaign
+## Finding 6 — Shared Backend Infrastructure
+
+### Assessment
+
+Multiple frontend domains communicated with a common backend application.
+
+### Supporting Evidence
+
+- Shared API paths
+- Shared backend
+- merchant-id: 42
+- Vue.js application fingerprints
+- Cloudflare configuration
+- Infrastructure analysis
+
+### Confidence
+
+**High**
+
+### Rationale
+
+The same backend architecture was observed across multiple domains despite domain rotation, indicating infrastructure reuse rather than independent deployments.
+
+---
+
+## Finding 7 — Infrastructure Rotation Strategy
+
+### Assessment
+
+Across the observed domain migration chain (`linkroles.my` → `unitelmatch.top` → `unitelmatch.cc` → `unitelmatch.cyou`), the underlying infrastructure remained consistent despite the front-end domain changes. The following elements were preserved across rotations:
+
+- Backend infrastructure
+- APIs
+- JavaScript
+- Cloudflare
+- Certificates
+- merchant-id
+
+This indicates a deliberate infrastructure rotation strategy in which only the domain layer is changed, while the operational backend is reused.
+
+### Supporting Evidence
+
+- Domain migration chain (see Finding 3)
+- Backend/API consistency across domains
+- Reused JavaScript artifacts
+- Cloudflare configuration overlap
+- Certificate analysis
+- merchant-id persistence
+
+### Confidence
+
+**High**
+
+### Rationale
+
+The preserved elements were directly observed and correlated across each domain in the migration chain. The consistency of backend, API, JavaScript, Cloudflare, certificate, and merchant-id indicators across otherwise distinct domains supports the assessment that domain rotation rather than full infrastructure replacement is the operational pattern.
+
+The investigation does not infer the intent behind this strategy beyond the observable technical evidence.
+
+---
+
+## Finding 8 — Coordinated Campaign
 
 ### Assessment
 
@@ -207,20 +280,32 @@ The observed workflow appears coordinated across multiple domains and recruiter 
 - Timeline reconstruction
 - Infrastructure analysis
 - Recruiter communications
+- Five distinct domains
+- Shared backend
+- Shared merchant-id
+- Shared API
+- Shared frontend
+- Recruiter directing victims between domains
 
 ### Confidence
 
-**Medium**
+**High**
 
 ### Rationale
 
-The workflow was consistent and structured.
+The workflow was consistent and structured. Confidence is assessed as High based on the convergence of multiple independent indicators:
+
+- Five distinct domains were identified within the campaign.
+- The same backend, merchant-id, API, and frontend were reused across those domains.
+- The recruiter directed victims between domains as part of the workflow.
+
+Taken together, these indicators demonstrate coordination at a level well beyond what would be expected from isolated or coincidental activity. This represents a significant strengthening from the original Medium assessment, which was based on a narrower evidence set.
 
 However, the investigation observed only a single recruiter and cannot determine the size or organizational structure behind the campaign.
 
 ---
 
-## Finding 7 — Threat Actor Attribution
+## Finding 9 — Threat Actor Attribution
 
 ### Assessment
 
@@ -343,10 +428,12 @@ This investigation did not include:
 - Law enforcement intelligence
 - Blockchain analytics
 - Payment records
-- Backend access
+- Direct access to backend server infrastructure
+- Server-side application source code
+- Administrative interfaces
+- Authentication databases
 - Malware samples
 - Source code
-- Administrative interfaces
 - Private infrastructure information
 
 Consequently, attribution and campaign scope remain limited.
@@ -355,22 +442,45 @@ Consequently, attribution and campaign scope remain limited.
 
 # Confidence by Analysis Area
 
-| Analysis Area | Confidence |
-|---------------|------------|
-| Recruiter Communications    | High   |
-| Timeline Reconstruction     | High   |
-| DNS Analysis                | High   |
-| WHOIS Analysis              | High   |
-| Certificate Analysis        | High   |
-| Technology Stack            | High   |
-| Infrastructure Analysis     | High   |
-| Social Engineering Analysis | High   |
-| MITRE ATT&CK Mapping        | Medium |
-| Diamond Model               | Medium |
-| Detection Opportunities     | Medium |
-| Campaign Attribution        | Low    |
-| Cryptocurrency Attribution  | Low    |
-| Campaign Scale              | Low    |
+| Analysis Area               | Confidence |
+| --------------------------- | ---------- |
+| Recruiter Communications    | High       |
+| Timeline Reconstruction     | High       |
+| Infrastructure Correlation  | High       |
+| Backend Architecture        | High       |
+| Passive DNS                 | High       |
+| DNS Analysis                | High       |
+| Certificate Analysis        | High       |
+| Technology Stack            | High       |
+| Domain Relationships        | High       |
+| Social Engineering Analysis | High       |
+| Detection Engineering       | High       |
+| MITRE ATT&CK Mapping        | Medium     |
+| Diamond Model               | Medium     |
+| Campaign Attribution        | Low        |
+| Threat Actor Attribution    | Low        |
+
+
+---
+
+# Confidence in Infrastructure Correlation
+
+## Assessment:
+
+High
+
+## Supporting observations include:
+
+- Shared backend API
+- merchant-id: 42
+- Vue.js SPA
+- Cloudflare
+- Common API paths
+- Infrastructure migration
+- Matching JavaScript behavior
+- Common request patterns
+
+This is one of the strongest conclusions of the investigation.
 
 ---
 
@@ -404,21 +514,36 @@ This assessment reflects a fundamental principle of cyber threat intelligence: c
 
 # Related Documents
 
-- [Methodology.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Methodology.md)
-- [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
-- [Intelligence_Gaps.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Intelligence_Gaps.md)
+- [Application_Architecture.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Application_Architecture.md)
 - [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
-- [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
-- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
+- [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
 - [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Domain_Relationships.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
+- [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
+- [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
 - [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+- [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [Infrastructure_Evolution.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Evolution.md)
+- [Intelligence_Gaps.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Intelligence_Gaps.md)
+- [Methodology.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Methodology.md)
+- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
+- [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
+- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
+
+---
+
+# Change Log
+
+| Version | Date | Change |
+|---------|------|--------|
+| 2.0 | 2026-09-28 | Updated the assessment to reflect the expanded **Operation Phantom Store** investigation. Added findings for the `unitelmatch.cc` and `unitelmatch.cyou` domains, incorporated backend infrastructure correlation and domain rotation analysis, revised confidence levels based on additional evidence, updated supporting evidence sources, expanded related documentation, and aligned the document with Version 2.0 of the intelligence package. |
 
 ---
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
