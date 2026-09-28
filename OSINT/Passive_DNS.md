@@ -211,11 +211,11 @@ All times are UTC unless otherwise stated. Dates marked “inferred” should be
 
 | Evidence ID | Description |
 |-------------|-------------|
-| [EV-019-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-019-01.png) | ... ... ... ... ... ... ... ... ...  | Certificate  Transparency Logs crt.sh – occupationoasis.com | Collected |
-| [EV-020-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-020-01.png) | ... ... ... ... ... ... ... ... ...  | Certificate  Transparency Logs crt.sh – linkroles.my | Collected |
-| [EV-021-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-01.png)  | ... ... ... ... ... ... ... ... ...  | Certificate  Transparency Logs crt.sh – unitelmatch.top | Collected |
-| [EV-021-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-02.png)  | ... ... ... ... ... ... ... ... ...  | Certificate  Transparency Logs crt.sh – unitelmatch.cc | Collected |
-| [EV-021-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-03.png), [EV-021-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-04.png), [EV-021-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-05.png) | ... ... ... ... ... ... ... ... ...  | Certificate analysis – unitelmatch.cyou | Collected |
+| [EV-019-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-019-01.png) | Certificate  Transparency Logs – `occupationoasis.com` |
+| [EV-020-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-020-01.png) | Certificate  Transparency Logs – `linkroles.my` |
+| [EV-021-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-01.png) | Certificate  Transparency Logs – `unitelmatch.top` |
+| [EV-021-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-02.png) | Certificate  Transparency Logs – `unitelmatch.cc` |
+| [EV-021-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-03.png), [EV-021-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-04.png), [EV-021-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-05.png) |Certificate  Transparency Logs – `unitelmatch.cyou` |
 | [EV-022-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-022-01.png), [EV-022-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-022-02.png), [EV-022-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-022-03.png), [EV-022-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-022-04.png) | ... ... ... ... ... ... ... ... ...  | WHOIS Records – occupationoasis.com | Collected |
 | [EV-023-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-023-01.png), [EV-023-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-023-02.png) | ... ... ... ... ... ... ... ... ...  | WHOIS Records – linkroles.my | Collected |
 | [EV-024-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-024-01.png), [EV-024-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-024-02.png), [EV-024-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-024-03.png) | ... ... ... ... ... ... ... ... ...  | WHOIS Records – unitelmatch.top | Collected |
@@ -249,22 +249,37 @@ All times are UTC unless otherwise stated. Dates marked “inferred” should be
 | [EV-075-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-01.png), [EV-075-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-02.png), [EV-075-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-03.png), [EV-075-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-04.png), [EV-075-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-05.png), [EV-075-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-06.png), [EV-075-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-07.png) |  URLScan summary pages, Classification results & Structural similarity findings – unitelmatch.cyou  |
 | [EV-077-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-01.png), [EV-077-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-02.png), [EV-077-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-03.png), [EV-077-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-04.png), [EV-077-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-05.png) [EV-077-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-06.png), [EV-077-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-07.png) |  URLScan summary pages, Classification results & Structural similarity findings – ioutrankap.cyou |
 
-## Change log
+---
 
-| Version | Date | Change |
-|---------|------|--------|
-| 1.1 | 2026-09-17 | Added frontend domains and forensic observations; source document contained repeated and partially conflicting sections |
-| 2.0 | 2026-09-17 | Consolidated duplicate revisions, separated fact from assessment, corrected terminology, added limitations, confidence caveats, and collection recommendations |
+# Analytical Summary
+
+Passive DNS analysis identified infrastructure changes across multiple onboarding domains introduced during the investigation. While historical DNS data alone cannot attribute ownership or operational control, it provides supporting evidence that complements WHOIS records, DNS configuration, TLS certificate analysis, and observed recruiter-directed platform migration.
+
+When correlated with the broader technical evidence collected throughout this investigation, the Passive DNS findings contribute to a high-confidence assessment that the identified domains participated in a single recruiter-led onboarding workflow while rotating public-facing infrastructure over time.
 
 ---
 
 # Related Documents
 
+- [Application_Architecture.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Application_Architecture.md)
 - [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
-- [Domain_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
 - [DNS_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [Domain_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
+- [Domain_Relationships.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
 - [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [Infrastructure_Evolution.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Evolution.md)
+- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
 - [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
+
+---
+
+## Change log
+
+| Version | Date | Change |
+|---------|------|--------|
+| 1.1 | 2026-09-17 | Added frontend domains and forensic observations; source document contained repeated and partially conflicting sections |
+| 1.2 | 2026-09-28 | Consolidated duplicate revisions, separated fact from assessment, corrected terminology, added limitations, confidence caveats, and collection recommendations |
+| 2.0 | 2026-09-28 | Updated document to align with the completed Operation Phantom Store CTI investigation; synchronized terminology, related-document references, metadata, and repository structure. |
 
 ---
 
@@ -272,5 +287,6 @@ All times are UTC unless otherwise stated. Dates marked “inferred” should be
 
 **Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
-**Assessment Type:**   OSINT Investigation       
+**Assessment Type:**   Passive DNS Analysis (OSINT / CTI)
+**Repository:**        Operation Phantom Store     
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     

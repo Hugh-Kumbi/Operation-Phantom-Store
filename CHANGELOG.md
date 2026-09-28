@@ -155,6 +155,7 @@ Included:
 - Updated `Executive_Summary.md` to Version 2.0. Reflected the transition from an active OSINT investigation to a completed CTI case study, expanded campaign coverage from three to five observed domains, incorporated backend infrastructure correlation, updated investigation scope and objectives, revised confidence and status sections, and synchronized the document with the final intelligence package.
 - Expanded `Methodology.md` to reflect the completed Operation Phantom Store CTI methodology, including infrastructure correlation, application architecture analysis, detection engineering, IOC production, and threat intelligence sharing.
 - Expanded Domain Analysis into a completed CTI correlation document. Added infrastructure clustering, recurring technical characteristics, evidence sources, enhanced confidence assessment, updated related documentation, and aligned terminology with the completed Operation Phantom Store investigation.
+- Expanded `Infrastructure_Evolution.md` to document campaign infrastructure progression, added "What Changed vs. What Persisted" analysis, updated campaign timeline, enhanced hosting and application architecture sections, revised operational evolution and intelligence gaps, added confidence assessment, populated evidence section, and aligned supporting references with the completed CTI investigation.
 
 ### Security Intelligence
 
