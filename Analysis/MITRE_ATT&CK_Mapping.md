@@ -297,13 +297,26 @@ No evidence supports actual credential capture.
 
 The following ATT&CK Navigator layer provides a visual representation of the techniques identified during the investigation.
 
-![MITRE_ATT&CK_Navigator](../images/attack_navigator.png)
-![MITRE_ATT&CK_Navigator](../images/attack_navigator.png)
-![MITRE_ATT&CK_Navigator](../images/attack_navigator.png)
+![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Attack_Navigator.png)
+![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Attack_Navigator_1.png)
+![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Attack_Navigator_2.png)
 
-The interactive layer is available in:
+An interactive MITRE ATT&CK Navigator layer accompanies this investigation.
 
-`Intel/ATTACK_Navigator.json`
+The layer can be imported into the official ATT&CK Navigator for interactive analysis.
+
+- [ATTACK_Navigator.json](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/Navigator/ATTACK_Navigator.json)
+
+Official MITRE ATT&CK Navigator:
+
+https://mitre-attack.github.io/attack-navigator/
+
+## Using the Navigator Layer
+
+1. Open the MITRE ATT&CK Navigator.
+2. Select **Open Existing Layer**.
+3. Upload `ATTACK_Navigator.json`.
+4. The mapped techniques will be displayed with confidence-based color coding.
 
 ---
 
