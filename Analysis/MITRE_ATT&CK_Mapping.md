@@ -293,6 +293,18 @@ No evidence supports actual credential capture.
 | Process Creation      | Not Observed       |
 | File Monitoring       | Not Observed       |
 
+## ATT&CK Navigator Visualization
+
+The following ATT&CK Navigator layer provides a visual representation of the techniques identified during the investigation.
+
+![MITRE_ATT&CK_Navigator](../images/attack_navigator.png)
+![MITRE_ATT&CK_Navigator](../images/attack_navigator.png)
+![MITRE_ATT&CK_Navigator](../images/attack_navigator.png)
+
+The interactive layer is available in:
+
+`Intel/ATTACK_Navigator.json`
+
 ---
 
 # Techniques Considered but Not Mapped
