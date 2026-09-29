@@ -44,68 +44,52 @@ No malware delivery, persistence, privilege escalation, lateral movement, or com
 ```mermaid
 flowchart TD
 
+flowchart TD
+
 A[Threat Actor / Recruiter]
 
-    B[OccupationOasis.com<br/>Recruitment Website]
+A --> B[Initial Recruiter Contact]
 
-    C[Victim Applies for Job]
+B --> C[occupationoasis.com<br>Recruitment Website]
 
-    D[Recruiter Contact]
+C --> D[Job Opportunity Presented]
 
-    E[Guided Registration]
+D --> E[Trust Established]
 
-    F[linkroles.my]
+E --> F[Account Registration]
 
-    G[Google Safe Browsing Warning]
+F --> G[linkroles.my]
 
-    H[Recruiter Provides New Domain]
+G --> H[Browser Security Warning]
 
-    I[unitelmatch.top]
+H --> I[Recruiter Provides Replacement Domain]
 
-    J[Browser Warning / Operational Issues]
+I --> J[unitelmatch.top]
 
-    K[unitelmatch.cc]
+J --> K[Training Session]
 
-    L[Google Chrome Dangerous Site Warning]
+K --> L[Guided Onboarding]
 
-    M[Recruiter Claims Platform Upgrade]
+L --> M[Cryptocurrency Introduced]
 
-    N[unitelmatch.cyou]
+M --> N[Browser Security Warning]
 
-    O[Account Creation]
+N --> O[unitelmatch.cc]
 
-    P[Platform Training]
+O --> P[Further Platform Migration]
 
-    Q[Cryptocurrency Workflow Introduced]
+P --> Q[unitelmatch.cyou]
 
-    R[OKX Wallet Demonstration]
-
-    S[Observed Cryptocurrency Transfer Screenshots]
-
-    T[Campaign Continues]
-
-    A --> D
-    C --> D
-    D --> B
-    B --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-    J --> K
-    K --> L
-    L --> M
-    M --> N
-    N --> O
-    O --> P
-    P --> Q
-    Q --> R
-    R --> S
-    S --> T
+style A fill:#c0392b,color:#fff
+style C fill:#3498db,color:#fff
+style G fill:#3498db,color:#fff
+style J fill:#3498db,color:#fff
+style O fill:#3498db,color:#fff
+style Q fill:#3498db,color:#fff
+style H fill:#f39c12,color:#fff
+style N fill:#f39c12,color:#fff
+style M fill:#27ae60,color:#fff
 ```
-
-![Attack Graph](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Attack_Graph.png)
 
 ---
 
