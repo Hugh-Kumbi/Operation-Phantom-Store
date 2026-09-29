@@ -2,13 +2,13 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Remote Recruitment Platform
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign
 
-**Classification:** Cyber Threat Intelligence (CTI)
+**Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
-**Status:** Active Investigation
+**Status:** Investigation Updated
 
-**Version:** 1.0
+**Version:** 2.0
 
 ---
 
@@ -22,14 +22,20 @@ Recognizing intelligence gaps is a core component of professional threat intelli
 
 # Scope
 
-This assessment covers gaps relating to:
+This assessment identifies intelligence gaps relating to:
 
-- Infrastructure
-- Threat actors
-- Operational workflow
-- Financial activity
-- Technical capabilities
+- Threat actor attribution
+- Campaign infrastructure
+- Domain lifecycle and infrastructure rotation
+- Hosting and backend architecture
+- Financial workflows
+- Cryptocurrency-related activity
 - Victimology
+- Campaign scale
+- Geographic targeting
+- Operational procedures
+
+The assessment is based on evidence collected from recruiter communications, technical OSINT, passive DNS, infrastructure analysis, reputation analysis, certificate analysis, and behavioral observations documented throughout this investigation.
 
 ---
 
@@ -51,16 +57,18 @@ Only gaps identified during the investigation are included.
 
 | ID | Category | Priority |
 |----|----------|----------|
-| IG-001 | Threat Actor Identity              | High   |
-| IG-002 | Organizational Structure           | High   |
-| IG-003 | Infrastructure Attribution         | High   |
-| IG-004 | Hosting Origin Behind Cloudflare   | High   |
-| IG-005 | Backend Platform Architecture      | Medium |
-| IG-006 | Cryptocurrency Wallets             | High   |
-| IG-007 | Payment Processing Workflow        | Medium |
-| IG-008 | Victim Scale                       | Medium |
-| IG-009 | Geographic Distribution            | Medium |
-| IG-010 | Additional Campaign Infrastructure | High   |
+| IG-001 | Threat Actor Attribution                | High   |
+| IG-002 | Organizational Structure                | High   |
+| IG-003 | Infrastructure Attribution              | High   |
+| IG-004 | Origin Infrastructure Behind Cloudflare | High   |
+| IG-005 | Backend Platform Architecture           | Medium |
+| IG-006 | Cryptocurrency Wallet Attribution       | High   |
+| IG-007 | Payment Processing Workflow             | Medium |
+| IG-008 | Victim Scale                            | Medium |
+| IG-009 | Geographic Targeting                    | Medium |
+| IG-010 | Additional Campaign Infrastructure      | High   |
+| IG-011 | Infrastructure Reuse Across Campaigns   | Medium |
+| IG-012 | Campaign Lifecycle and Persistence      | Medium |
 
 ---
 
@@ -68,7 +76,7 @@ Only gaps identified during the investigation are included.
 
 ## Description
 
-The recruiter interacted with the analyst throughout the engagement; however, no reliable information was collected to determine the individual's true identity.
+The recruiter interacted with the investigator throughout the engagement; however, no reliable information was collected to determine the individual's true identity.
 
 ## Why It Matters
 
@@ -280,13 +288,11 @@ Low
 
 ## Description
 
-Only three domains were directly observed during this investigation.
-
-Additional domains, subdomains, or infrastructure may exist.
+Five domains were directly observed during this investigation; however, additional domains, subdomains, or supporting infrastructure may exist but were not identified.
 
 ## Why It Matters
 
-Campaigns frequently rotate domains and infrastructure to maintain operational continuity.
+Campaigns frequently rotate infrastructure to evade reputation systems and maintain operational continuity. Identifying additional infrastructure could reveal broader campaign scope and infrastructure reuse.
 
 ## Current Confidence
 
@@ -295,31 +301,81 @@ Medium
 ## Recommended Collection
 
 - Certificate Transparency monitoring
-- Passive DNS pivots
-- Infrastructure pivoting by ASN
+- Passive DNS pivoting
+- ASN correlation
 - Registrar monitoring
 - Brand keyword monitoring
+- Historical DNS datasets
+
+---
+
+# IG-011 — Infrastructure Reuse Across Campaigns
+
+## Description
+
+Although multiple domains displayed similar operational characteristics, the investigation could not determine whether the underlying infrastructure has been reused across unrelated campaigns.
+
+## Why It Matters
+
+Infrastructure reuse can assist in campaign clustering, long-term tracking, and attribution.
+
+## Current Confidence
+
+Low
+
+## Recommended Collection
+
+- Historical Passive DNS
+- Certificate Transparency pivots
+- Shared JavaScript fingerprinting
+- Shared TLS certificate analysis
+- Shared hosting correlation
+
+---
+
+# IG-012 — Campaign Lifecycle and Persistence
+
+## Description
+
+The investigation documented active infrastructure rotation but could not determine the overall lifecycle of the campaign, including its duration, operational cadence, or retirement of previous infrastructure.
+
+## Why It Matters
+
+Understanding campaign persistence supports long-term monitoring and helps identify recurring infrastructure patterns.
+
+## Current Confidence
+
+Low
+
+## Recommended Collection
+
+- Long-term domain monitoring
+- Historical WHOIS records
+- Certificate renewal monitoring
+- Reputation tracking
+- Public reporting correlation
 
 ---
 
 # Cross-Cutting Intelligence Gaps
 
-The investigation did **not** identify:
+Despite the breadth of evidence collected, the investigation did not identify:
 
 - Malware samples
 - File hashes
+- Command-and-control infrastructure
 - Email infrastructure
 - Administrative interfaces
-- API endpoints
-- Internal documentation
 - Source code repositories
-- Employee identities
-- Legal business registration
-- Customer database
-- Internal communications
+- Internal documentation
 - Server-side logs
+- API documentation
+- Backend databases
+- Organization-controlled social media accounts
+- Corporate registration records
+- Verified employee identities
 
-These gaps are expected in an investigation conducted using passive OSINT techniques.
+These intelligence gaps are consistent with an investigation conducted using passive OSINT techniques and voluntary recruiter interactions.
 
 ---
 
@@ -375,11 +431,11 @@ The following activities are outside the scope of this investigation:
 
 # Analytical Assessment
 
-The investigation successfully documented infrastructure, recruiter behavior, and operational workflows using publicly available information and direct observations.
+The investigation successfully documented the campaign's observable infrastructure, recruiter interactions, operational workflow, and behavioral patterns using publicly available information and direct observations.
 
-However, several high-value intelligence questions remain unresolved, particularly regarding attribution, infrastructure ownership, cryptocurrency flows, and campaign scale.
+Significant uncertainties remain regarding infrastructure ownership, threat actor attribution, backend architecture, cryptocurrency transaction flows, and the overall scale of the campaign. These intelligence gaps limit attribution but do not materially affect the documented observations regarding infrastructure evolution, recruiter-led domain migration, or the technical characteristics of the observed platforms.
 
-Addressing these gaps would significantly improve confidence in future analytical assessments and support correlation with related investigations.
+Future collection efforts should prioritize infrastructure correlation, additional domain discovery, cryptocurrency attribution, and long-term monitoring of campaign infrastructure to improve confidence in future analytical assessments.
 
 ---
 
@@ -400,36 +456,37 @@ Addressing these gaps would significantly improve confidence in future analytica
 
 # Confidence Assessment
 
-| Category | Confidence |
-|----------|------------|
-| Infrastructure Analysis     | High |
-| Technology Identification   | High |
-| Social Engineering Analysis | High |
-| Threat Actor Attribution    | Low  |
-| Cryptocurrency Attribution  | Low  |
-| Campaign Scale              | Low  |
-| Geographic Targeting        | Low  |
+| Intelligence Area | Confidence |
+|-------------------|------------|
+| Infrastructure Analysis     | High   |
+| Domain Lifecycle Analysis   | High   |
+| Technology Identification   | High   |
+| Behavioral Analysis         | High   |
+| Social Engineering Analysis | High   |
+| Infrastructure Attribution  | Medium |
+| Threat Actor Attribution    | Low    |
+| Cryptocurrency Attribution  | Low    |
+| Campaign Scale Assessment   | Low    |
+| Geographic Targeting        | Low    |
 
 ---
 
 # Related Documents
 
 - [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
-- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
-- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
 - [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
-- [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
 - [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
 - [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
+- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
+- [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
 
 ---
 
 ## Document Information
 
-## Document Information
-
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store 
