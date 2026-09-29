@@ -1,0 +1,98 @@
+{
+  "name": "Operation Phantom Store - MITRE ATT&CK Mapping",
+  "description": "MITRE ATT&CK techniques identified during the Operation Phantom Store OSINT investigation.",
+  "domain": "enterprise-attack",
+  "versions": {
+    "attack": "17",
+    "navigator": "5.1.0",
+    "layer": "4.5"
+  },
+  "filters": {
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Network",
+      "Cloud"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "showID": true,
+    "showName": true
+  },
+  "hideDisabled": false,
+  "legendItems": [
+    {
+      "label": "Directly Observed",
+      "color": "#ff6666"
+    },
+    {
+      "label": "High Confidence",
+      "color": "#ff9933"
+    },
+    {
+      "label": "Analytical Mapping",
+      "color": "#ffe066"
+    },
+    {
+      "label": "Potential Technique",
+      "color": "#66b3ff"
+    }
+  ],
+  "techniques": [
+    {
+      "techniqueID": "T1583.001",
+      "score": 100,
+      "color": "#ff6666",
+      "comment": "Multiple domains acquired and rotated throughout the campaign."
+    },
+    {
+      "techniqueID": "T1583.006",
+      "score": 100,
+      "color": "#ff6666",
+      "comment": "Campaign infrastructure deployed on AWS and Cloudflare."
+    },
+    {
+      "techniqueID": "T1204",
+      "score": 90,
+      "color": "#ff9933",
+      "comment": "Victim voluntarily executed recruiter-directed actions."
+    },
+    {
+      "techniqueID": "T1566",
+      "score": 70,
+      "color": "#ffe066",
+      "comment": "Recruitment communications exhibited phishing-like characteristics."
+    },
+    {
+      "techniqueID": "T1656",
+      "score": 70,
+      "color": "#ffe066",
+      "comment": "Campaign presented itself as a legitimate employer."
+    },
+    {
+      "techniqueID": "T1078",
+      "score": 40,
+      "color": "#66b3ff",
+      "comment": "Account creation observed; subsequent account use unknown."
+    },
+    {
+      "techniqueID": "T1056",
+      "score": 40,
+      "color": "#66b3ff",
+      "comment": "Users voluntarily entered credentials; no evidence of credential interception."
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#66b3ff",
+      "#ffe066",
+      "#ff9933",
+      "#ff6666"
+    ],
+    "minValue": 0,
+    "maxValue": 100
+  }
+}
