@@ -44,8 +44,6 @@ No malware delivery, persistence, privilege escalation, lateral movement, or com
 ```mermaid
 flowchart TD
 
-flowchart TD
-
 A[Threat Actor / Recruiter]
 
 A --> B[Initial Recruiter Contact]
