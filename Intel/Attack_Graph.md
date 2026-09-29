@@ -43,6 +43,66 @@ No malware delivery, persistence, privilege escalation, lateral movement, or com
 
 ```mermaid
 flowchart TD
+
+A[Threat Actor / Recruiter]
+
+    B[OccupationOasis.com<br/>Recruitment Website]
+
+    C[Victim Applies for Job]
+
+    D[Recruiter Contact]
+
+    E[Guided Registration]
+
+    F[linkroles.my]
+
+    G[Google Safe Browsing Warning]
+
+    H[Recruiter Provides New Domain]
+
+    I[unitelmatch.top]
+
+    J[Browser Warning / Operational Issues]
+
+    K[unitelmatch.cc]
+
+    L[Google Chrome Dangerous Site Warning]
+
+    M[Recruiter Claims Platform Upgrade]
+
+    N[unitelmatch.cyou]
+
+    O[Account Creation]
+
+    P[Platform Training]
+
+    Q[Cryptocurrency Workflow Introduced]
+
+    R[OKX Wallet Demonstration]
+
+    S[Observed Cryptocurrency Transfer Screenshots]
+
+    T[Campaign Continues]
+
+    A --> D
+    C --> D
+    D --> B
+    B --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+    K --> L
+    L --> M
+    M --> N
+    N --> O
+    O --> P
+    P --> Q
+    Q --> R
+    R --> S
+    S --> T
 ```
 
 ---
