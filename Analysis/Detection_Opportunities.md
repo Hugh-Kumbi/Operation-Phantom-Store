@@ -2,11 +2,11 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Remote Recruitment Platform
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign 
 
-**Classification:** Cyber Threat Intelligence (CTI)
+**Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
-**Status:** Active Investigation
+**Status:** Investigation Complete
 
 **Version:** 2.0
 
@@ -27,11 +27,14 @@ The recommendations are intended for Security Operations Center (SOC) analysts, 
 Detection opportunities are derived from:
 
 - Recruiter interactions
+- Application architecture analysis
 - DNS analysis
+- Passive DNS analysis
 - Infrastructure analysis
+- Infrastructure evolution
 - Reputation analysis
-- Social engineering observations
 - Technology stack analysis
+- Social engineering observations
 - MITRE ATT&CK mapping
 
 ---
@@ -54,7 +57,7 @@ Detection opportunities are grouped into:
 
 ## Observation
 
-Two operational domains (`linkroles.my` and `unitelmatch.top`) were registered only days before being used during the onboarding process.
+Four operational onboarding domains (`linkroles.my`, `unitelmatch.top`, `unitelmatch.cc`, and `unitelmatch.cyou`) were registered shortly before their observed use during the investigation.
 
 ## Detection Logic
 
@@ -91,6 +94,10 @@ occupationoasis.com
 linkroles.my
         ↓
 unitelmatch.top
+        ↓
+unitelmatch.cc
+        ↓
+unitelmatch.cyou
 ```
 
 ## Detection Logic
@@ -112,7 +119,7 @@ Identify users accessing multiple newly observed domains that share similar them
 
 ## Observation
 
-The recruiter instructed the analyst to move to another domain immediately after a browser warning.
+The recruiter instructed the investigator to move to another domain immediately after a browser warning.
 
 ## Detection Logic
 
@@ -204,7 +211,7 @@ Instead, correlate cloud-hosted infrastructure with:
 
 ## Observation
 
-The recruiter instructed the analyst step-by-step throughout the onboarding process.
+The recruiter instructed the investigator step-by-step throughout the onboarding process.
 
 ## Detection Logic
 
@@ -487,7 +494,7 @@ Organizations implementing behavioral analytics, DNS monitoring, browser telemet
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     

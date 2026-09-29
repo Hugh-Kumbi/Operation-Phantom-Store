@@ -455,6 +455,7 @@ While reputation data alone is insufficient to establish malicious intent, it pr
 | 1.0 | 2026-08-27 | Initial investigation methodology created. |
 | 1.1 | 2026-09-24 | AAdded reputation analysis for `unitelmatch.cc` and `unitelmatch.cyou`; expanded analysis from three to five domains; documented Google Safe Browsing warnings; added infrastructure rotation analysis; correlated browser warnings with recruiter behaviour; and included URLScan structural similarity observations. |
 | 2.1 | 2026-09-28 | Refined reputation assessments using evidence-based language; replaced categorical labels with observed public reputation indicators; added Confidence Assessment and Evidence sections; expanded behavioural analysis of infrastructure rotation; aligned terminology with the Operation Phantom Store repository; and updated document metadata and references. |
+
 ---
 
 ## Document Information
