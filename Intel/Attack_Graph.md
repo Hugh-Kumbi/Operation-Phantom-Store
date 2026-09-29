@@ -89,8 +89,6 @@ style N fill:#f39c12,color:#fff
 style M fill:#27ae60,color:#fff
 ```
 
-![Attack Graph](Attack_Graph.png)
-
 ---
 
 # Attack Flow Summary
@@ -112,7 +110,7 @@ Each phase relied on voluntary user interaction rather than technical exploitati
 
 | Component | Description |
 |-----------|-------------|
-| Threat Actor         Recruiter directing the onboarding process        |
+| Threat Actor        | Recruiter directing the onboarding process       |
 | Recruitment Website | Initial legitimacy and branding                  |
 | Operational Domains | User onboarding platforms                        |
 | Browser Warnings    | Trigger for infrastructure migration             |
