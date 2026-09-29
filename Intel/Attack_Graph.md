@@ -43,6 +43,7 @@ No malware delivery, persistence, privilege escalation, lateral movement, or com
 
 ```mermaid
 flowchart TD
+```
 
 ---
 
