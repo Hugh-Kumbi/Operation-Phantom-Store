@@ -105,6 +105,8 @@ A[Threat Actor / Recruiter]
     S --> T
 ```
 
+![Attack Graph](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Attack_Graph.png)
+
 ---
 
 # Attack Flow Summary
