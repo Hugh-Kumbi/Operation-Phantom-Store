@@ -44,18 +44,18 @@ Recruit victims through employment opportunities before directing them to fraudu
 
 Recruitment Portal
 
-- occupationoasis.com
+- `occupationoasis.com`
 
 Operational Portals
 
-- linkroles.my
-- unitelmatch.top
-- unitelmatch.cc
-- unitelmatch.cyou
+- `linkroles.my`
+- `unitelmatch.top`
+- `unitelmatch.cc`
+- `unitelmatch.cyou`
 
 Backend
 
-- www.ioutrankap.cyou
+- `www.ioutrankap.cyou`
 
 ---
 
@@ -72,7 +72,7 @@ Backend
 ---
 
 ## Victim Interaction
-
+```
 Recruitment
 
 ↓
@@ -94,7 +94,7 @@ Portal Migration
 ↓
 
 Repeat
-
+```
 ---
 
 ## Confidence
@@ -105,7 +105,7 @@ High
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store

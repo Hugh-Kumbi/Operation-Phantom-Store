@@ -153,10 +153,10 @@ Potential future improvements include:
 This directory complements the following detection content included in the repository:
 
 ```
-[Sigma/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection/Sigma)
-[Splunk/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection/Splunk)
-[Sentinel/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection/Sentinel)
-[Suricata/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection/Suricata)
+Sigma/
+Splunk/
+Sentinel/
+Suricata/
 ```
 
 Together these detections provide layered coverage across endpoint, network, SIEM, IDS, and artifact-based detection workflows.
@@ -171,6 +171,10 @@ Together these detections provide layered coverage across endpoint, network, SIE
 - [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
 - [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
 - [Operation Phantom Store Executive Report](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Executive_Report.pdf)
+- [Sigma/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection/Sigma)
+- [Splunk/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection/Splunk)
+- [Sentinel/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection/Sentinel)
+- [Suricata/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection/Suricata)
 
 ---
 

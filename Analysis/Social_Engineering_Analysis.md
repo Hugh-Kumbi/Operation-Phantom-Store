@@ -2,13 +2,13 @@
 
 **Case ID:** OSINT-2026-001
 
-**Investigation Title:** Analysis of a Suspected Multi-Domain Remote Recruitment Platform
+**Investigation Title:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign
 
 **Classification:** Open Source Intelligence (OSINT) / Cyber Threat Intelligence (CTI)
 
-**Status:** Active Investigation
+**Status:** Investigation Complete
 
-**Version:** 1.0
+**Version:** 2.0
 
 ---
 
@@ -16,7 +16,7 @@
 
 This document analyzes the social engineering techniques observed during the investigation.
 
-The objective is to document the interaction between the recruiter and the analyst, identify persuasion techniques used throughout the recruitment process, and map observed behaviors to established cybersecurity concepts.
+The objective is to document the interaction between the recruiter and the investigator, identify persuasion techniques used throughout the recruitment process, and map observed behaviors to established cybersecurity concepts.
 
 The analysis is based on direct observations made during the investigation and does not attempt to infer motivations beyond the available evidence.
 
@@ -43,22 +43,22 @@ The analysis is based on:
 
 - Recruiter conversations
 - Screenshots
-- Analyst observations
+- Investigator observations
 - Platform interactions
 - Recruitment workflow
 - Training session observations
 
-The analyst remained in an observational role throughout the engagement and did not intentionally deceive or encourage illegal activity.
+The investigator remained in an observational role throughout the engagement and did not intentionally deceive or encourage illegal activity.
 
 ---
 
 # Campaign Overview
 
-The investigation began after the analyst applied for a remote work opportunity through `occupationoasis.com`.
+The investigation began after the investigator applied for a remote work opportunity through `occupationoasis.com`.
 
 Communication subsequently transitioned to a recruiter who introduced an e-commerce opportunity involving the operation of an online store using a dropshipping model.
 
-Throughout the interaction, the recruiter progressively introduced additional information, requested platform registration, guided the analyst through onboarding steps, and later instructed the analyst to migrate to a different domain after a browser warning was encountered.
+Throughout the interaction, the recruiter progressively introduced additional information, requested platform registration, guided the investigator through onboarding steps, and later instructed the investigator to migrate to a different domain after a browser warning was encountered.
 
 ---
 
@@ -70,11 +70,11 @@ Throughout the interaction, the recruiter progressively introduced additional in
 
 The recruiter initiated contact shortly after the job application.
 
-The communication referenced the analyst's application, creating immediate legitimacy.
+The communication referenced the investigator's application, creating immediate legitimacy.
 
 ### Assessment
 
-Referencing an existing job application reduced suspicion by aligning the communication with an action already performed by the analyst.
+Referencing an existing job application reduced suspicion by aligning the communication with an action already performed by the investigator.
 
 This technique established contextual trust without requiring additional verification.
 
@@ -146,7 +146,7 @@ Examples included:
 
 ### Assessment
 
-Each completed step increased the analyst's investment in the process.
+Each completed step increased the investigator's investment in the process.
 
 The progression required repeated agreement to small actions before larger requests were introduced.
 
@@ -179,19 +179,36 @@ The recruiter remained available after each completed step before introducing th
 
 ### Observation
 
-The analyst observed a Google browser warning when accessing `linkroles.my`.
+During the investigation, the onboarding process transitioned across multiple domains.
 
-Following this warning, the recruiter instructed the analyst to continue using an alternative platform:
+Observed sequence:
+```
+occupationoasis.com
 
-`unitelmatch.top`
+↓
+
+linkroles.my
+
+↓
+
+unitelmatch.top
+
+↓
+
+unitelmatch.cc
+
+↓
+
+unitelmatch.cyou
+```
+
+Two of these transitions followed browser security warnings encountered by the investigator. In each case, the recruiter immediately provided an alternative domain and instructed the investigator to continue the onboarding process.
 
 ### Assessment
 
-The operational workflow adapted immediately following the browser warning.
+The observed infrastructure evolved throughout the engagement while maintaining a consistent recruiter-led workflow. Domain changes did not alter the onboarding process or communication style, suggesting operational continuity despite infrastructure rotation.
 
-The migration allowed onboarding to continue despite the interruption.
-
-The investigation documents only the sequence of events and does not infer the reason for the migration.
+This assessment documents the observed sequence of events and does not attribute motive for the domain changes beyond the available evidence.
 
 ---
 
@@ -199,7 +216,7 @@ The investigation documents only the sequence of events and does not infer the r
 
 ### Observation
 
-During the training session the analyst observed:
+During the training session the investigator observed:
 
 - Cryptocurrency-related screenshots
 - OKX Wallet interface
@@ -210,9 +227,11 @@ The recruiter explained that earnings would be generated through order processin
 
 ### Assessment
 
-Cryptocurrency appeared within the workflow before any independent verification of the business model could be performed.
+Financial elements were introduced only after rapport had been established and multiple onboarding steps had been completed.
 
-The analyst did not participate in cryptocurrency transactions.
+The recruiter presented cryptocurrency-related activity as a routine component of the workflow while continuing to guide the investigator through the platform.
+
+The investigator did not participate in cryptocurrency transactions or independently verify the payment process.
 
 ---
 
@@ -284,7 +303,7 @@ Examples included:
 - Daily base salary
 - Bonuses
 
-Income expectations were introduced before the analyst had independently verified the business model.
+Income expectations were introduced before the investigator had independently verified the business model.
 
 ---
 
@@ -299,6 +318,22 @@ Examples include:
 - When to wait
 - When to submit information
 - When to migrate to another platform
+
+---
+
+## Normalization
+
+Throughout the interaction, the recruiter consistently presented each stage of the workflow as routine and expected.
+
+Examples included:
+
+- Describing platform changes as routine upgrades
+- Explaining browser warnings as temporary issues
+- Presenting onboarding steps as standard employment procedures
+
+### Assessment
+
+Presenting unusual events as normal may reduce hesitation and encourage continued participation despite unexpected technical or operational changes.
 
 ---
 
@@ -325,16 +360,13 @@ Job Application
 Recruiter Contact
         │
         ▼
-Conversation
+Rapport Building
         │
         ▼
 Opportunity Introduction
         │
         ▼
-Salary Discussion
-        │
-        ▼
-Training Scheduled
+Training Session
         │
         ▼
 Platform Registration
@@ -346,48 +378,44 @@ Guided Onboarding
 Browser Warning
         │
         ▼
-Migration to New Domain
+Domain Migration
         │
         ▼
-Training Continues
+Continued Onboarding
         │
         ▼
-Cryptocurrency Observed
+Cryptocurrency Introduction
+        │
+        ▼
+Further Domain Migration
 ```
 
 ---
 
 # Analytical Assessment
 
-The observed recruitment process followed a structured sequence designed to gradually increase participant engagement.
+The observed recruitment process followed a structured, multi-stage social engineering workflow designed to progressively increase participant engagement while maintaining the appearance of a legitimate employment opportunity.
 
-Rather than immediately requesting sensitive information or financial participation, the recruiter first established legitimacy through familiar recruitment practices, followed by incremental onboarding activities.
+Rather than requesting immediate financial participation or sensitive information, the recruiter first established credibility through reference to an existing job application, professional communication, structured onboarding, and continuous guidance throughout the engagement.
 
-The interaction remained conversational throughout the engagement, with each completed action leading to a subsequent request.
+As the investigation progressed, the workflow adapted to technical interruptions, including browser security warnings, by migrating participants to alternative domains without altering the overall onboarding process. Financial concepts, including cryptocurrency-related activity, were introduced only after multiple stages of engagement had been completed.
 
-From an analytical perspective, the workflow demonstrated characteristics commonly associated with staged recruitment campaigns in which trust is established before introducing operational or financial elements.
-
-This assessment is based solely on the observed interaction and does not independently determine the legitimacy or illegitimacy of the underlying operation.
+The assessment is based exclusively on documented observations collected during the investigation and does not independently determine the legitimacy or illegitimacy of the underlying operation.
 
 ---
 
 # Key Observations
 
-The following observations are directly supported by collected evidence:
+The following observations are directly supported by the collected evidence:
 
-1. The recruiter referenced an existing job application to establish legitimacy.
-
-2. Communication progressed through multiple stages before operational tasks were introduced.
-
-3. The onboarding process relied on incremental commitments rather than a single large request.
-
-4. Continuous recruiter guidance was provided throughout onboarding.
-
-5. The onboarding platform changed immediately after the analyst encountered a browser warning.
-
-6. Cryptocurrency-related activity was observed during the training session.
-
-7. The analyst did not participate in financial transactions.
+1. The recruiter referenced an existing job application to establish immediate credibility.
+2. Communication followed a structured, multi-stage recruitment process before operational tasks were introduced.
+3. The onboarding workflow relied on incremental commitments rather than a single high-risk request.
+4. Continuous recruiter guidance was provided throughout each stage of onboarding.
+5. Multiple domain transitions occurred while maintaining an otherwise consistent operational workflow.
+6. Browser security warnings were followed by immediate migration to alternative onboarding domains.
+7. Cryptocurrency-related activity was introduced only after trust and engagement had been established.
+8. The investigator did not participate in financial transactions or independently verify the payment process.
 
 ---
 
@@ -395,13 +423,20 @@ The following observations are directly supported by collected evidence:
 
 | Evidence ID | Description |
 |-------------|-------------|
-| [EV-002-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-002-01.png) | Initial recruiter conversation         |
-| [EV-003-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-01.png), [EV-003-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-02.png), [EV-003-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-03.png), [EV-003-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-04.png), [EV-003-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-05.png), [EV-003-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-06.png), [EV-003-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-07.png), [EV-003-08](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-08.png), [EV-003-09](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-09.png), [EV-003-10](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-10.png), [EV-003-11](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-11.png), [EV-003-12](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-12.png), [EV-003-13](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-13.png), [EV-003-14](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-14.png), [EV-003-15](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-15.png), [EV-003-16](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-16.png), [EV-003-17](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-17.png), [EV-003-18](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-18.png) | Job discussion                         |
-| [EV-004-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-01.png), [EV-004-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-02.png), [EV-004-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-03.png), [EV-004-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-04.png), [EV-004-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-05.png), [EV-004-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-06.png) | Salary discussion                      |
-| [EV-005-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-01.png), [EV-005-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-02.png), [EV-005-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-03.png), [EV-005-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-03.png), [EV-005-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-05.png), [EV-005-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-06.png), [EV-005-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-07.png) | Onboarding instructions                |
-| [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png), [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png), [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png), [EV-013-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-013-01.png), [EV-013-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-013-02.png), [EV-013-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-013-03.png) | Browser warning and platform migration |
-| [EV-042-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-01.png), [EV-042-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-02.png), [EV-042-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-03.png), [EV-042-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-04.png), [EV-042-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-05.png), [EV-042-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-06.png), [EV-042-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-07.png), [EV-042-08](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-08.png), [EV-042-09](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-09.png), [EV-042-10](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-10.png), [EV-042-11](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-11.png), [EV-042-12](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-12.png), [EV-042-13](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-13.png), [EV-042-14](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-14.png), [EV-042-15](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-15.png), [EV-042-16](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-16.png), [EV-042-17](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-17.png), [EV-042-18](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-18.png), [EV-042-19](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-19.png), [EV-042-20](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-20.png), [EV-042-21](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-21.png), [EV-042-22](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-22.png) | Training session observations                                  |
-| [EV-036-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-01.png), [EV-036-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-02.png), [EV-036-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-03.png) | OKX Wallet observations and Cryptocurrency-related screenshots |
+| [EV-002-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-002-01.png) | Initial recruiter contact |
+| [EV-003-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-01.png), [EV-003-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-02.png), [EV-003-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-03.png), [EV-003-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-04.png), [EV-003-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-05.png), [EV-003-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-06.png), [EV-003-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-07.png), [EV-003-08](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-08.png), [EV-003-09](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-09.png), [EV-003-10](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-10.png), [EV-003-11](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-11.png), [EV-003-12](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-12.png), [EV-003-13](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-13.png), [EV-003-14](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-14.png), [EV-003-15](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-15.png), [EV-003-16](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-16.png), [EV-003-17](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-17.png), [EV-003-18](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-003-18.png) | Job explanation |
+| [EV-004-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-01.png), [EV-004-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-02.png), [EV-004-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-03.png), [EV-004-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-04.png), [EV-004-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-05.png), [EV-004-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-004-06.png) | Salary discussion |
+| [EV-005-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-01.png), [EV-005-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-02.png), [EV-005-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-03.png), [EV-005-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-03.png), [EV-005-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-05.png), [EV-005-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-06.png), [EV-005-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-005-07.png) | Registration instructions |
+| [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png) | Google Safe Browsing warning – `linkroles.my` |
+| [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png) | Google Safe Browsing warning – `unitelmatch.top` |
+| [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png) | Google Safe Browsing warning – `unitelmatch.cc` |
+| [EV-012-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-04.png) | Google Safe Browsing warning – `unitelmatch.cyou` |
+| [EV-013-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-013-01.png) | Domain migration – `unitelmatch.top` |
+| [EV-013-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-013-02.png) | Domain migration – `unitelmatch.cc` |
+| [EV-013-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-013-03.png) | Domain migration – `unitelmatch.cyou` |
+| [EV-035-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-01.png), [EV-035-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-02.png), [EV-035-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-03.png), [EV-035-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-04.png), [EV-035-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-035-05.png) | OKX Wallet observations |
+| [EV-036-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-01.png), [EV-036-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-02.png), [EV-036-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-036-03.png) | OKX Wallet observations and Cryptocurrency screenshots |
+| [EV-042-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-01.png), [EV-042-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-02.png), [EV-042-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-03.png), [EV-042-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-04.png), [EV-042-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-05.png), [EV-042-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-06.png), [EV-042-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-07.png), [EV-042-08](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-08.png), [EV-042-09](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-09.png), [EV-042-10](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-10.png), [EV-042-11](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-11.png), [EV-042-12](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-12.png), [EV-042-13](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-13.png), [EV-042-14](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-14.png), [EV-042-15](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-15.png), [EV-042-16](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-16.png), [EV-042-17](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-17.png), [EV-042-18](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-18.png), [EV-042-19](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-19.png), [EV-042-20](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-20.png), [EV-042-21](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-21.png), [EV-042-22](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-042-22.png) | Training |
 
 ---
 
@@ -409,31 +444,34 @@ The following observations are directly supported by collected evidence:
 
 | Finding | Confidence |
 |---------|------------|
-| Structured onboarding workflow observed               | High |
-| Incremental commitment strategy observed              | High |
-| Platform migration following browser warning observed | High |
-| Cryptocurrency introduced during onboarding           | High |
-| Continuous recruiter guidance observed                | High |
+| Structured onboarding workflow observed     | High   |
+| Rapport-building techniques observed        | High   |
+| Incremental commitment strategy observed    | High   |
+| Continuous recruiter guidance observed      | High   |
+| Multiple domain migrations observed         | High   |
+| Browser-warning response observed           | High   |
+| Cryptocurrency introduced during onboarding | High   |
+| Psychological influence assessment          | Medium |
 
 ---
 
 # Related Documents
 
 - [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
-- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
-- [Domain_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
-- [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
-- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
-- [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
-- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
 - [Diamond_Model.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
+- [Domain_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
 - [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
+- [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [MITRE_ATT&CK_Mapping.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
+- [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
+- [Technology_Stack.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
 
 ---
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     

@@ -46,9 +46,9 @@ Management-level summary and recommended actions.
 
 ## Related Documents
 
-- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
 - [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
 - [Detection/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection)
+- [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
 - [Intel/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Intel)
 
 ---
