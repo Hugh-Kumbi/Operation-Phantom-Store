@@ -89,6 +89,8 @@ style N fill:#f39c12,color:#fff
 style M fill:#27ae60,color:#fff
 ```
 
+![Attack Graph](Attack_Graph.png)
+
 ---
 
 # Attack Flow Summary

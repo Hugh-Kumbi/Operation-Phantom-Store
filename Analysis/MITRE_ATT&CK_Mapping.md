@@ -297,9 +297,9 @@ No evidence supports actual credential capture.
 
 The following ATT&CK Navigator layer provides a visual representation of the techniques identified during the investigation.
 
-![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Attack_Navigator.png)
-![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Attack_Navigator_1.png)
-![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Assets/Attack_Navigator_2.png)
+![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/Navigator/Attack_Navigator.png)
+![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/Navigator/Attack_Navigator_1.png)
+![MITRE_ATT&CK_Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/Navigator/Attack_Navigator_2.png)
 
 An interactive MITRE ATT&CK Navigator layer accompanies this investigation.
 

@@ -17,30 +17,16 @@ These formats allow indicators, infrastructure, campaigns, and relationships to 
 
 ## Contents
 
-### STIX 2.1
+## Directory Structure
 
-Structured cyber threat intelligence objects.
-
-Includes:
-
-- Campaign
-- Infrastructure
-- Indicators
-- Threat Actor
-- Relationships
-
----
-
-### MISP
-
-Machine-readable event containing:
-
-- Domains
-- URLs
-- IP addresses
-- Infrastructure
-- Tags
-- MITRE ATT&CK references
+| Folder / File | Purpose |
+|---------------|---------|
+| MISP                | Machine-readable MISP event export             |
+| STIX                | STIX 2.1 intelligence objects                  |
+| Navigator           | MITRE ATT&CK Navigator layer and visualization |
+| Attack_Graph.md     | Evidence-based campaign attack graph           |
+| Campaign_Profile.md | Executive summary of the campaign              |
+| Threat_Summary.md   | High-level intelligence summary                |
 
 ---
 
@@ -84,7 +70,6 @@ Confidence is based on:
 [Analysis/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Analysis)
 [Detection/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection)
 [docs/](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/docs)
-
 
 ---
 
