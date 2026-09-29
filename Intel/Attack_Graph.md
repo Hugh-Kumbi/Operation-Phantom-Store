@@ -42,7 +42,7 @@ No malware delivery, persistence, privilege escalation, lateral movement, or com
 > **Interactive version:** See the Mermaid diagram below
 
 ```mermaid
-https://mermaid.ai/d/a9acbcae-1fbb-418a-8fd4-6b6feb55e85d
+flowchart TD
 ...
 
 ---
