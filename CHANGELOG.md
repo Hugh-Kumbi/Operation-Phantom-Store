@@ -156,6 +156,7 @@ Included:
 - Expanded `Methodology.md` to reflect the completed Operation Phantom Store CTI methodology, including infrastructure correlation, application architecture analysis, detection engineering, IOC production, and threat intelligence sharing.
 - Expanded Domain Analysis into a completed CTI correlation document. Added infrastructure clustering, recurring technical characteristics, evidence sources, enhanced confidence assessment, updated related documentation, and aligned terminology with the completed Operation Phantom Store investigation.
 - Expanded `Infrastructure_Evolution.md` to document campaign infrastructure progression, added "What Changed vs. What Persisted" analysis, updated campaign timeline, enhanced hosting and application architecture sections, revised operational evolution and intelligence gaps, added confidence assessment, populated evidence section, and aligned supporting references with the completed CTI investigation.
+- Expanded `Detection_Opportunities.md` to reflect the complete five-domain investigation; incorporated behavioural detection strategies based on infrastructure evolution and application fingerprinting; updated SIEM correlation guidance, threat-hunting hypotheses, and analytical assessment; added evidence references; aligned terminology and document structure with the final Operation Phantom Store repository; and updated metadata and related documents.
 
 ### Security Intelligence
 
