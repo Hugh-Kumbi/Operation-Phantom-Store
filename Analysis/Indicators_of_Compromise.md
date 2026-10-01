@@ -26,14 +26,14 @@ Observed campaign infrastructure consisted of:
 
 ## Recruitment Website
 
-- occupationoasis.com
+- `occupationoasis.com`
 
 ## Operational Portals
 
-- linkroles.my
-- unitelmatch.top
-- unitelmatch.cc
-- unitelmatch.cyou
+- `linkroles.my`
+- `unitelmatch.top`
+- `unitelmatch.cc`
+- `unitelmatch.cyou`
 
 ## Version 1.1 Update
 
@@ -43,7 +43,7 @@ The additional indicators were collected directly during investigator interactio
 
 ## Shared Backend
 
-- www.ioutrankap.cyou
+- `www.ioutrankap.cyou`
 
 ---
 
@@ -51,12 +51,12 @@ The additional indicators were collected directly during investigator interactio
 
 | Domain | Observed Role | Confidence |
 |--------|---------------|------------|
-| occupationoasis.com | Recruitment website       | Medium |
-| linkroles.my        | Operational portal        | High   |
-| unitelmatch.top     | Operational portal        | High   |
-| unitelmatch.cc      | Operational portal        | High   |
-| unitelmatch.cyou    | Backup operational portal | High   |
-| www.ioutrankap.cyou | Shared backend API        | High   |
+| `occupationoasis.com` | Recruitment website       | Medium |
+| `linkroles.my`        | Operational portal        | High   |
+| `unitelmatch.top`     | Operational portal        | High   |
+| `unitelmatch.cc`      | Operational portal        | High   |
+| `unitelmatch.cyou`    | Backup operational portal | High   |
+| `www.ioutrankap.cyou` | Shared backend API        | High   |
 
 ---
 
@@ -337,7 +337,7 @@ The following behaviors were observed during Version 1.1 of the investigation.
 
 The investigator observed a Google Safe Browsing warning when attempting to access:
 
-- unitelmatch.cc
+- `unitelmatch.cc`
 
 Following notification of the warning, the recruiter supplied a replacement onboarding portal rather than requesting the warning be bypassed.
 
@@ -393,11 +393,11 @@ www.ioutrankap.cyou
 
 The observed onboarding sequence now consists of:
 
-1. occupationoasis.com
-2. linkroles.my
-3. unitelmatch.top
-4. unitelmatch.cc
-5. unitelmatch.cyou
+1. `occupationoasis.com`
+2. `linkroles.my`
+3. `unitelmatch.top`
+4. `unitelmatch.cc`
+5. `unitelmatch.cyou`
 
 Each domain served a similar onboarding function during different stages of the investigation.
 
@@ -510,7 +510,7 @@ The investigation documents observed technical similarities. These indicators su
 | [EV-020-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-020-01.png) | Certificate Transparency Logs – `linkroles.my` |
 | [EV-021-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-01.png)  | Certificate Transparency Logs – `unitelmatch.top` |
 | [EV-021-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-02.png)  | Certificate Transparency Logs – `unitelmatch.cc` |
-| [EV-021-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-03.png), [EV-021-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-04.png), [EV-021-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-05.png) | Certificate Transparency Logs – unitelmatch.cyou |
+| [EV-021-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-03.png), [EV-021-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-04.png), [EV-021-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-021-05.png) | Certificate Transparency Logs – `unitelmatch.cyou` |
 | [EV-022-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-022-01.png), [EV-022-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-022-02.png), [EV-022-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-022-03.png), [EV-022-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-022-04.png) | WHOIS Records – `occupationoasis.com` |
 | [EV-023-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-023-01.png), [EV-023-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-023-02.png) | WHOIS Records – `linkroles.my` |
 | [EV-024-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-024-01.png), [EV-024-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-024-02.png), [EV-024-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-024-03.png) | WHOIS Records – `unitelmatch.top` |
