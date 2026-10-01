@@ -522,8 +522,8 @@ These recurring behaviours provide durable opportunities for detection engineeri
 | Version | Date | Change |
 |---------|------|--------|
 | 1.0 | 2026-08-27 | Initial investigation methodology created. |
-| 1.1 | 2026-09-21 | Added Application Fingerprinting section documenting HTTP request indicators (merchant-id, /tiny-shop/v1/ paths, and specific API endpoints) and Cloudflare-hosted domains for threat hunting. |
-| 2.1 | 2026-09-28 | Expanded detection opportunities to reflect the complete five-domain investigation; incorporated behavioural detection strategies based on infrastructure evolution and application fingerprinting; updated SIEM correlation guidance, threat-hunting hypotheses, and analytical assessment; added evidence references; aligned terminology and document structure with the final Operation Phantom Store repository; and updated metadata and related documents. |
+| 1.1 | 2026-09-21 | Added Application Fingerprinting section documenting HTTP request indicators (`merchant-id`, `/tiny-shop/v1/` paths, and specific API endpoints) and Cloudflare-hosted domains for threat hunting. |
+| 2.1 | 2026-09-28 | Expanded detection opportunities to reflect the complete five-domain investigation; incorporated behavioural detection strategies based on infrastructure evolution and application fingerprinting; updated SIEM correlation guidance, threat-hunting hypotheses, and analytical assessment; added evidence references; aligned terminology and document structure with the final **Operation Phantom Store** repository; and updated metadata and related documents. |
 
 ---
 
