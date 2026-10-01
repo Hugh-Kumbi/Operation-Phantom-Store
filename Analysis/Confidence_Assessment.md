@@ -85,11 +85,11 @@ No conclusions were based on a single unsupported source.
 
 The recruitment process involved five separate domains:
 
-- occupationoasis.com
-- linkroles.my
-- unitelmatch.top
-- unitelmatch.cc
-- unitelmatch.cyou
+- `occupationoasis.com`
+- `linkroles.my`
+- `unitelmatch.top`
+- `unitelmatch.cc`
+- `unitelmatch.cyou`
 
 ### Supporting Evidence
 
@@ -120,7 +120,7 @@ The recruiter followed a structured process designed to guide the investigator t
 - Conversation transcripts
 - Timeline
 - Screenshots
-- investigator notes
+- Investigator notes
 
 ### Confidence
 
