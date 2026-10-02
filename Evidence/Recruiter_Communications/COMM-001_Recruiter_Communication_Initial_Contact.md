@@ -17,7 +17,7 @@
 
 # Executive Summary
 
-This evidence documents the initial contact between the analyst and the recruiter, marking the beginning of the suspected recruitment campaign. During this phase, the recruiter established initial rapport, introduced the employment opportunity, and began guiding the analyst toward the campaign's onboarding workflow.
+This evidence documents the initial contact between the investigator and the recruiter, marking the beginning of the suspected recruitment campaign. During this phase, the recruiter established initial rapport, introduced the employment opportunity, and began guiding the investigator toward the campaign's onboarding workflow.
 
 At this stage, no overt indicators of malicious activity were observed. The communication primarily focused on establishing credibility and encouraging continued engagement, consistent with the trust-building phase of a structured social engineering campaign.
 
@@ -45,7 +45,7 @@ This evidence supports the following investigation artifacts:
 - Recruiter establishes first contact.
 - Employment opportunity is introduced.
 - Initial rapport and credibility are established.
-- Analyst is encouraged to continue the recruitment process.
+- Investigator is encouraged to continue the recruitment process.
 - Initial onboarding expectations are communicated.
 
 ---
