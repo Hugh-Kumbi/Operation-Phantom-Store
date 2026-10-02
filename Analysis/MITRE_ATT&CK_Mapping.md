@@ -315,7 +315,7 @@ https://mitre-attack.github.io/attack-navigator/
 
 1. Open the MITRE ATT&CK Navigator.
 2. Select **Open Existing Layer**.
-3. Upload `ATTACK_Navigator.json`.
+3. Upload `[ATTACK_Navigator.json](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/Navigator/ATTACK_Navigator.json)`.
 4. The mapped techniques will be displayed with confidence-based color coding.
 
 ---
