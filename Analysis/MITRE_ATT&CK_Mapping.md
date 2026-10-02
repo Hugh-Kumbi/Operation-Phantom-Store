@@ -89,7 +89,7 @@ The investigation identified multiple domains used during different stages of th
 - `unitelmatch.cc`
 - `unitelmatch.cyou`
 
-The recruiter directed the analyst between these domains during onboarding.
+The recruiter directed the investigator between these domains during onboarding.
 
 ### Supporting Evidence
 
@@ -143,7 +143,7 @@ Initial Access
 
 ### Observation
 
-The recruiter initiated communication following a legitimate job application and guided the analyst through a staged onboarding process.
+The recruiter initiated communication following a legitimate job application and guided the investigator through a staged onboarding process.
 
 The communication encouraged registration on external websites and progression through multiple onboarding steps.
 
@@ -193,14 +193,14 @@ Execution
 
 ### Observation
 
-The recruiter instructed the analyst to:
+The recruiter instructed the investigator to:
 
 - Access multiple websites
 - Create accounts
 - Submit store information
 - Navigate platform interfaces
 
-Progress through the workflow depended on the analyst voluntarily performing each action.
+Progress through the workflow depended on the investigator voluntarily performing each action.
 
 ### Supporting Evidence
 
@@ -250,7 +250,7 @@ Credential Access
 
 ### Observation
 
-The analyst was instructed to create accounts and enter information into onboarding forms.
+The investigator was instructed to create accounts and enter information into onboarding forms.
 
 ### Analytical Assessment
 
