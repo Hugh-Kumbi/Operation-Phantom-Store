@@ -318,8 +318,8 @@ The following infrastructure is first introduced or referenced during this phase
 
 | Domain | Purpose |
 |--------|---------|
-| occupationoasis.com | Initial recruitment platform |
-| line.me             | Communication platform       |
+| `occupationoasis.com` | Initial recruitment platform |
+| `line.me`             | Communication platform       |
 
 ---
 
@@ -335,11 +335,11 @@ The following infrastructure is first introduced or referenced during this phase
 
 ## Related Analysis
 
-- [`docs/Campaign_Overview.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
-- [`docs/Investigation_Timeline.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
-- [`Analysis/Social_Engineering_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [`Analysis/Attack_Lifecycle.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
-- [`Analysis/Confidence_Assessment.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
+- [`Attack_Lifecycle.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)s
+- [`Campaign_Overview.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
+- [`Confidence_Assessment.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
+- [`Investigation_Timeline.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [`Social_Engineering_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
 
 ---
 
@@ -353,7 +353,7 @@ This phase primarily represents:
 - Victim engagement
 - Preparation for subsequent onboarding activities
 
-Formal ATT&CK mappings are documented within [`Analysis/MITRE_ATT&CK_Mapping.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md).
+Formal ATT&CK mappings are documented within [`MITRE_ATT&CK_Mapping.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md).
 
 ---
 
@@ -385,7 +385,7 @@ No conversational content has been modified, removed, or reordered.
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
