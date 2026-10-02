@@ -10,7 +10,7 @@
 | **Collection Method** | Direct Communication                                                                        |
 | **Source**            | [Recruiter_Chat_Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                                   |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.                     |
-| **Related Domains**   | occupationoasis.com                                                                         |
+| **Related Domains**   | `occupationoasis.com`                                                                       |
 | **Related Analysis**  | [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md), [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md), [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md) |
 
 ---

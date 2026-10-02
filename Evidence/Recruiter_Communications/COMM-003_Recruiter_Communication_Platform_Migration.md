@@ -10,7 +10,7 @@
 | **Collection Method** | Direct Communication                                                                                 |
 | **Source**            | [Recruiter Chat Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                                            |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.                              |
-| **Related Domains**   | linkroles.my, unitelmatch.top, unitelmatch.cc, unitelmatch.cyou                                      |
+| **Related Domains**   | `linkroles.my`, `unitelmatch.top`, `unitelmatch.cc`, `unitelmatch.cyou`                              |
 | **Related Analysis**  | [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md), [Domain_Relationships.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md), [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md), [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md) |
 
 ---
@@ -19,7 +19,7 @@
 
 This evidence documents one of the most significant developments observed during the investigation: the repeated migration between onboarding platforms following browser security warnings and accessibility issues.
 
-Rather than discontinuing the onboarding process after security warnings were encountered, the recruiter consistently provided replacement domains and instructed the analyst to continue using the newly supplied infrastructure. This recurring behavior established a clear pattern of infrastructure replacement throughout the campaign.
+Rather than discontinuing the onboarding process after security warnings were encountered, the recruiter consistently provided replacement domains and instructed the investigator to continue using the newly supplied infrastructure. This recurring behavior established a clear pattern of infrastructure replacement throughout the campaign.
 
 The repeated introduction of newly observed domains represents a key behavioral and operational characteristic of the campaign.
 
@@ -220,7 +220,7 @@ That's just the platform upgrading, it's nothing to worry about. Are you checkin
 
 ## Behavioral Assessment
 
-Rather than attempting to troubleshoot or resolve browser security warnings, the recruiter immediately redirected the analyst to replacement infrastructure.
+Rather than attempting to troubleshoot or resolve browser security warnings, the recruiter immediately redirected the investigator to replacement infrastructure.
 
 This response indicates that operational continuity was prioritized over retaining a consistent platform. The repeated migration pattern suggests that the campaign was designed to tolerate infrastructure disruption by maintaining multiple operational domains capable of serving the same onboarding function.
 
@@ -232,11 +232,11 @@ The investigation identified the following progression:
 
 | Order | Domain | Status |
 |-------|--------|--------|
-| 1 | occupationoasis.com | Initial recruitment platform  |
-| 2 | linkroles.my        | Initial onboarding portal     |
-| 3 | unitelmatch.top     | Replacement onboarding portal |
-| 4 | unitelmatch.cc      | Subsequent replacement portal |
-| 5 | unitelmatch.cyou    | Additional operational portal |
+| 1 | `occupationoasis.com` | Initial recruitment platform  |
+| 2 | `linkroles.my`        | Initial onboarding portal     |
+| 3 | `unitelmatch.top`     | Replacement onboarding portal |
+| 4 | `unitelmatch.cc`      | Subsequent replacement portal |
+| 5 | `unitelmatch.cyou`    | Additional operational portal |
 
 This sequence demonstrates a structured pattern of infrastructure replacement rather than isolated domain changes.
 
@@ -283,13 +283,14 @@ These behaviors reduced the likelihood of campaign abandonment despite repeated 
 
 ## Related Analysis
 
-- [`OSINT/Infrastructure_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
-- [`OSINT/Domain_Relationships.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
-- [`OSINT/Certificate_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
-- [`OSINT/Reputation_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
-- [`Analysis/Social_Engineering_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [`Analysis/Indicators_of_Compromise.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
-- [`Analysis/Detection_Opportunities.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [`Certificate_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
+- [`Detection_Opportunities.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [`Domain_Relationships.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
+- [`Indicators_of_Compromise.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+- [`Infrastructure_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [`Reputation_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
+- [`Social_Engineering_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
+
 
 ---
 
@@ -347,7 +348,7 @@ No conversational content has been modified, removed, or reordered.
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store
