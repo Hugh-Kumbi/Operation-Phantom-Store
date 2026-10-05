@@ -90,7 +90,7 @@ This evidence supports the following investigation artifacts:
 
 > **Analyst Observation**
 >
-> Opening message uses warm, friendly Japanese greeting with emojis—typical rapport-building opener in recruiter–candidate outreach.
+> Opening message uses warm, friendly Japanese greeting with emojis, typical rapport-building opener in recruiter–candidate outreach.
 
 ---
 
@@ -122,7 +122,7 @@ This evidence supports the following investigation artifacts:
 
 > **Analyst Observation**
 >
-> New domain (`unitelmatch.cc`) introduced without explanation—first sign of domain rotation. No accompanying instruction beyond the URL itself.
+> New domain (`unitelmatch.cc`) introduced without explanation, first sign of domain rotation. No accompanying instruction beyond the URL itself.
 >
 📎 Related Screenshot  
 ![`CTI-2026-07_unitelmatch.cc_domain_change.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_unitelmatch.cc_domain_change.png)
