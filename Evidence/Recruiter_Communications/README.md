@@ -170,14 +170,12 @@ No unauthorized access, exploitation, credential harvesting, or intrusive scanni
 
 # Related Directories
 
-```text
-docs/
-Analysis/
-OsINT/
-Evidence/Screenshots/
-Evidence/Browser_Warnings/
-Assets/
-```
+[`Analysis/`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Analysis)
+[`Assets/`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Assets)
+[`docs/`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/docs)
+[`Evidence/Browser_Warnings/`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Evidence/Browser_Warnings)
+[`Evidence/Screenshots/`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Evidence/Screenshots)
+[`OSINT/`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/OSINT)
 
 These directories contain the supporting technical evidence, analytical assessments, and documentation referenced throughout the recruiter communication evidence.
 
