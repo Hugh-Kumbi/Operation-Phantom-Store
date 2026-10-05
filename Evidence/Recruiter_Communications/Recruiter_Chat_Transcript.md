@@ -90,7 +90,7 @@ Each evidence artifact references a specific portion of this master transcript w
 ---
 
 **17:06** チェ・ジュン:  
-> ![`CTI-2026-07_occupationoasis_referenced_site_verification.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_occupationoasis_referenced_site_verification.png)
+![`CTI-2026-07_occupationoasis_referenced_site_verification.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_occupationoasis_referenced_site_verification.png)
 
 > **Analyst Observation**
 >
@@ -150,10 +150,10 @@ Each evidence artifact references a specific portion of this master transcript w
 
 > **Analyst Observation**
 >
-> Candidate expresses interest but requests structured clarification on six critical points—including upfront costs. Strong signal of caution.
+> Candidate expresses interest but requests structured clarification on six critical points, including upfront costs. Strong signal of caution.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_candidate_questions.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_candidate_questions.png)
+![`CTI-2026-07_full_transcript_candidate_questions.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_candidate_questions.png)
 
 ---
 
@@ -162,7 +162,7 @@ Each evidence artifact references a specific portion of this master transcript w
 
 > **Analyst Observation**
 >
-> Recruiter deflects detailed questions and instead asks about full-time vs. part-time preference—qualifying candidate before providing specifics.
+> Recruiter deflects detailed questions and instead asks about full-time vs. part-time preference, qualifying candidate before providing specifics.
 
 ---
 
@@ -189,7 +189,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Asks candidate’s salary expectation—standard screening question.
+> Asks candidate’s salary expectation, standard screening question.
 
 ---
 
@@ -218,7 +218,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Shifts to behavioral question about shopping habits—likely to gauge familiarity with e-commerce and social platforms.
+> Shifts to behavioral question about shopping habits, likely to gauge familiarity with e-commerce and social platforms.
 
 ---
 
@@ -227,7 +227,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Candidate lists mainstream platforms (Amazon, Rakuten, Google, YouTube)—shows typical consumer behavior.
+> Candidate lists mainstream platforms (Amazon, Rakuten, Google, YouTube), shows typical consumer behavior.
 
 ---
 
@@ -236,7 +236,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Positions TikTok as the emerging “first choice” for product discovery—sets narrative for why this opportunity matters.
+> Positions TikTok as the emerging “first choice” for product discovery, sets narrative for why this opportunity matters.
 
 ---
 
@@ -245,7 +245,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Offers to explain their own role—builds curiosity and rapport.
+> Offers to explain their own role, builds curiosity and rapport.
 
 ---
 
@@ -254,7 +254,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Candidate engages—wants to understand recruiter’s work.
+> Candidate engages, wants to understand recruiter’s work.
 
 ---
 
@@ -285,7 +285,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Candidate seeks concrete definition of “processing new orders”—critical operational detail.
+> Candidate seeks concrete definition of “processing new orders,” critical operational detail.
 
 ---
 
@@ -315,7 +315,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Candidate politely ignores the personal question and refocuses on operations—maintains boundaries.
+> Candidate politely ignores the personal question and refocuses on operations, maintains boundaries.
 
 ---
 
@@ -342,7 +342,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 > Introduces dropshipping model: no inventory, logistics, or after-sales burden. Claims low startup ease and reduced risk.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_dropshipping_explanation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_dropshipping_explanation.png)
+![`CTI-2026-07_full_transcript_dropshipping_explanation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_dropshipping_explanation.png)
 
 ---
 
@@ -416,7 +416,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Asks if candidate has time now—pushes toward immediate next step.
+> Asks if candidate has time now, pushes toward immediate next step.
 
 ---
 
@@ -563,7 +563,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 > First introduction of **linkroles.my** with invitation code. Marks transition from recruiter communication to platform onboarding.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_linkroles_invitation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_linkroles_invitation.png)
+![`CTI-2026-07_full_transcript_linkroles_invitation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_linkroles_invitation.png)
 
 ---
 
@@ -613,7 +613,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 ---
 
 **15:14** Hugh K:  
-> ![`CTI-2026-07_shop_registration_training_prerequisite.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_shop_registration_training_prerequisite.png)
+![`CTI-2026-07_shop_registration_training_prerequisite.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_shop_registration_training_prerequisite.png)
 
 > **Analyst Observation**
 >
@@ -622,7 +622,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 ---
 
 **15:15** チェ・ジュン:  
-> ![`CTI-2026-07_recruiter_UI_element_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_UI_element_highlight.png)
+![`CTI-2026-07_recruiter_UI_element_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_UI_element_highlight.png)
 
 > **Analyst Observation**
 >
@@ -653,7 +653,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Provides template store description—generic but professional-sounding.
+> Provides template store description, generic but professional-sounding.
 
 ---
 
@@ -698,7 +698,7 @@ TT ショッププラットフォームに所属しており、私自身も店�
 
 > **Analyst Observation**
 >
-> Offers invitation to “work group”—likely a Telegram/WhatsApp group for social proof and peer pressure.
+> Offers invitation to “work group,” likely a Telegram/WhatsApp group for social proof and peer pressure.
 
 ---
 
@@ -748,7 +748,7 @@ nul
 ---
 
 **15:41** Hugh K:  
-> ![`CTI-2026-07_next_steps_post_screening.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_next_steps_post_screening.png)
+![`CTI-2026-07_next_steps_post_screening.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_next_steps_post_screening.png)
 
 > **Analyst Observation**
 >
@@ -757,7 +757,7 @@ nul
 ---
 
 **15:41** チェ・ジュン:  
-> ![`CTI-2026-07_recruiter_UI_next_element.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_UI_next_element.png)
+![`CTI-2026-07_recruiter_UI_next_element.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_UI_next_element.png)
 
 > **Analyst Observation**
 >
@@ -770,7 +770,7 @@ nul
 
 > **Analyst Observation**
 >
-> Offers to help change profile photo—personalized support.
+> Offers to help change profile photo, personalized support.
 
 ---
 
@@ -784,7 +784,7 @@ nul
 ---
 
 **15:44** Hugh K:  
-> ![`CTI-2026-07_tasks_click_scroll_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_tasks_click_scroll_instruction.png)
+![`CTI-2026-07_tasks_click_scroll_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_tasks_click_scroll_instruction.png)
 
 
 > **Analyst Observation**
@@ -794,7 +794,7 @@ nul
 ---
 
 **15:44** チェ・ジュン:  
-> ![`CTI-2026-07_recruiter_task_elements_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_task_elements_highlight.png)
+![`CTI-2026-07_recruiter_task_elements_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_task_elements_highlight.png)
 
 > **Analyst Observation**
 >
@@ -866,7 +866,7 @@ nul
 ---
 
 **15:48** Hugh K:  
-> ![`CTI-2026-07_add_products_store_attract_customers.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_add_products_store_attract_customers.png)
+![`CTI-2026-07_add_products_store_attract_customers.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_add_products_store_attract_customers.png)
 
 > **Analyst Observation**
 >
@@ -875,7 +875,7 @@ nul
 ---
 
 **15:49** チェ・ジュン:  
-> ![`CTI-2026-07_recruiter_add_products_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_add_products_UI_highlight.png)
+![`CTI-2026-07_recruiter_add_products_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_add_products_UI_highlight.png)
 
 > **Analyst Observation**
 >
@@ -893,7 +893,7 @@ nul
 ---
 
 **15:50** Hugh K:  
-> ![`CTI-2026-07_select_10_products_task_traffic.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_select_10_products_task_traffic.png)
+![`CTI-2026-07_select_10_products_task_traffic.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_select_10_products_task_traffic.png)
 
 > **Analyst Observation**
 >
@@ -902,7 +902,7 @@ nul
 ---
 
 **15:50** チェ・ジュン:  
-> ![`CTI-2026-07_post_10_products_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_post_10_products_UI_highlight.png)
+![`CTI-2026-07_post_10_products_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_post_10_products_UI_highlight.png)
 
 > **Analyst Observation**
 >
@@ -965,7 +965,7 @@ nul
 ---
 
 **15:57** チェ・ジュン:  
-> ![`CTI-2026-07_customer_service_contact_button.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_service_contact_button.png)
+![`CTI-2026-07_customer_service_contact_button.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_service_contact_button.png)
 
 > **Analyst Observation**
 >
@@ -992,7 +992,7 @@ nul
 ---
 
 **15:57** Hugh K:  
-> ![`CTI-2026-07_recruiter_traffic_task_apply_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_traffic_task_apply_instruction.png)
+![`CTI-2026-07_recruiter_traffic_task_apply_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_traffic_task_apply_instruction.png)
 
 > **Analyst Observation**
 >
@@ -1071,7 +1071,7 @@ nul
 > Provides training store credentials. Shared password is a security red flag.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_training_store_credentials.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_training_store_credentials.png)
+![`CTI-2026-07_full_transcript_training_store_credentials.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_training_store_credentials.png)
 
 ---
 
@@ -1139,7 +1139,7 @@ nul
 ---
 
 **16:06** Hugh K:  
-> ![`CTI-2026-07_store_orders_live.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_store_orders_live.png)
+![`CTI-2026-07_store_orders_live.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_store_orders_live.png)
 
 > **Analyst Observation**
 >
@@ -1152,12 +1152,12 @@ nul
 
 > **Analyst Observation**
 >
-> Claims store already has orders—enables live training scenario.
+> Claims store already has orders, enables live training scenario.
 
 ---
 
 **16:07** チェ・ジュン:  
-> ![`CTI-2026-07_store_orders_live_training_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_store_orders_live_training_UI_highlight.png)
+![`CTI-2026-07_store_orders_live_training_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_store_orders_live_training_UI_highlight.png)
 
 > **Analyst Observation**
 >
@@ -1166,7 +1166,7 @@ nul
 ---
 
 **16:08** Hugh K:  
-> ![`CTI-2026-07_candidate_compliance_confirmation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_candidate_compliance_confirmation.png)
+![`CTI-2026-07_candidate_compliance_confirmation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_candidate_compliance_confirmation.png)
 
 > **Analyst Observation**
 >
@@ -1175,7 +1175,7 @@ nul
 ---
 
 **16:08** チェ・ジュン:  
-> ![`CTI-2026-07_candidate_compliance_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_candidate_compliance_UI_highlight.png)
+![`CTI-2026-07_candidate_compliance_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_candidate_compliance_UI_highlight.png)
 
 > **Analyst Observation**
 >
@@ -1211,7 +1211,7 @@ nul
 > First concrete financial breakdown with crypto bonus incentive.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_profit_breakdown.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_profit_breakdown.png)
+![`CTI-2026-07_full_transcript_profit_breakdown.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_profit_breakdown.png)
 
 ---
 
@@ -1238,7 +1238,7 @@ nul
 
 > **Analyst Observation**
 >
-> Pauses task to explain platform model—builds legitimacy narrative.
+> Pauses task to explain platform model, builds legitimacy narrative.
 
 ---
 
@@ -1277,7 +1277,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 > First explicit mention of upfront capital requirement.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_upfront_cost.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_upfront_cost.png)
+![`CTI-2026-07_full_transcript_upfront_cost.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_upfront_cost.png)
 
 ---
 
@@ -1331,7 +1331,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 
 > **Analyst Observation**
 >
-> Invites questions—creates illusion of transparency.
+> Invites questions, creates illusion of transparency.
 
 ---
 
@@ -1395,7 +1395,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 
 > **Analyst Observation**
 >
-> Misaligned response—mentions personal earnings/travel. Possible copy-paste or translation error.
+> Misaligned response, mentions personal earnings/travel. Possible copy-paste or translation error.
 
 ---
 
@@ -1470,7 +1470,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 > First concrete funding request: $221 needed. Directs to “Help Center” for recharge details.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_recharge_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_recharge_instruction.png)
+![`CTI-2026-07_full_transcript_recharge_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_recharge_instruction.png)
 
 ---
 
@@ -1493,7 +1493,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 ---
 
 **18:09** チェ・ジュン:  
-> ![`CTI-2026-07_balance_insufficient_221_help_center.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_balance_insufficient_221_help_center.png)
+![`CTI-2026-07_balance_insufficient_221_help_center.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_balance_insufficient_221_help_center.png)
 
 > **Analyst Observation**
 >
@@ -1506,7 +1506,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 
 > **Analyst Observation**
 >
-> Requests TRC20 deposit address—transition to crypto onboarding.
+> Requests TRC20 deposit address, transition to crypto onboarding.
 
 ---
 
@@ -1574,7 +1574,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 ---
 
 **18:24** Hugh K:  
-> ![`CTI-2026-07_blue_checkmark_language_exchange.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_blue_checkmark_language_exchange.png)
+![`CTI-2026-07_blue_checkmark_language_exchange.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_blue_checkmark_language_exchange.png)
 
 > **Analyst Observation**
 >
@@ -1592,7 +1592,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 ---
 
 **18:25** チェ・ジュン:  
-> ![`CTI-2026-07_recruiter_address_request.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_address_request.png)
+![`CTI-2026-07_recruiter_address_request.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_recruiter_address_request.png)
 
 > **Analyst Observation**
 >
@@ -1605,10 +1605,10 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 
 > **Analyst Observation**
 >
-> Candidate provides TRC20 address—critical step: sharing wallet details.
+> Candidate provides TRC20 address, critical step: sharing wallet details.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_hugh_trc20.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_hugh_trc20.png)
+![`CTI-2026-07_full_transcript_hugh_trc20.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_hugh_trc20.png)
 
 ---
 
@@ -1622,7 +1622,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:39** チェ・ジュン:  
-> ![`CTI-2026-07_proof_of_deposit_to_requested_address.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_proof_of_deposit_to_requested_address.png)
+![`CTI-2026-07_proof_of_deposit_to_requested_address.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_proof_of_deposit_to_requested_address.png)
 
 > **Analyst Observation**
 >
@@ -1676,7 +1676,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:48** Hugh K:  
-> ![`CTI-2026-07_customer_service_replied_finalize.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_service_replied_finalize.png)
+![`CTI-2026-07_customer_service_replied_finalize.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_service_replied_finalize.png)
 
 > **Analyst Observation**
 >
@@ -1721,7 +1721,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:55** Hugh K:  
-> ![`CTI-2026-07_additional_30_deposited_open_order.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_additional_30_deposited_open_order.png)
+![`CTI-2026-07_additional_30_deposited_open_order.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_additional_30_deposited_open_order.png)
 
 > **Analyst Observation**
 >
@@ -1730,7 +1730,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:55** チェ・ジュン:  
-> ![`CTI-2026-07_open_order_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_open_order_UI_highlight.png)
+![`CTI-2026-07_open_order_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_open_order_UI_highlight.png)
 
 > **Analyst Observation**
 >
@@ -1743,12 +1743,12 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 
 > **Analyst Observation**
 >
-> Direct instruction to click “Advance”—commitment point.
+> Direct instruction to click “Advance,” commitment point.
 
 ---
 
 **18:57** Hugh K:  
-> ![`CTI-2026-07_click_advance_process_order-01.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_click_advance_process_order-01.png)
+![`CTI-2026-07_click_advance_process_order-01.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_click_advance_process_order-01.png)
 
 > **Analyst Observation**
 >
@@ -1757,7 +1757,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:58** チェ・ジュン:  
-> ![`CTI-2026-07_click_advance_process_order-02.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_click_advance_process_order-02.png)
+![`CTI-2026-07_click_advance_process_order-02.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_click_advance_process_order-02.png)
 
 > **Analyst Observation**
 >
@@ -1766,7 +1766,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:59** Hugh K:  
-> ![`CTI-2026-07_click_advance_process_order-03.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_click_advance_process_order-03.png)
+![`CTI-2026-07_click_advance_process_order-03.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_click_advance_process_order-03.png)
 
 > **Analyst Observation**
 >
@@ -1914,7 +1914,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Says they don’t have an address yet—may refer to withdrawal address.
+> Says they don’t have an address yet in referrence to a withdrawal address.
 
 ---
 
@@ -1944,7 +1944,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 > Recommends Coincheck (Japan-licensed exchange).
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_coincheck_rec.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_coincheck_rec.png)
+![`CTI-2026-07_full_transcript_coincheck_rec.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_coincheck_rec.png)
 
 ---
 
@@ -1989,7 +1989,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Recruiter also logs in to withdraw—social proof.
+> Recruiter also logs in to withdraw, social proof.
 
 ---
 
@@ -2057,7 +2057,7 @@ unsent a message.
 ---
 
 **19:28** チェ・ジュン:  
-> ![`CTI-2026-07_full_order_completed_screen`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_order_completed_screen.png)
+![`CTI-2026-07_full_order_completed_screen`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_order_completed_screen.png)
 
 > **Analyst Observation**
 >
@@ -2106,7 +2106,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Claims withdrawal initiated—social proof.
+> Claims withdrawal initiated, social proof.
 
 ---
 
@@ -2131,7 +2131,7 @@ unsent a message.
 > Full transaction breakdown.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_transaction_summary.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_transaction_summary.png)
+![`CTI-2026-07_full_transcript_transaction_summary.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_transaction_summary.png)
 
 ---
 
@@ -2352,7 +2352,7 @@ unsent a message.
 > First introduction of **unitelmatch.top**. Shifts from linkroles.my to new domain.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_unitelmatch_top.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_unitelmatch_top.png)
+![`CTI-2026-07_full_transcript_unitelmatch_top.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_unitelmatch_top.png)
 
 ---
 
@@ -2429,7 +2429,7 @@ unsent a message.
 ---
 
 **18:42** Hugh K:  
-> ![`CTI-2026-07_candidate_performance_data.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_candidate_performance_data.png)
+![`CTI-2026-07_candidate_performance_data.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_candidate_performance_data.png)
 
 > **Analyst Observation**
 >
@@ -2438,7 +2438,7 @@ unsent a message.
 ---
 
 **18:43** Hugh K:  
-> ![`CTI-2026-07_candidate_orders_screen.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_candidate_orders_screen.png)
+![`CTI-2026-07_candidate_orders_screen.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_candidate_orders_screen.png)
 
 > **Analyst Observation**
 >
@@ -2492,7 +2492,7 @@ unsent a message.
 ---
 
 **18:57** チェ・ジュン:  
-> ![`CTI-2026-07_orders_screen_next_action_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_orders_screen_next_action_UI_highlight.png)
+![`CTI-2026-07_orders_screen_next_action_UI_highlight.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_orders_screen_next_action_UI_highlight.png)
 
 > **Analyst Observation**
 >
@@ -2717,7 +2717,7 @@ unsent a message.
 > Instructs to register ERC-20 address (different chain from TRC-20).
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_erc20_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_erc20_instruction.png)
+![`CTI-2026-07_full_transcript_erc20_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_erc20_instruction.png)
 
 ---
 
@@ -2830,7 +2830,7 @@ unsent a message.
 > Escalates tone; asks if candidate is quitting.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_pressure_message.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_pressure_message.png)
+![`CTI-2026-07_full_transcript_pressure_message.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_pressure_message.png)
 
 ---
 
@@ -2946,7 +2946,7 @@ In hospital. I was admitted on the 25th of July
 > Discloses hospitalization since July 25.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_hospital_disclosure.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_hospital_disclosure.png)
+![`CTI-2026-07_full_transcript_hospital_disclosure.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_hospital_disclosure.png)
 
 ---
 
@@ -3039,7 +3039,7 @@ unsent a message.
 > Formal 24-hour deadline justification.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_24h_deadline.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_24h_deadline.png)
+![`CTI-2026-07_full_transcript_24h_deadline.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_24h_deadline.png)
 
 ---
 
@@ -3194,10 +3194,10 @@ Can I have the upgraded site?
 
 > **Analyst Observation**
 >
-> Provides **unitelmatch.cc**—second domain rotation.
+> Provides **unitelmatch.cc**, second domain rotation.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_domain_cc.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_domain_cc.png)
+![`CTI-2026-07_full_transcript_domain_cc.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_domain_cc.png)
 
 ---
 
@@ -3242,10 +3242,10 @@ Yes, I am ready. I tried to login but google is saying that [https://www.unitelm
 
 > **Analyst Observation**
 >
-> Google Safe Browsing warning—major trust friction.
+> Google Safe Browsing warning, major trust friction.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_google_warning.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_google_warning.png)
+![`CTI-2026-07_full_transcript_google_warning.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_google_warning.png)
 
 ---
 
@@ -3284,7 +3284,7 @@ Okay cool
 > Third domain rotation: **unitelmatch.cyou**.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_domain_cyou.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_domain_cyou.png)
+![`CTI-2026-07_full_transcript_domain_cyou.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_domain_cyou.png)
 
 ---
 
@@ -3323,7 +3323,7 @@ That's just the platform upgrading, it's nothing to worry about. Are you checkin
 > Dismisses warning as “platform upgrading”; mild challenge.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_reassurance.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_reassurance.png)
+![`CTI-2026-07_full_transcript_reassurance.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_reassurance.png)
 
 ---
 
@@ -3343,10 +3343,10 @@ Do you still need to manage your store?
 
 > **Analyst Observation**
 >
-> Repeats opening question from Aug 3—potential campaign closure signal.
+> Repeats opening question from Aug 3, potential campaign closure signal.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_full_transcript_final_check.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_final_check.png)
+![`CTI-2026-07_full_transcript_final_check.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_final_check.png)
 
 ---
 
@@ -3369,39 +3369,39 @@ This transcript supported the following investigation activities:
 
 ## Documentation
 
-- [`docs/Campaign_Overview.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
-- [`docs/Methodology.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Methodology.md)
-- [`docs/Investigation_Timeline.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
-- [`docs/Findings.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
-- [`docs/Evidence_Register.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Evidence_Register.md)
-- [`docs/Lessons_Learned.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md)
-- [`docs/Executive_Report.pdf`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Executive_Report.pdf)
+- [`Campaign_Overview.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md)
+- [`Evidence_Register.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Evidence_Register.md)
+- [`Executive_Report.pdf`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Executive_Report.pdf)
+- [`Findings.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
+- [`Investigation_Timeline.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [`Methodology.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Methodology.md)
+- [`Lessons_Learned.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md)
 
 ---
 
 ## Technical Analysis
 
-- [`Analysis/Attack_Lifecycle.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
-- [`Analysis/Social_Engineering_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
-- [`Analysis/MITRE_ATT&CK_Mapping.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
-- [`Analysis/Diamond_Model.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
-- [`Analysis/Indicators_of_Compromise.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
-- [`Analysis/Detection_Opportunities.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
-- [`Analysis/Confidence_Assessment.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
-- [`Analysis/Intelligence_Gaps.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Intelligence_Gaps.md)
+- [`Attack_Lifecycle.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md)
+- [`Confidence_Assessment.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
+- [`Detection_Opportunities.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [`Diamond_Model.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Diamond_Model.md)
+- [`Indicators_of_Compromise.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+- [`Intelligence_Gaps.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Intelligence_Gaps.md)
+- [`MITRE_ATT&CK_Mapping.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/MITRE_ATT%26CK_Mapping.md)
+- [`Social_Engineering_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
 
 ---
 
 ## OSINT Analysis
 
-- [`OSINT/DNS_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
-- [`OSINT/Passive_DNS.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
-- [`OSINT/Domain_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
-- [`OSINT/Certificate_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
-- [`OSINT/Infrastructure_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
-- [`OSINT/Technology_Stack.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
-- [`OSINT/Reputation_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
-- [`OSINT/Domain_Relationships.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
+- [`Certificate_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md)
+- [`DNS_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/DNS_Analysis.md)
+- [`Domain_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Analysis.md)
+- [`Domain_Relationships.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md)
+- [`Infrastructure_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md)
+- [`Passive_DNS.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Passive_DNS.md)
+- [`Reputation_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md)
+- [`Technology_Stack.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Technology_Stack.md)
 
 ---
 
@@ -3461,7 +3461,7 @@ This document should be referenced when reviewing the investigation as a complet
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
