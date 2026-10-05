@@ -84,7 +84,7 @@ This evidence supports the following investigation artifacts:
 ### 2026.07.22
 
 **18:10** チェ・ジュン:  
-> ![`CTI-2026-07_customer_service_traffic_task_request`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_service_traffic_task_request.png)
+![`CTI-2026-07_customer_service_traffic_task_request`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_service_traffic_task_request.png)
 
 > **Analyst Observation**
 >
@@ -109,7 +109,7 @@ This evidence supports the following investigation artifacts:
 > Explicit instruction: candidate must send deposit address so recruiter can “prepay” for an order. Framed as collaborative, but candidate is being set up to fund the transaction.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_financial_trc20_address_request.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_trc20_address_request.png)
+![`CTI-2026-07_financial_trc20_address_request.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_trc20_address_request.png)
 
 ---
 
@@ -154,7 +154,7 @@ This evidence supports the following investigation artifacts:
 
 > **Analyst Observation**
 >
-> Recruiter deflects—attributes delay to “customer service” being busy, not addressing language preference directly.
+> Recruiter deflects, attributes delay to “customer service” being busy, not addressing language preference directly.
 
 ---
 
@@ -168,7 +168,7 @@ This evidence supports the following investigation artifacts:
 ---
 
 **18:24** Hugh K:  
-> ![`CTI-2026-07_customer_service_traffic_task_request_conversation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_service_traffic_task_request_conversation.png)
+![`CTI-2026-07_customer_service_traffic_task_request_conversation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_service_traffic_task_request_conversation.png)
 
 > **Analyst Observation**
 >
@@ -186,7 +186,7 @@ This evidence supports the following investigation artifacts:
 ---
 
 **18:25** チェ・ジュン:  
-> ![`CTI-2026-07_customer_financial_trc20_address_highlighted.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_financial_trc20_address_highlighted.png)
+![`CTI-2026-07_customer_financial_trc20_address_highlighted.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_customer_financial_trc20_address_highlighted.png)
 
 > **Analyst Observation**
 >
@@ -202,7 +202,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 > Candidate provides a TRC20 address (42-character string starting with “T”). This is a critical step: sharing crypto wallet details with the recruiter.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_financial_recruiter_trc20_address.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_recruiter_trc20_address.png)
+![`CTI-2026-07_financial_recruiter_trc20_address.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_recruiter_trc20_address.png)
 
 ---
 
@@ -216,7 +216,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:39** チェ・ジュン:  
-> ![`CTI-2026-07_financial_deposit_proof.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_deposit_proof.png)
+![`CTI-2026-07_financial_deposit_proof.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_deposit_proof.png)
 
 > **Analyst Observation**
 >
@@ -238,7 +238,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 
 > **Analyst Observation**
 >
-> Claims to have just been on a phone call—possibly with support. Adds realism to the “review” process.
+> Claims to have just been on a phone call, possibly with support. Adds realism to the “review” process.
 
 ---
 
@@ -270,11 +270,11 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:48** Hugh K:  
-> ![`CTI-2026-07_financial_balance_update.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_balance_update.png)
+![`CTI-2026-07_financial_balance_update.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_balance_update.png)
 
 > **Analyst Observation**
 >
-> Candidate sends screenshot—likely of updated order status or balance.
+> Candidate sends screenshot of updated order status or balance.
 
 ---
 
@@ -292,7 +292,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 
 > **Analyst Observation**
 >
-> Confirms the 30% crypto bonus has been credited—reinforcing the incentive structure.
+> Confirms the 30% crypto bonus has been credited, reinforcing the incentive structure.
 
 ---
 
@@ -310,12 +310,12 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 
 > **Analyst Observation**
 >
-> Requests screenshot of the order page—likely to verify candidate is following steps correctly.
+> Requests screenshot of the order page to verify candidate is following steps correctly.
 
 ---
 
 **18:55** Hugh K:  
-> ![`CTI-2026-07_training_order_completion-01.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-01.png)
+![`CTI-2026-07_training_order_completion-01.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-01.png)
 
 > **Analyst Observation**
 >
@@ -324,13 +324,13 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:55** チェ・ジュン:  
-> ![`CTI-2026-07_training_order_completion-02.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-02.png)
+![`CTI-2026-07_training_order_completion-02.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-02.png)
 
-> ![`CTI-2026-07_training_order_completion-03.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-03.png)
+![`CTI-2026-07_training_order_completion-03.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-03.png)
 
 > **Analyst Observation**
 >
-> Recruiter sends image—possibly highlighting the “Advance” button or next step.
+> Recruiter sends image highlighting the “Advance” button and next step.
 
 ---
 
@@ -344,16 +344,16 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:57** Hugh K:  
-> ![`CTI-2026-07_training_order_completion-04.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-04.png)
+![`CTI-2026-07_training_order_completion-04.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-04.png)
 
 > **Analyst Observation**
 >
-> Candidate sends screenshot—likely showing order in “processing” or “shipped” state.
+> Candidate sends screenshot showing order in “processing” state.
 
 ---
 
 **18:58** チェ・ジュン:  
-> ![`CTI-2026-07_training_order_completion-05.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-05.png)
+![`CTI-2026-07_training_order_completion-05.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-05.png)
 
 > **Analyst Observation**
 >
@@ -362,7 +362,7 @@ TMbunybGaMmrjt91SAJ8YGRDGkZ65huntH
 ---
 
 **18:59** Hugh K:  
-> ![`CTI-2026-07_training_order_completion-06.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-06.png)
+![`CTI-2026-07_training_order_completion-06.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_order_completion-06.png)
 
 > **Analyst Observation**
 >
@@ -411,7 +411,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Clarifies that “simulated” orders settle quickly, enabling fast withdrawal—key incentive for continued participation.
+> Clarifies that “simulated” orders settle quickly, enabling fast withdrawal, key incentive for continued participation.
 
 ---
 
@@ -447,7 +447,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Opens floor for questions before candidate goes solo—standard onboarding closure.
+> Opens floor for questions before candidate goes solo, standard onboarding closure.
 
 ---
 
@@ -483,7 +483,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Candidate asks if there’s a preferred crypto wallet—practical question about infrastructure.
+> Candidate asks if there’s a preferred crypto wallet, practical question about infrastructure.
 
 ---
 
@@ -510,7 +510,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Candidate contradicts earlier—now says they don’t have an address. May refer to a different wallet (e.g., for withdrawals vs. deposits).
+> Candidate contradicts earlier, now says they don’t have an address. May refer to a different wallet (e.g., for withdrawals vs. deposits).
 
 ---
 
@@ -537,10 +537,10 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Recommends Coincheck—a Japan-licensed crypto exchange. Adds legitimacy by naming a regulated platform.
+> Recommends Coincheck, a Japan-licensed crypto exchange. Adds legitimacy by naming a regulated platform.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_financial_coincheck_recommendation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_coincheck_recommendation.png)
+![`CTI-2026-07_financial_coincheck_recommendation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_coincheck_recommendation.png)
 
 ---
 
@@ -585,7 +585,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Recruiter states they also need to log in to check delivery status and withdraw funds—mirroring candidate’s actions.
+> Recruiter states they also need to log in to check delivery status and withdraw funds, mirroring candidate’s actions.
 
 ---
 
@@ -612,7 +612,7 @@ TikTok のトラフィックは非常に多く、世界中のサプライヤー�
 
 > **Analyst Observation**
 >
-> Claims their own order has been “received”—reinforces that the system works.
+> Claims their own order has been “received,” reinforces that the system works.
 
 ---
 
@@ -630,7 +630,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Message was unsent—content unknown. May indicate correction or change of plans.
+> Message was unsent, content unknown. May indicate correction or change of plans.
 
 ---
 
@@ -639,7 +639,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Clarifies that “virtual” orders settle faster than physical shipments—manages expectations on timing.
+> Clarifies that “virtual” orders settle faster than physical shipments, manages expectations on timing.
 
 ---
 
@@ -653,11 +653,11 @@ unsent a message.
 ---
 
 **19:28** チェ・ジュン:  
-> ![`CTI-2026-07_financial_transaction_profit.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_transaction_profit.png)
+![`CTI-2026-07_financial_transaction_profit.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_transaction_profit.png)
 
 > **Analyst Observation**
 >
-> Image sent—likely showing withdrawal screen or balance.
+> Image sent showing withdrawal screen.
 
 ---
 
@@ -684,7 +684,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Personalizes success: links earnings to recruiter’s travel goals—builds aspirational narrative.
+> Personalizes success: links earnings to recruiter’s travel goals, builds aspirational narrative.
 
 ---
 
@@ -702,7 +702,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Recruiter claims to have just initiated withdrawal—adds social proof that the system pays out.
+> Recruiter claims to have just initiated withdrawal, adds social proof that the system pays out.
 
 ---
 
@@ -711,7 +711,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Confirms receipt of funds and thanks candidate—closes the loop on the first real transaction.
+> Confirms receipt of funds and thanks candidate, closes the loop on the first real transaction.
 
 ---
 
@@ -723,7 +723,7 @@ unsent a message.
 > Detailed breakdown of the transaction: charge, profit, 30% crypto bonus, total. Emphasizes “no shipping needed” for e-orders.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_financial_transaction_breakdown.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_transaction_breakdown.png)
+![`CTI-2026-07_financial_transaction_breakdown.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_transaction_breakdown.png)
 
 ---
 
@@ -732,7 +732,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Introduces “newcomer bonus” available post-training—additional incentive to engage support.
+> Introduces “newcomer bonus” available post-training, additional incentive to engage support.
 
 ---
 
@@ -741,7 +741,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Candidate asks for script—wants to ensure correct wording to claim bonus.
+> Candidate asks for script, wants to ensure correct wording to claim bonus.
 
 ---
 
@@ -768,7 +768,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Reminder to include store name—critical for bonus attribution.
+> Reminder to include store name, critical for bonus attribution.
 
 ---
 
@@ -813,7 +813,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Follow-up question—possibly mistranslation of “Did you see the redemption/exchange?”
+> Follow-up question, possibly mistranslation of “Did you see the redemption button?”
 
 ---
 
@@ -867,7 +867,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Acknowledges others’ luck—shows awareness of bonus variability.
+> Acknowledges others’ luck, shows awareness of bonus variability.
 
 ---
 
@@ -885,7 +885,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Mentions “traffic application” submitted for candidate’s store—implies upcoming order flow boost.
+> Mentions “traffic application” submitted for candidate’s store, implies upcoming order flow boost.
 
 ---
 
@@ -921,7 +921,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Personal note—humanizes recruiter.
+> Personal note, humanizes recruiter.
 
 ---
 
@@ -937,7 +937,7 @@ unsent a message.
 ---
 
 **18:42** Hugh K:  
-> ![`CTI-2026-07_training_store_dashboard-01.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-01.png)
+![`CTI-2026-07_training_store_dashboard-01.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-01.png)
 
 > **Analyst Observation**
 >
@@ -946,11 +946,11 @@ unsent a message.
 ---
 
 **18:42** Hugh K:  
-> ![`CTI-2026-07_training_store_dashboard-02.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-02.png)
+![`CTI-2026-07_training_store_dashboard-02.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-02.png)
 
 > **Analyst Observation**
 >
-> Additional screenshot—possibly order or balance view.
+> Additional screenshot showing order view.
 
 ---
 
@@ -959,7 +959,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Recruiter asks if candidate has “checked in”—may refer to daily login bonus or task acknowledgment.
+> Recruiter asks if candidate has “checked in,” referring to daily login bonus and task acknowledgment.
 
 ---
 
@@ -968,7 +968,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Announces first real customer order on candidate’s store—key milestone.
+> Announces first real customer order on candidate’s store, key milestone.
 
 ---
 
@@ -995,12 +995,12 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Offers to calculate profit—guides candidate through financials.
+> Offers to calculate profit, guides candidate through financials.
 
 ---
 
 **18:57** チェ・ジュン:  
-> ![`CTI-2026-07_training_store_dashboard-03.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-03.png)
+![`CTI-2026-07_training_store_dashboard-03.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-03.png)
 
 > **Analyst Observation**
 >
@@ -1013,7 +1013,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Candidate walks through steps—select product, click “Next.”
+> Candidate walks through steps, select product, click “Next.”
 
 ---
 
@@ -1031,7 +1031,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Follows up on Coincheck registration—critical for funding this order.
+> Follows up on Coincheck registration, critical for funding this order.
 
 ---
 
@@ -1058,7 +1058,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Checks if candidate knows how to deposit—guides toward funding step.
+> Checks if candidate knows how to deposit, guides toward funding step.
 
 ---
 
@@ -1076,7 +1076,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Candidate hits “insufficient balance” error—first friction point in funding flow.
+> Candidate hits “insufficient balance” error, first friction point in funding flow.
 
 ---
 
@@ -1085,7 +1085,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Message unsent—content unknown.
+> Message unsent, content unknown.
 
 ---
 
@@ -1166,7 +1166,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Claims Coincheck deposits are instant—reduces perceived friction.
+> Claims Coincheck deposits are instant, reduces perceived friction.
 
 ---
 
@@ -1223,7 +1223,7 @@ unsent a message.
 > Instructs to register an ERC-20 address (note: different chain from earlier TRC-20) before withdrawing.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_financial_erc20_address_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_erc20_address_instruction.png)
+![`CTI-2026-07_financial_erc20_address_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_erc20_address_instruction.png)
 
 ---
 
@@ -1286,7 +1286,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Provides FX rate (¥16,400 = $100)—context for bank transfer amount.
+> Provides FX rate (¥16,400 = $100), context for bank transfer amount.
 
 ---
 
@@ -1313,7 +1313,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> End-of-day message—assumes candidate may be asleep.
+> End-of-day message, assumes candidate may be asleep.
 
 ---
 
@@ -1336,7 +1336,7 @@ unsent a message.
 > Escalates tone: asks candidate to confirm if they’re quitting. References “not sending messages” as confusing behavior.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_financial_pressure_message.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_unitelmatch_reassurance_message.png)
+![`CTI-2026-07_financial_pressure_message.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_unitelmatch_reassurance_message.png)
 
 ---
 
@@ -1344,7 +1344,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Another unsent message—content unknown.
+> Another unsent message, content unknown.
 
 ---
 
@@ -1384,7 +1384,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Returns to warm greeting style—possible reset of tone after pressure.
+> Returns to warm greeting style, possible reset of tone after pressure.
 
 ---
 
