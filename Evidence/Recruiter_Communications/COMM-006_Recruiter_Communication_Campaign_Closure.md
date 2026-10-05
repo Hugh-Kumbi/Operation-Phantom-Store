@@ -10,16 +10,16 @@
 | **Collection Method** | Direct Communication                                                                 |
 | **Source**            | [Recruiter Chat Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                            |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.              |
-| **Related Domains**   | occupationoasis.com, linkroles.my, unitelmatch.top, unitelmatch.cc, unitelmatch.cyou |
+| **Related Domains**   | `occupationoasis.com`, `linkroles.my`, `unitelmatch.top`, `unitelmatch.cc`, `unitelmatch.cyou` |
 | **Related Analysis**  | [Lessons_Learned.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md), [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md), [Confidence_Assessment.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md), [Executive_Report.pdf](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Executive_Report.pdf)      |
 
 ---
 
 # Executive Summary
 
-This evidence documents the conclusion of the investigation and the final communications between the analyst and the recruiter. By this stage, sufficient technical and behavioral evidence had been collected to complete the investigation objectives without requiring further engagement.
+This evidence documents the conclusion of the investigation and the final communications between the investigator and the recruiter. By this stage, sufficient technical and behavioral evidence had been collected to complete the investigation objectives without requiring further engagement.
 
-The campaign lifecycle—from initial recruiter contact through onboarding, infrastructure migration, operational training, and financial escalation—had been fully documented. Remaining communications primarily served to validate previously observed behaviors, confirm campaign consistency, and preserve additional evidence for analytical purposes.
+The campaign lifecycle from initial recruiter contact through onboarding, infrastructure migration, operational training, and financial escalation had been fully documented. Remaining communications primarily served to validate previously observed behaviors, confirm campaign consistency, and preserve additional evidence for analytical purposes.
 
 The investigation concluded without engaging in unauthorized activity, technical exploitation, or financial participation beyond the scope necessary to document the campaign's operational methodology.
 
@@ -135,7 +135,7 @@ In hospital. I was admitted on the 25th of July
 > Candidate discloses serious personal circumstance: hospitalization since July 25. Provides legitimate reason for silence.
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_closure_hospital_disclosure.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_hospital_disclosure.png)
+> ![`CTI-2026-07_closure_hospital_disclosure.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_hospital_disclosure.png)
 
 ---
 
@@ -228,7 +228,7 @@ unsent a message.
 > Formal justification for 24-hour deadline: ties order completion to store reputation, transaction history, and future customer trust. Frames urgency as business-critical.
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_closure_24h_deadline_rationale.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_24h_deadline_rationale.png)
+> ![`CTI-2026-07_closure_24h_deadline_rationale.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_24h_deadline_rationale.png)
 
 ---
 
@@ -386,7 +386,7 @@ Can I have the upgraded site?
 > Provides new domain (`unitelmatch.cc`). This is the second domain rotation in the campaign (after `.top`).
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_closure_domain_cc.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cc.png)
+> ![`CTI-2026-07_closure_domain_cc.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cc.png)
 
 ---
 
@@ -434,7 +434,7 @@ Yes, I am ready. I tried to login but google is saying that [https://www.unitelm
 > Candidate attempts login but encounters Google Safe Browsing warning—major trust friction point.
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_closure_google_warning.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_google_warning.png)
+> ![`CTI-2026-07_closure_google_warning.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_google_warning.png)
 
 ---
 
@@ -473,7 +473,7 @@ Okay cool
 > Third domain rotation within hours (`unitelmatch.cyou`). Rapid URL changes correlate with security warnings.
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_closure_domain_cyou_backup.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cyou_backup.png)
+> ![`CTI-2026-07_closure_domain_cyou_backup.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cyou_backup.png)
 
 ---
 
@@ -512,7 +512,7 @@ That's just the platform upgrading, it's nothing to worry about. Are you checkin
 > Retrospective reassurance: dismisses Google warning as routine “platform upgrading.” Ends with mild challenge (“Are you checking your messages?”).
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_closure_reassurance_upgrading.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_reassurance_upgrading.png)
+> ![`CTI-2026-07_closure_reassurance_upgrading.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_reassurance_upgrading.png)
 
 ---
 
@@ -535,7 +535,7 @@ Do you still need to manage your store?
 > Repeats the exact opening question from August 3. Signals potential campaign closure or handoff if candidate remains unresponsive.
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_closure_final_commitment_check.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_final_commitment_check.png)
+> ![`CTI-2026-07_closure_final_commitment_check.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_final_commitment_check.png)
 
 ---
 
@@ -611,13 +611,13 @@ The investigation highlighted several important defensive considerations:
 
 ## Related Analysis
 
-- [`docs/Lessons_Learned.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md)
-- [`docs/Findings.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
-- [`docs/Investigation_Timeline.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
-- [`docs/Evidence_Register.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Evidence_Register.md)
-- [`Analysis/Confidence_Assessment.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
-- [`Analysis/Indicators_of_Compromise.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
-- [`Analysis/Detection_Opportunities.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [`Confidence_Assessment.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
+- [`Detection_Opportunities.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [`Evidence_Register.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Evidence_Register.md)
+- [`Findings.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
+- [`Indicators_of_Compromise.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+- [`Investigation_Timeline.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md)
+- [`Lessons_Learned.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md)
 
 ---
 
@@ -678,7 +678,7 @@ This document represents the final recruiter communication evidence collected du
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
