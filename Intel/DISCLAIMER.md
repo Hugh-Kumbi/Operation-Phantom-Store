@@ -9,7 +9,7 @@ The STIX 2.1 and MISP exports included in this repository were manually authored
 ## General Notes
 - No guarantee of completeness or accuracy is provided
 - These artifacts reflect a specific point-in-time investigation
-- Threat actors evolve—indicators may expire or change context
+- Threat actors evolve, indicators may expire or change context
 - Always correlate with additional sources before acting
 
 ---
