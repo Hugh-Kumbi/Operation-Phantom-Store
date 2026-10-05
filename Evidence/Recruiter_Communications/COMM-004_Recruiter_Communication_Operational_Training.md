@@ -10,7 +10,7 @@
 | **Collection Method** | Direct Communication                                                                                      |
 | **Source**            | [Recruiter Chat Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                                                 |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.                                   |
-| **Related Domains**   | unitelmatch.top, unitelmatch.cc, unitelmatch.cyou                                                         |
+| **Related Domains**   | `unitelmatch.top`, `unitelmatch.cc`, `unitelmatch.cyou`                                                         |
 | **Related Analysis**  | [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md), [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md), [Confidence_Assessment.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md), [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md) |
 
 ---
@@ -19,7 +19,7 @@
 
 This evidence documents the operational training phase of the recruitment campaign. Following successful onboarding, the recruiter transitioned from registration assistance to structured operational guidance, introducing routine tasks, performance expectations, and continuous supervision.
 
-During this phase, the analyst observed a highly organized workflow designed to normalize platform usage and establish habitual interaction. Recruiter communications became increasingly task-oriented while maintaining a supportive tone intended to reinforce trust and encourage continued participation.
+During this phase, the investigator observed a highly organized workflow designed to normalize platform usage and establish habitual interaction. Recruiter communications became increasingly task-oriented while maintaining a supportive tone intended to reinforce trust and encourage continued participation.
 
 No malware delivery, credential theft, or technical exploitation was directly observed during this phase. Instead, campaign progression relied primarily on behavioral manipulation and gradual commitment escalation.
 
@@ -371,7 +371,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 
 ## Behavioral Assessment
 
-The communication transitions from onboarding assistance to operational management. Rather than merely assisting the analyst, the recruiter begins directing routine activities intended to establish long-term engagement with the platform.
+The communication transitions from onboarding assistance to operational management. Rather than merely assisting the investigator, the recruiter begins directing routine activities intended to establish long-term engagement with the platform.
 
 Frequent communication, positive feedback, and structured daily objectives contribute to the normalization of campaign behavior and reduce the likelihood of disengagement.
 
@@ -501,7 +501,7 @@ No conversational content has been modified, removed, or reordered.
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
