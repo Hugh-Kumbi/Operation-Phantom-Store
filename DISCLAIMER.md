@@ -93,7 +93,7 @@ This repository forms part of my professional cybersecurity portfolio and demons
 **Document Version:**  2.0  
 **Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
-**Project Status:**    ✅ COMPLETE
-**Assessment Type:**   OSINT Investigation
-**GitHub:**            https://github.com/Hugh-Kumbi/OSINT-Investigation-Analysis-of-a-Suspected-Remote-Recruitment-Platform 
-**Classification:**    Educational Cybersecurity Investigation Documentation
+**Project Status:**    ✅ COMPLETE  
+**Assessment Type:**   OSINT Investigation  
+**GitHub:**            https://github.com/Hugh-Kumbi/OSINT-Investigation-Analysis-of-a-Suspected-Remote-Recruitment-Platform  
+**Classification:**    Educational Cybersecurity Investigation Documentation  
