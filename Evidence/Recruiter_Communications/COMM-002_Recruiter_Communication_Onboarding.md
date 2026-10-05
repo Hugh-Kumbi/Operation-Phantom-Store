@@ -423,7 +423,7 @@ nul
 
 ---
 
-## Key Investigative Indicators — Phase: Onboarding
+## Key Investigative Indicators Phase: Onboarding
 
 | Indicator                     | Observation                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------- |
