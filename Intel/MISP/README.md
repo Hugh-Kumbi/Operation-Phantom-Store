@@ -65,7 +65,7 @@ The included indicators were collected through passive OSINT techniques and dire
 
 ## Document Information
 
-**Last Updated:** September 2026 
-**Analyst:** Hugh Chanetsa 
-**Assessment Type:** OSINT / Cyber Threat Intelligence Investigation 
-**GitHub:** https://github.com/Hugh-Kumbi/Operation-Phantom-Store 
+**Last Updated:**      September 2026  
+**Analyst:**           Hugh Chanetsa  
+**Assessment Type:**   OSINT Investigation       
+**GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store
