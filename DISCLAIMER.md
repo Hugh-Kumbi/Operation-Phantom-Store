@@ -1,7 +1,7 @@
 # Disclaimer
 
 **Case ID:** OSINT-2026-001  
-**Project:** OSINT Investigation – Analysis of a Suspected Remote Recruitment Platform  
+**Project:** Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign   
 **Author:**  Hugh Chanetsa
 
 ---
@@ -90,8 +90,8 @@ This repository forms part of my professional cybersecurity portfolio and demons
 
 ## Document Information
 
-**Document Version:**  1.0  
-**Last Updated:**      July 2026  
+**Document Version:**  2.0  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Project Status:**    ✅ COMPLETE
 **Assessment Type:**   OSINT Investigation
