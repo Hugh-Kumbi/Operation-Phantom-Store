@@ -135,7 +135,7 @@ In hospital. I was admitted on the 25th of July
 > Candidate discloses serious personal circumstance: hospitalization since July 25. Provides legitimate reason for silence.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_closure_hospital_disclosure.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_hospital_disclosure.png)
+![`CTI-2026-07_closure_hospital_disclosure.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_hospital_disclosure.png)
 
 ---
 
@@ -228,7 +228,7 @@ unsent a message.
 > Formal justification for 24-hour deadline: ties order completion to store reputation, transaction history, and future customer trust. Frames urgency as business-critical.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_closure_24h_deadline_rationale.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_24h_deadline_rationale.png)
+![`CTI-2026-07_closure_24h_deadline_rationale.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_24h_deadline_rationale.png)
 
 ---
 
@@ -386,7 +386,7 @@ Can I have the upgraded site?
 > Provides new domain (`unitelmatch.cc`). This is the second domain rotation in the campaign (after `.top`).
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_closure_domain_cc.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cc.png)
+![`CTI-2026-07_closure_domain_cc.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cc.png)
 
 ---
 
@@ -434,7 +434,7 @@ Yes, I am ready. I tried to login but google is saying that [https://www.unitelm
 > Candidate attempts login but encounters Google Safe Browsing warning, major trust friction point.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_closure_google_warning.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_google_warning.png)
+![`CTI-2026-07_closure_google_warning.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_google_warning.png)
 
 ---
 
@@ -473,7 +473,7 @@ Okay cool
 > Third domain rotation within hours (`unitelmatch.cyou`). Rapid URL changes correlate with security warnings.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_closure_domain_cyou_backup.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cyou_backup.png)
+![`CTI-2026-07_closure_domain_cyou_backup.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cyou_backup.png)
 
 ---
 
@@ -512,7 +512,7 @@ That's just the platform upgrading, it's nothing to worry about. Are you checkin
 > Retrospective reassurance: dismisses Google warning as routine “platform upgrading.” Ends with mild challenge (“Are you checking your messages?”).
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_closure_reassurance_upgrading.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_reassurance_upgrading.png)
+![`CTI-2026-07_closure_reassurance_upgrading.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_reassurance_upgrading.png)
 
 ---
 
@@ -535,7 +535,7 @@ Do you still need to manage your store?
 > Repeats the exact opening question from August 3. Signals potential campaign closure or handoff if candidate remains unresponsive.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_closure_final_commitment_check.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_final_commitment_check.png)
+![`CTI-2026-07_closure_final_commitment_check.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_final_commitment_check.png)
 
 ---
 
