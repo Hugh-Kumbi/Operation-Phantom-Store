@@ -14,12 +14,12 @@ Unlike the narrative reports contained elsewhere in this repository, these files
 
 | File | Description |
 |------|-------------|
-| `[bundle.json](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/bundle.json)`         | Combined STIX bundle containing all objects in a single file. |
-| `[campaign.json](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/campaign.json)`       | Describes the observed recruitment fraud campaign. |
-| `[indicators.json](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/indicators.json)`     | Contains indicators derived from publicly observed infrastructure. |
-| `[infrastructure.json](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/infrastructure.json)` | Documents the observed infrastructure, including recruitment and onboarding domains. |
-| `[relationships.json](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/relationships.json)`  | Defines relationships between STIX objects (campaign, infrastructure, indicators, and threat actor). |
-| `[threat_actor.json](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/threat_actor.json)`   | Represents the unidentified threat actor associated with the campaign. |
+| [`bundle.json`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/bundle.json)         | Combined STIX bundle containing all objects in a single file. |
+| [`campaign.json`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/campaign.json)       | Describes the observed recruitment fraud campaign. |
+| [`indicators.json`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/indicators.json)     | Contains indicators derived from publicly observed infrastructure. |
+| [`infrastructure.json`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/infrastructure.json) | Documents the observed infrastructure, including recruitment and onboarding domains. |
+| [`relationships.json`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/relationships.json)  | Defines relationships between STIX objects (campaign, infrastructure, indicators, and threat actor). |
+| [`threat_actor.json`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Intel/STIX/threat_actor.json)   | Represents the unidentified threat actor associated with the campaign. |
 
 
 ---
@@ -108,11 +108,11 @@ Accordingly, no STIX objects relating to malware, attack patterns, vulnerabiliti
 
 | Directory | Purpose |
 |-----------|---------|
-| `[Analysis](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Analysis)`        | Detailed CTI analysis reports                      | 
-| `[Detection](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection)`       | Detection engineering artefacts                    |
-| `[MISP](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Intel/MISP)`      | MISP event export                                  |
-| `[Navigator](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Intel/Navigator)` | MITRE ATT&CK Navigator layer                       |
-| `[docs](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/docs)`            | Investigation reports and supporting documentation |
+| [`Analysis`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Analysis)        | Detailed CTI analysis reports                      | 
+| [`Detection`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Detection)       | Detection engineering artefacts                    |
+| [`MISP`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Intel/MISP)      | MISP event export                                  |
+| [`Navigator`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Intel/Navigator) | MITRE ATT&CK Navigator layer                       |
+| [`docs`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/docs)            | Investigation reports and supporting documentation |
 
 ---
 
