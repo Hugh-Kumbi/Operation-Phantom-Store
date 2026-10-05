@@ -1,6 +1,6 @@
 # Operation Phantom Store
 
-> **Analysis of a Suspected Multi-Domain Recruitment Campaign**
+> **Cyber Threat Intelligence Investigation into a Multi-Domain Recruitment Fraud Campaign**
 
 A structured Open Source Intelligence (OSINT) and Cyber Threat Intelligence (CTI) investigation into a recruiter-led online campaign that evolved across multiple web domains. The investigation combines passive OSINT collection, infrastructure analysis, behavioral analysis, and threat intelligence methodologies to document the campaign and identify defensive opportunities.
 
@@ -104,11 +104,11 @@ The investigation identified five operational domains introduced throughout recr
 
 | Domain | Observed Purpose | Status |
 |--------|------------------|--------|
-| occupationoasis.com | Recruitment platform          | Observed                           |
-| linkroles.my        | Initial onboarding portal     | Replaced                           |
-| unitelmatch.top     | Replacement onboarding portal | Replaced                           |
-| unitelmatch.cc      | Upgraded onboarding portal    | Replaced following browser warning |
-| unitelmatch.cyou    | Backup onboarding portal      | Active during investigation        |
+| `occupationoasis.com` | Recruitment platform          | Observed                           |
+| `linkroles.my`        | Initial onboarding portal     | Replaced                           |
+| `unitelmatch.top`     | Replacement onboarding portal | Replaced                           |
+| `unitelmatch.cc`      | Upgraded onboarding portal    | Replaced following browser warning |
+| `unitelmatch.cyou`    | Backup onboarding portal      | Active during investigation        |
 
 ---
 
@@ -148,7 +148,7 @@ unitelmatch.cyou
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 Operation-Phantom-Store/
@@ -188,26 +188,31 @@ Operation-Phantom-Store/
 ├── Detection/
 │   ├── DISCLAIMER.md
 │   ├── README.md
+│   │
 │   ├── IOCs/
 │   │   ├── api_endpoints.txt
 │   │   ├── certificates.txt
 │   │   ├── domains.txt
 │   │   ├── ips.txt
 │   │   └── urls.txt
+│   │
 │   ├── Sentinel/
 │   │   ├── OPS-001_Domain.kql
 │   │   ├── OPS-002_Backend.kql
 │   │   └── OPS-003_IOCs.kql
+│   │
 │   ├── Sigma/
 │   │   ├── OPS-001_Domain_Access.yml
 │   │   ├── OPS-002_Backend_API_Access.yml
 │   │   ├── OPS-003_Merchant42_Header.yml
 │   │   ├── OPS-004_Newly_Registered_Cloudflare_Domains.yml
 │   │   └── OPS-005_Recruitment_Campaign_Domains.yml
+│   │
 │   ├── Splunk/
 │   │   ├── OPS-001_Domain_Search.spl
 │   │   ├── OPS-002_API_Search.spl
 │   │   └── OPS-003_IOC_Search.spl
+│   │
 │   └── Suricata/
 │       ├── OPS-001_Domains.rules
 │       ├── OPS-002_Backend.rules
@@ -216,8 +221,8 @@ Operation-Phantom-Store/
 ├── docs/
 │   ├── Campaign_Overview.md
 │   ├── Evidence_Register.md
-│   ├── Executive_Report.docx        
-│   ├── Executive_Summary.md         
+│   ├── Executive_Report.pdf
+│   ├── Executive_Summary.md
 │   ├── Findings.md
 │   ├── Investigation_Timeline.md
 │   ├── Lessons_Learned.md
@@ -227,7 +232,9 @@ Operation-Phantom-Store/
 │   ├── Browser_Warnings/
 │   │   ├── linkroles.my.png
 │   │   ├── unitelmatch.cc.png
+│   │   ├── unitelmatch.cyou.png
 │   │   └── unitelmatch.top.png
+│   │
 │   ├── Recruiter_Communications/
 │   │   ├── COMM-001_Recruiter_Communication_Initial_Contact.md
 │   │   ├── COMM-002_Recruiter_Communication_Onboarding.md
@@ -238,30 +245,40 @@ Operation-Phantom-Store/
 │   │   ├── Conversation_Index.md
 │   │   ├── README.md
 │   │   └── Recruiter_Chat_Transcript.md
+│   │
 │   └── Screenshots/
 │       ├── README.md
-│       ├── CTI-2026-07_*.png          (≈120 screenshots)
-│       ├── EV-001-01.png … EV-077-07.png
-│       └── Screenshot (2175).png      ← stray file, consider renaming
+│       ├── CTI-2026-07_*.png
+│       └──  EV-001-01.png ... EV-077-07.png
 │
 ├── Intel/
 │   ├── Attack_Graph.md
+│   ├── Attack_Graph.png
 │   ├── Campaign_Profile.md
 │   ├── DISCLAIMER.md
 │   ├── README.md
 │   ├── Threat_Summary.md
+│   │
 │   ├── MISP/
 │   │   ├── operation_phantom_store_event.json
 │   │   └── README.md
+│   │
 │   ├── Navigator/
-│   │   └── ATTACK_Navigator.json
+│   │   ├── ATTACK_Navigator.json
+│   │   ├── ATTACK_Navigator.xlsx
+│   │   ├── Attack_Navigator.png
+│   │   ├── Attack_Navigator_1.png
+│   │   ├── Attack_Navigator_2.png
+│   │   └── README.md
+│   │
 │   └── STIX/
 │       ├── bundle.json
 │       ├── campaign.json
 │       ├── indicators.json
 │       ├── infrastructure.json
 │       ├── relationships.json
-│       └── threat_actor.json
+│       ├── threat_actor.json
+│       └── README.md
 │
 ├── IOCs/
 │   ├── api_endpoints.txt
@@ -278,6 +295,9 @@ Operation-Phantom-Store/
 │   ├── README.md
 │   └── urls.txt
 │
+├── Operation_Phantom_Store_Presentation/
+│   └── Operation_Phantom_Store_Final_CTIDeck.pptx
+│
 ├── OSINT/
 │   ├── Application_Architecture.md
 │   ├── Certificate_Analysis.md
@@ -290,7 +310,7 @@ Operation-Phantom-Store/
 │   ├── Reputation_Analysis.md
 │   └── Technology_Stack.md
 │
-└── Playbooks/
+├── Playbooks/
 │   ├── Executive_Incident_Brief.md
 │   ├── Incident_Response_Playbook.md
 │   ├── IOC_Response_Checklist.md
@@ -298,11 +318,12 @@ Operation-Phantom-Store/
 │   ├── SOC_Runbook.md
 │   └── Threat_Hunting_Guide.md
 │
-├── yara/
-│   ├── README.md
-│   └── unitelmatch_frontend.yar
-│
+└── yara/
+    ├── README.md
+    └── unitelmatch_frontend.yar
 ```
+
+> **Note:** The `Evidence/Screenshots/` directory contains a large evidence collection. Individual screenshots are intentionally summarized above rather than listing every file.
 
 ---
 
@@ -399,9 +420,11 @@ No attribution is made beyond what is supported by documented evidence.
 
 ---
 
-# License
+## License
 
-This project is licensed under the MIT License unless otherwise stated.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/LICENSE) file for details.
+
+The included reports, screenshots, and intelligence assessments are provided solely for educational, research, and defensive cybersecurity purposes. See [DISCLAIMER.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/DISCLAIMER.md) for additional information regarding the scope and intended use of this repository.
 
 ---
 
@@ -434,3 +457,15 @@ Specializing in:
 This repository forms part of a broader cybersecurity portfolio demonstrating practical, hands-on investigations and security research.
 
 Future updates will include additional evidence, findings, and technical analysis as the investigation progresses.
+
+---
+
+## Document Information
+
+**Document Version:**  2.0  
+**Last Updated:**      September 2026  
+**Analyst:**           Hugh Chanetsa  
+**Project Status:**    ✅ COMPLETE  
+**Assessment Type:**   OSINT Investigation  
+**GitHub:**            https://github.com/Hugh-Kumbi/OSINT-Investigation-Analysis-of-a-Suspected-Remote-Recruitment-Platform  
+**Classification:**    Educational Cybersecurity Investigation Documentation  
