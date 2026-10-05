@@ -153,7 +153,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 > First explicit mention of upfront capital requirement: sellers must “advance” product costs before shipment. This is the core financial commitment of the scheme.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_training_upfront_cost_explanation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_upfront_cost_explanation.png)
+![`CTI-2026-07_training_upfront_cost_explanation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_upfront_cost_explanation.png)
 
 ---
 
@@ -216,7 +216,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 
 > **Analyst Observation**
 >
-> Candidate confirms understanding and agrees to ask questions if needed—maintains cooperative tone.
+> Candidate confirms understanding and agrees to ask questions if needed, maintains cooperative tone.
 
 ---
 
@@ -234,7 +234,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 
 > **Analyst Observation**
 >
-> Clarifies cost structure: no cost without orders. Reiterates the reseller model—buy at cost, sell to buyer, platform handles logistics. Profit is realized upon order completion.
+> Clarifies cost structure: no cost without orders. Reiterates the reseller model, buy at cost, sell to buyer, platform handles logistics. Profit is realized upon order completion.
 
 ---
 
@@ -270,7 +270,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 
 > **Analyst Observation**
 >
-> Recruiter’s response appears misaligned—mentions personal earnings and travel, possibly a copied/pasted message or translation artifact. Does not directly acknowledge the break request.
+> Recruiter’s response appears misaligned, mentions personal earnings and travel, possibly a copied/pasted message or translation artifact. Does not directly acknowledge the break request.
 
 ---
 
@@ -345,7 +345,7 @@ TikTok は托管取引モデルと 48 時間の返品期間を採用して、購
 > First concrete funding request: $221 needed to cover product costs. Claims store balance is insufficient and directs candidate to “contact Help Center” to apply for recharge details.
 >
 > 📎 Related Screenshot  
-> ![`CTI-2026-07_training_recharge_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_recharge_instruction.png)
+![`CTI-2026-07_training_recharge_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_recharge_instruction.png)
 
 ---
 
