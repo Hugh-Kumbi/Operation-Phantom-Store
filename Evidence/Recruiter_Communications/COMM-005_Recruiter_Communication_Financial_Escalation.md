@@ -10,7 +10,7 @@
 | **Collection Method** | Direct Communication                                                                           |
 | **Source**            | [Recruiter Chat Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                                      |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.                        |
-| **Related Domains**   | unitelmatch.cc, unitelmatch.cyou                                                               |
+| **Related Domains**   | `unitelmatch.cc`, `unitelmatch.cyou`                                                               |
 | **Related Analysis**  | [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md), [Indicators_of_Compromise.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md), [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md), [Confidence_Assessment.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md) |
 
 ---
@@ -172,7 +172,7 @@ This evidence supports the following investigation artifacts:
 
 > **Analyst Observation**
 >
-> Conversation between analyst and customer support about the recruiter’s crypto top-up that was supposedly done.
+> Conversation between investigator and customer support about the recruiter’s crypto top-up that was supposedly done.
 
 ---
 
@@ -723,7 +723,7 @@ unsent a message.
 > Detailed breakdown of the transaction: charge, profit, 30% crypto bonus, total. Emphasizes “no shipping needed” for e-orders.
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_financial_transaction_breakdown.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_transaction_breakdown.png)
+> ![`CTI-2026-07_financial_transaction_breakdown.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_transaction_breakdown.png)
 
 ---
 
@@ -937,7 +937,7 @@ unsent a message.
 ---
 
 **18:42** Hugh K:  
-> [`CTI-2026-07_training_store_dashboard-01.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-01.png)
+> ![`CTI-2026-07_training_store_dashboard-01.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-01.png)
 
 > **Analyst Observation**
 >
@@ -946,7 +946,7 @@ unsent a message.
 ---
 
 **18:42** Hugh K:  
-> [`CTI-2026-07_training_store_dashboard-02.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-02.png)
+> ![`CTI-2026-07_training_store_dashboard-02.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-02.png)
 
 > **Analyst Observation**
 >
@@ -1000,7 +1000,7 @@ unsent a message.
 ---
 
 **18:57** チェ・ジュン:  
-> [`CTI-2026-07_training_store_dashboard-03.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-03.png)
+> ![`CTI-2026-07_training_store_dashboard-03.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_training_store_dashboard-03.png)
 
 > **Analyst Observation**
 >
@@ -1223,7 +1223,7 @@ unsent a message.
 > Instructs to register an ERC-20 address (note: different chain from earlier TRC-20) before withdrawing.
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_financial_erc20_address_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_erc20_address_instruction.png)
+> ![`CTI-2026-07_financial_erc20_address_instruction.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_financial_erc20_address_instruction.png)
 
 ---
 
@@ -1336,7 +1336,7 @@ unsent a message.
 > Escalates tone: asks candidate to confirm if they’re quitting. References “not sending messages” as confusing behavior.
 >
 > 📎 Related Screenshot  
-> [`CTI-2026-07_financial_pressure_message.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_unitelmatch_reassurance_message.png)
+> ![`CTI-2026-07_financial_pressure_message.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_unitelmatch_reassurance_message.png)
 
 ---
 
@@ -1465,12 +1465,12 @@ These indicators significantly increased analytical confidence regarding the cam
 
 ## Related Analysis
 
-- [`Analysis/Indicators_of_Compromise.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
-- [`Analysis/Detection_Opportunities.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
-- [`Analysis/Confidence_Assessment.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
-- [`Analysis/Social_Engineering_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
-- [`docs/Findings.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
-- [`docs/Executive_Report.pdf`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Executive_Report.pdf)
+- [`Confidence_Assessment.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md)
+- [`Detection_Opportunities.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md)
+- [`Executive_Report.pdf`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Executive_Report.pdf)
+- [`Findings.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md)
+- [`Indicators_of_Compromise.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Indicators_of_Compromise.md)
+- [`Social_Engineering_Analysis.md`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md)
 
 ---
 
@@ -1530,7 +1530,7 @@ No conversational content has been modified, removed, or reordered.
 
 ## Document Information
 
-**Last Updated:**      August 2026  
+**Last Updated:**      September 2026  
 **Analyst:**           Hugh Chanetsa  
 **Assessment Type:**   OSINT Investigation       
 **GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     
