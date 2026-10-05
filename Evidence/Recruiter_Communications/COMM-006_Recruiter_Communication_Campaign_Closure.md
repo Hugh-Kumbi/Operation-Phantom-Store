@@ -87,7 +87,7 @@ Do you still need to manage your store?
 
 > **Analyst Observation**
 >
-> Re-engagement after days of silence. Direct yes/no question about continued store management—sets up commitment check.
+> Re-engagement after days of silence. Direct yes/no question about continued store management sets up commitment check.
 
 ---
 
@@ -123,7 +123,7 @@ You haven't replied to me for so long
 
 > **Analyst Observation**
 >
-> Explicit call-out of prolonged non-response—subtle pressure tactic.
+> Explicit call-out of prolonged non-response, subtle pressure tactic.
 
 ---
 
@@ -144,7 +144,7 @@ I haven't been well
 
 > **Analyst Observation**
 >
-> Reinforces health issues—humanizes the delay.
+> Reinforces health issues, humanizes the delay.
 
 ---
 
@@ -162,7 +162,7 @@ How is your recovery going?
 
 > **Analyst Observation**
 >
-> Shows concern for health—rapport-building before returning to task.
+> Shows concern for health, rapport-building before returning to task.
 
 ---
 
@@ -189,7 +189,7 @@ Congratulations!
 
 > **Analyst Observation**
 >
-> Celebrates impending discharge—maintains supportive tone.
+> Celebrates impending discharge, maintains supportive tone.
 
 ---
 
@@ -216,7 +216,7 @@ unsent a message.
 
 > **Analyst Observation**
 >
-> Message unsent—content unknown.
+> Message unsent, content unknown.
 
 ---
 
@@ -273,7 +273,7 @@ I understand, I will make sure to get it done. Should I use the site [https://ww
 
 > **Analyst Observation**
 >
-> Reaffirms intent and asks for correct URL—shows willingness but needs clarity on platform.
+> Reaffirms intent and asks for correct URL, shows willingness but needs clarity on platform.
 
 ---
 
@@ -338,7 +338,7 @@ Okay cool
 
 > **Analyst Observation**
 >
-> Warm morning greeting in Japanese—resets tone after previous day’s pressure.
+> Warm morning greeting in Japanese, resets tone after previous day’s pressure.
 
 ---
 
@@ -356,7 +356,7 @@ I arrived home a few minutes ago and I am ready to complete the previous transac
 
 > **Analyst Observation**
 >
-> Confirms arrival home and readiness to proceed—key commitment point.
+> Confirms arrival home and readiness to proceed, key commitment point.
 
 ---
 
@@ -422,7 +422,7 @@ Thank you, I will get started soon. Give me a few minutes to settle down
 
 > **Analyst Observation**
 >
-> Follow-up after ~4 hours—checks readiness.
+> Follow-up after ~4 hours, checks readiness.
 
 ---
 
@@ -431,7 +431,7 @@ Yes, I am ready. I tried to login but google is saying that [https://www.unitelm
 
 > **Analyst Observation**
 >
-> Candidate attempts login but encounters Google Safe Browsing warning—major trust friction point.
+> Candidate attempts login but encounters Google Safe Browsing warning, major trust friction point.
 >
 > 📎 Related Screenshot  
 > ![`CTI-2026-07_closure_google_warning.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_google_warning.png)
@@ -443,7 +443,7 @@ What does that mean?
 
 > **Analyst Observation**
 >
-> Direct request for explanation—candidate is cautious, not dismissive.
+> Direct request for explanation, candidate is cautious, not dismissive.
 
 ---
 
@@ -452,7 +452,7 @@ What does that mean?
 
 > **Analyst Observation**
 >
-> Defers to “technical staff”—buys time and avoids immediate explanation.
+> Defers to “technical staff,” buys time and avoids immediate explanation.
 
 ---
 
@@ -500,7 +500,7 @@ Tell me when you log in
 
 > **Analyst Observation**
 >
-> Follow-up after 15 minutes of silence—growing impatience.
+> Follow-up after 15 minutes of silence, growing impatience.
 
 ---
 
