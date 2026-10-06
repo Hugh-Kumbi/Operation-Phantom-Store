@@ -48,14 +48,14 @@ Recruitment Portal
 
 Operational Portals
 
-- `linkroles.my`
-- `unitelmatch.top`
-- `unitelmatch.cc`
-- `unitelmatch.cyou`
+- `linkroles[.]my`
+- `unitelmatch[.]top`
+- `unitelmatch[.]cc`
+- `unitelmatch[.]cyou`
 
 Backend
 
-- `www.ioutrankap.cyou`
+- `www.ioutrankap[.]cyou`
 
 ---
 

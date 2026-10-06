@@ -24,11 +24,11 @@ During the investigation, the recruiter introduced multiple web domains as part 
 
 | Domain | Observed Role | Status |
 |--------|---------------|--------|
-| occupationoasis.com | Initial recruitment platform  | Observed                                    |
-| linkroles.my        | Initial onboarding portal     | Replaced                                    |
-| unitelmatch.top     | Replacement onboarding portal | Replaced                                    |
-| unitelmatch.cc      | Updated onboarding portal     | Replaced following browser security warning |
-| unitelmatch.cyou    | Backup onboarding portal      | Active during investigation                 |
+| occupationoasis[.]com | Initial recruitment platform  | Observed                                    |
+| linkroles[.]my        | Initial onboarding portal     | Replaced                                    |
+| unitelmatch[.]top     | Replacement onboarding portal | Replaced                                    |
+| unitelmatch[.]cc      | Updated onboarding portal     | Replaced following browser security warning |
+| unitelmatch[.]cyou    | Backup onboarding portal      | Active during investigation                 |
 
 The progression from one operational platform to another was documented and preserved as evidence for further technical analysis.
 
@@ -66,7 +66,7 @@ Recruiter Contact
 Introduction to Remote E-commerce Opportunity
         │
         ▼
-Registration via linkroles.my
+Registration via linkroles[.]my
         │
         ▼
 Store Creation
@@ -78,16 +78,16 @@ Identity Verification Requested
 Google Safe Browsing Warning Observed
         │
         ▼
-Recruiter Introduces unitelmatch.top
+Recruiter Introduces unitelmatch[.]top
         │
         ▼
-unitelmatch.cc
+unitelmatch[.]cc
         │
         ▼
 Google Safe Browsing Warning
         │
         ▼
-unitelmatch.cyou
+unitelmatch[.]cyou
 ```
 
 ### Infrastructure Evolution
@@ -154,7 +154,7 @@ Evidence:
 
 The recruiter instructed the investigator to register an account using:
 
-**linkroles.my**
+**linkroles[.]my**
 
 Observed activities included:
 
@@ -181,9 +181,9 @@ During the investigation, the investigator observed Google Safe Browsing warning
 
 Following this event, the recruiter instructed the investigator to use:
 
-**unitelmatch.top**
-**unitelmatch.cc**
-**unitelmatch.cyou**
+**unitelmatch[.]top**
+**unitelmatch[.]cc**
+**unitelmatch[.]cyou**
 
 The reason for the platform transition has not been independently verified.
 
@@ -222,11 +222,11 @@ The investigation identified multiple internet domains associated with the recru
 
 | Component | Observation |
 |-----------|-------------|
-| Recruitment Website  | occupationoasis.com           |
-| Initial Platform     | linkroles.my                  |
-| Replacement Platform | unitelmatch.top               |
-| unitelmatch.cc       | Updated onboarding portal     | 
-| unitelmatch.cyou     | Backup onboarding portal      |
+| Recruitment Website    | occupationoasis[.]com         |
+| Initial Platform       | linkroles[.]my                |
+| Replacement Platform   | unitelmatch[.]top             |
+| unitelmatch[.]cc       | Updated onboarding portal     | 
+| unitelmatch[.]cyou     | Backup onboarding portal      |
 
 Each platform will be analyzed independently within the technical sections of this repository.
 
@@ -245,12 +245,12 @@ Each platform will be analyzed independently within the technical sections of th
 | [EV-006-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-006-01.png), [EV-006-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-006-02.png), [EV-006-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-006-03.png), [EV-006-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-006-04.png), [EV-006-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-006-05.png) | Registration portal |
 | [EV-007-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-007-01.png) | Store creation interface             |
 | [EV-008-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-008-01.png), [EV-008-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-008-02.png), [EV-008-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-008-03.png) | Identity verification request |
-| [EV-009-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-009-01.png) | linkroles.my URL                     |
+| [EV-009-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-009-01.png) | `linkroles[.]my` URL                     |
 | [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png), [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png), [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png) | Google Safe Browsing warning |
-| [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png) | Recruiter providing `unitelmatch.cc` |
+| [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png) | Recruiter providing `unitelmatch[.]cc` |
 | [EV-047-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-047-01.png) | Investigator reporting the Google warning. |
 | [EV-48-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-048-01.png) | Recruiter explaining that they would contact the IT team | 
-| [EV-49-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png) | Recruiter providing `unitelmatch.cyou` | 
+| [EV-49-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png) | Recruiter providing `unitelmatch[.]cyou` | 
 | [EV-51-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png) | Recruiter explaining that the warning was due to a "platform upgrade." |
 
 

@@ -20,7 +20,7 @@ This report documents Operation Phantom Store, a Cyber Threat Intelligence (CTI)
 
 Throughout the investigation, the campaign evolved across multiple web domains while maintaining consistent technical characteristics, including shared backend infrastructure, identical application architecture, and recurring operational patterns. The investigation combined first-hand observations with Open Source Intelligence (OSINT), passive infrastructure analysis, certificate transparency analysis, DNS correlation, technology fingerprinting, and social engineering analysis to document the campaign and produce evidence-based intelligence products.
 
-The investigation identified five related domains (`occupationoasis.com`, `linkroles.my`, `unitelmatch.top`, `unitelmatch.cc`, and `unitelmatch.cyou`) and correlated them through shared backend infrastructure, API behavior, application fingerprints, and hosting characteristics.
+The investigation identified five related domains (`occupationoasis[.]com`, `linkroles[.]my`, `unitelmatch[.]top`, `unitelmatch[.]cc`, and `unitelmatch[.]cyou`) and correlated them through shared backend infrastructure, API behavior, application fingerprints, and hosting characteristics.
 
 All findings are derived from publicly available information and direct investigator observations. No unauthorized access, exploitation, or interference with the investigated infrastructure was performed.
 
@@ -74,11 +74,11 @@ The investigation excludes:
 The following findings are based on evidence collected at the time of writing:
 
 - Five domains were observed during the investigation:
-  - `occupationoasis.com`
-  - `linkroles.my`
-  - `unitelmatch.top`
-  - `unitelmatch.cc`
-  - `unitelmatch.cyou`
+  - `occupationoasis[.]com`
+  - `linkroles[.]my`
+  - `unitelmatch[.]top`
+  - `unitelmatch[.]cc`
+  - `unitelmatch[.]cyou`
 
 - Infrastructure correlation demonstrated:
   - Shared backend architecture
@@ -173,3 +173,12 @@ This investigation produced:
 |---------|------|-------------|
 | 1.0     | 2026-08-03 | Initial executive summary |
 | 2.0     | 2026-09-28 | Updated to reflect the completed Operation Phantom Store investigation. Expanded to include five correlated campaign domains, infrastructure correlation, backend architecture analysis, detection engineering outputs, threat intelligence products, and final investigation status. |
+
+---
+
+## Document Information
+
+**Last Updated:**      September 2026  
+**Analyst:**           Hugh Chanetsa  
+**Assessment Type:**   OSINT Investigation       
+**GitHub:**            https://github.com/Hugh-Kumbi/Operation-Phantom-Store     

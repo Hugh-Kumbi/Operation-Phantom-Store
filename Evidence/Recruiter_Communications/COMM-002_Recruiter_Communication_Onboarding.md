@@ -10,7 +10,7 @@
 | **Collection Method** | Direct Communication                                                                                     |
 | **Source**            | [Recruiter_Chat_Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                                            |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.                                  |
-| **Related Domains**   | `occupationoasis.com`, `linkroles.my`                                                                    |
+| **Related Domains**   | `occupationoasis[.]com`, `linkroles[.]my`                                                                    |
 | **Related Analysis**  | [Campaign_Overview.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Campaign_Overview.md), [Investigation_Timeline.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Investigation_Timeline.md), [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md), [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md) |
 
 ---
@@ -103,11 +103,11 @@ This evidence supports the following investigation artifacts:
 はい、よろしくお願いいたします。準備ができていますので、ご説明をお願いいたします。
 
 **14:58** チェ・ジュン:
-ログインリンク：[https://www.linkroles.my](https://www.linkroles.my/) 招待コード：TIYO5998
+ログインリンク：[https://www.linkroles[.]my](https://www.linkroles[.]my/) 招待コード：TIYO5998
 
 > **Analyst Observation**
 >
-> The recruiter provides the first direct link to **linkroles.my** and an invitation code, moving the interaction from general recruitment communication into platform-based onboarding.
+> The recruiter provides the first direct link to **linkroles[.]my** and an invitation code, moving the interaction from general recruitment communication into platform-based onboarding.
 >
 > The introduction of a separate recruitment/e-commerce platform is a significant transition point in the communication.
 
@@ -427,7 +427,7 @@ nul
 
 | Indicator                     | Observation                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------- |
-| External platform introduced  | **`linkroles.my`** is introduced as the platform used for the proposed work.          |
+| External platform introduced  | **`linkroles[.]my`** is introduced as the platform used for the proposed work.        |
 | Invitation code provided      | The recruiter supplies **`TIYO5998`** for platform access.                            |
 | Store creation required       | Hugh is instructed to register and configure a personal store.                        |
 | Documentation requested       | Hugh reports submitting the required documents for store verification.                |
@@ -505,9 +505,9 @@ Infrastructure introduced or actively utilized during this phase includes:
 
 | Domain | Purpose |
 |--------|---------|
-| `occupationoasis.com` | Initial recruitment platform |
-| `linkroles.my`        | Primary onboarding portal    |
-| `line.me`             | Communication platform       |
+| `occupationoasis[.]com` | Initial recruitment platform |
+| `linkroles[.]my`        | Primary onboarding portal    |
+| `line[.]me`             | Communication platform       |
 
 ---
 

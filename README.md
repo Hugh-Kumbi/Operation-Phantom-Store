@@ -104,11 +104,11 @@ The investigation identified five operational domains introduced throughout recr
 
 | Domain | Observed Purpose | Status |
 |--------|------------------|--------|
-| `occupationoasis.com` | Recruitment platform          | Observed                           |
-| `linkroles.my`        | Initial onboarding portal     | Replaced                           |
-| `unitelmatch.top`     | Replacement onboarding portal | Replaced                           |
-| `unitelmatch.cc`      | Upgraded onboarding portal    | Replaced following browser warning |
-| `unitelmatch.cyou`    | Backup onboarding portal      | Active during investigation        |
+| `occupationoasis[.]com` | Recruitment platform          | Observed                           |
+| `linkroles[.]my`        | Initial onboarding portal     | Replaced                           |
+| `unitelmatch[.]top`     | Replacement onboarding portal | Replaced                           |
+| `unitelmatch[.]cc`      | Upgraded onboarding portal    | Replaced following browser warning |
+| `unitelmatch[.]cyou`    | Backup onboarding portal      | Active during investigation        |
 
 ---
 
@@ -118,19 +118,19 @@ The investigation identified five operational domains introduced throughout recr
 Job Advertisement
         │
         ▼
-occupationoasis.com
+occupationoasis[.]com
         │
         ▼
 Recruiter Contact
         │
         ▼
-linkroles.my
+linkroles[.]my
         │
         ▼
 Google Safe Browsing Warning
         │
         ▼
-unitelmatch.top
+unitelmatch[.]top
         │
         ▼
 Additional Training
@@ -138,12 +138,12 @@ Additional Training
 Google Safe Browsing Warning
         │
         ▼
-unitelmatch.cc
+unitelmatch[.]cc
         │
  Google Safe Browsing Warning
         │
         ▼
-unitelmatch.cyou
+unitelmatch[.]cyou
 ```
 
 ---
@@ -392,7 +392,9 @@ This investigation was conducted exclusively for educational, research, and defe
 
 All observations were obtained through passive OSINT techniques and voluntary recruiter communications.
 
-No unauthorized access, exploitation, or interference with any systems occurred during the investigation.
+No exploitation, authentication bypass, unauthorized access, transaction, or interaction intended to facilitate fraud was performed.
+
+Indicators are defanged, sensitive artifacts are redacted, and no actor attribution is claimed.
 
 ---
 
@@ -457,6 +459,16 @@ Specializing in:
 This repository forms part of a broader cybersecurity portfolio demonstrating practical, hands-on investigations and security research.
 
 Future updates will include additional evidence, findings, and technical analysis as the investigation progresses.
+
+## Peer-review questions
+
+I welcome technical feedback on:
+
+1. Is the `UnitelMatch` clustering threshold appropriately supported by the shared backend, API routes, merchant-id header, DOM, front-end assets, and page content?
+2. Is the separation between high-confidence UnitelMatch linkage and medium-confidence OccupationOasis/LinkRoles association sufficiently clear?
+3. Are the MITRE ATT&CK mappings appropriately conservative for a social-engineering and web-portal fraud investigation?
+4. Would the proposed detection logic produce meaningful coverage without excessive false positives?
+5. Are there additional passive OSINT pivots or reporting caveats I should consider?
 
 ---
 

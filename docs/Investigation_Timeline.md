@@ -26,29 +26,29 @@ Analytical conclusions are documented separately within the Findings and Analysi
 
 | Phase | Event | Evidence |
 |-------|-------|----------|
-| Phase 1  | Investigator discovers remote job advertisement on **occupationoasis.com**                                           | Recruiter advertisement  |
+| Phase 1  | Investigator discovers remote job advertisement on **occupationoasis[.]com**                                         | Recruiter advertisement  |
 | Phase 2  | Job application submitted                                                                                            | Investigator observation |
 | Phase 3  | Recruiter establishes initial contact                                                                                | Chat transcript          |
 | Phase 4  | Recruiter explains remote dropshipping business model                                                                | Chat transcript          |
 | Phase 5  | Recruiter discusses salary, commission, and onboarding process                                                       | Chat transcript          |
 | Phase 6  | Training session scheduled                                                                                           | Chat transcript          |
-| Phase 7  | Investigator instructed to register on **linkroles.my**                                                              | Recruiter instructions   |
-| Phase 8  | Store registration and onboarding completed on **linkroles.my**                                                      | Screenshots              |
-| Phase 9  | Google Safe Browsing warning observed for **linkroles.my**                                                           | Investigator observation |
-| Phase 10 | Recruiter instructs migration to **unitelmatch.top**                                                                 | Chat transcript          |
-| Phase 11 | Training continues on **unitelmatch.top**                                                                            | Screenshots              |
+| Phase 7  | Investigator instructed to register on **linkroles[.]my**                                                            | Recruiter instructions   |
+| Phase 8  | Store registration and onboarding completed on **linkroles[.]my**                                                    | Screenshots              |
+| Phase 9  | Google Safe Browsing warning observed for **linkroles[.]my**                                                         | Investigator observation |
+| Phase 10 | Recruiter instructs migration to **unitelmatch[.]top**                                                               | Chat transcript          |
+| Phase 11 | Training continues on **unitelmatch[.]top**                                                                          | Screenshots              |
 | Phase 12 | Cryptocurrency-related activity observed during training                                                             | Investigator observation |
 | Phase 13 | Passive OSINT investigation initiated                                                                                | Investigation notes      |
 | Phase 14 | DNS, WHOIS, SSL certificate, and infrastructure analysis performed                                                   | Technical analysis       |
 | Phase 15 | Technology stack and reputation analysis completed                                                                   | Technical analysis       |
 | Phase 16 | Initial CTI documentation completed (Version 1.0)                                                                    | Repository documentation |
-| Phase 17 | Google Safe Browsing warning observed for **unitelmatch.top**                                                        | Investigator observation |
-| Phase 18 | Recruiter provides a new portal: **unitelmatch.cc**                                                                  | Chat transcript          |
-| Phase 19 | Investigator attempts to access **unitelmatch.cc**                                                                   | Investigator observation |
-| Phase 20 | Google Safe Browsing displays a warning identifying **unitelmatch.cc** as a dangerous website                        | Investigator observation |
+| Phase 17 | Google Safe Browsing warning observed for **unitelmatch[.]top**                                                      | Investigator observation |
+| Phase 18 | Recruiter provides a new portal: **unitelmatch[.]cc**                                                                | Chat transcript          |
+| Phase 19 | Investigator attempts to access **unitelmatch[.]cc**                                                                 | Investigator observation |
+| Phase 20 | Google Safe Browsing displays a warning identifying **unitelmatch[.]cc** as a dangerous website                      | Investigator observation |
 | Phase 21 | Investigator asks the recruiter to explain the warning                                                               | Chat transcript          |
 | Phase 22 | Recruiter states they will consult the technical staff                                                               | Chat transcript          |
-| Phase 23 | Recruiter provides **unitelmatch.cyou** as a backup portal                                                           | Chat transcript          |
+| Phase 23 | Recruiter provides **unitelmatch[.]cyou** as a backup portal                                                         | Chat transcript          |
 | Phase 24 | Recruiter instructs investigator to continue onboarding using the backup portal                                      | Chat transcript          |
 | Phase 25 | Recruiter later explains that the warning was caused by a "platform upgrade" and tells the investigator not to worry | Chat transcript          |
 | Phase 26 | Investigation expanded to include the newly observed domains                                                         | Investigation notes      |
@@ -61,7 +61,7 @@ Analytical conclusions are documented separately within the Findings and Analysi
 
 ## Phase 1 – Initial Recruitment
 
-The investigation began when the investigator discovered a remote employment opportunity advertised through **occupationoasis.com**.
+The investigation began when the investigator discovered a remote employment opportunity advertised through **occupationoasis[.]com**.
 
 Following the application, a recruiter initiated contact and introduced a remote e-commerce opportunity involving store management and dropshipping.
 
@@ -90,11 +90,11 @@ The initial onboarding platform was:
 
 ## Phase 3 – First Platform Migration
 
-While accessing **linkroles.my**, the investigator observed a Google Safe Browsing warning.
+While accessing **linkroles[.]my**, the investigator observed a Google Safe Browsing warning.
 
 The recruiter responded by directing the investigator to continue using:
 
-**unitelmatch.top**
+**unitelmatch[.]top**
 
 Training resumed on the replacement platform.
 
@@ -137,7 +137,7 @@ These findings formed the basis of Version 1.0 of the investigation.
 
 During a subsequent conversation, the recruiter instructed the investigator to access a newly introduced portal:
 
-**unitelmatch.cc**
+**unitelmatch[.]cc**
 
 **Evidence:**
 
@@ -163,7 +163,7 @@ The recruiter replied that they would consult their technical staff regarding th
 
 Shortly afterwards, the recruiter supplied another portal:
 
-**unitelmatch.cyou**
+**unitelmatch[.]cyou**
 
 **Evidence:**
 
@@ -211,13 +211,13 @@ The investigation now documents five observed domains associated with the recrui
 Application Submitted
         │
         ▼
-occupationoasis.com
+occupationoasis[.]com
         │
         ▼
 Recruiter Contact
         │
         ▼
-linkroles.my
+linkroles[.]my
         │
         ▼
 Store Registration
@@ -229,13 +229,13 @@ Training Activities
 Google Safe Browsing Warning
         │
         ▼
-unitelmatch.top
+unitelmatch[.]top
         │
         ▼
 Initial Investigation Completed
         │
         ▼
-Recruiter Supplies unitelmatch.cc
+Recruiter Supplies unitelmatch[.]cc
         │
         ▼
 Google Safe Browsing Warning
@@ -244,7 +244,7 @@ Google Safe Browsing Warning
 Recruiter Consults Technical Staff
         │
         ▼
-unitelmatch.cyou Provided
+unitelmatch[.]cyou Provided
         │
         ▼
 Platform Upgrade Explanation
@@ -275,11 +275,11 @@ These observations are supported by recruiter communications, screenshots, inves
 | Evidence ID | Description |
 |-------------|-------------|
 | [EV-001-01 – EV-044-64](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/tree/main/Evidence/Screenshots) | Initial investigation evidence (Version 1.0) |
-| [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png) | Recruiter providing `unitelmatch.cc`|
-| [EV-046-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-046-01.png) | Google Safe Browsing warning observed for `unitelmatch.cc` |
+| [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png) | Recruiter providing `unitelmatch[.]cc`|
+| [EV-046-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-046-01.png) | Google Safe Browsing warning observed for `unitelmatch[.]cc` |
 | [EV-047-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-047-01.png) | Investigator reporting the Google warning. |
 | [EV-048-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-048-01.png) | Recruiter explaining that they would contact the IT team |
-| [EV-049-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png) | Recruiter providing `unitelmatch.cyou` |
+| [EV-049-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png) | Recruiter providing `unitelmatch[.]cyou` |
 | [EV-050-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-050-01.png) | Recruiter checking if investigator has logged in. |
 | [EV-051-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png) | Recruiter explaining that the warning was due to a "platform upgrade." |
 | [EV-052-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-052-01.png) | Repository updated to Version 1.1                                           |

@@ -94,7 +94,7 @@ Each evidence artifact references a specific portion of this master transcript w
 
 > **Analyst Observation**
 >
-> The following message contains an image referencing https://www.occupationoasis.com/, the supposed job board advertising remote work opportunities.
+> The following message contains an image referencing https://www.occupationoasis[.]com/, the supposed job board advertising remote work opportunities.
 
 ---
 
@@ -556,11 +556,11 @@ TT ショッププラットフォームに所属しており、私自身も店�
 ---
 
 **14:58** チェ・ジュン:  
-ログインリンク：https://www.linkroles.my      招待コード：TIYO5998
+ログインリンク：https://www.linkroles[.]my      招待コード：TIYO5998
 
 > **Analyst Observation**
 >
-> First introduction of **linkroles.my** with invitation code. Marks transition from recruiter communication to platform onboarding.
+> First introduction of **linkroles[.]my** with invitation code. Marks transition from recruiter communication to platform onboarding.
 >
 > 📎 Related Screenshot  
 ![`CTI-2026-07_full_transcript_linkroles_invitation.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_linkroles_invitation.png)
@@ -2345,11 +2345,11 @@ unsent a message.
 ---
 
 **12:21** チェ・ジュン:  
-[https://www.unitelmatch.top](https://www.unitelmatch.top)    今日、あなたは自分のネットショップにログインして確認しましたか？
+[https://www.unitelmatch[.]top](https://www.unitelmatch[.]top)    今日、あなたは自分のネットショップにログインして確認しましたか？
 
 > **Analyst Observation**
 >
-> First introduction of **unitelmatch.top**. Shifts from linkroles.my to new domain.
+> First introduction of **unitelmatch[.]top**. Shifts from linkroles.my to new domain.
 >
 > 📎 Related Screenshot  
 ![`CTI-2026-07_full_transcript_unitelmatch_top.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_unitelmatch_top.png)
@@ -3080,7 +3080,7 @@ Not yet, I will sort it out tomorrow morning when I get home
 ---
 
 **16:56** Hugh K:  
-I understand, I will make sure to get it done. Should I use the site [https://www.unitelmatch.top](https://www.unitelmatch.top)  or the link one?
+I understand, I will make sure to get it done. Should I use the site [https://www.unitelmatch[.]top](https://www.unitelmatch[.]top)  or the link one?
 
 > **Analyst Observation**
 >
@@ -3190,11 +3190,11 @@ Can I have the upgraded site?
 ---
 
 **12:06** チェ・ジュン:  
-[https://www.unitelmatch.cc](https://www.unitelmatch.cc)
+[https://www.unitelmatch[.]cc](https://www.unitelmatch[.]cc)
 
 > **Analyst Observation**
 >
-> Provides **unitelmatch.cc**, second domain rotation.
+> Provides **unitelmatch[.]cc**, second domain rotation.
 >
 > 📎 Related Screenshot  
 ![`CTI-2026-07_full_transcript_domain_cc.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_domain_cc.png)
@@ -3238,7 +3238,7 @@ Thank you, I will get started soon. Give me a few minutes to settle down
 ---
 
 **19:35** Hugh K:  
-Yes, I am ready. I tried to login but google is saying that [https://www.unitelmatch.cc](https://www.unitelmatch.cc) is a dangerous site
+Yes, I am ready. I tried to login but google is saying that [https://www.unitelmatch[.]cc](https://www.unitelmatch[.]cc) is a dangerous site
 
 > **Analyst Observation**
 >
@@ -3277,11 +3277,11 @@ Okay cool
 ---
 
 **19:38** チェ・ジュン:  
-[https://www.unitelmatch.cyou](https://www.unitelmatch.cyou)
+[https://www.unitelmatch[.]cyou](https://www.unitelmatch[.]cyou)
 
 > **Analyst Observation**
 >
-> Third domain rotation: **unitelmatch.cyou**.
+> Third domain rotation: **unitelmatch[.]cyou**.
 >
 > 📎 Related Screenshot  
 ![`CTI-2026-07_full_transcript_domain_cyou.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_full_transcript_domain_cyou.png)

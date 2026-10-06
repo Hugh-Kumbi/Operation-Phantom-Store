@@ -24,11 +24,11 @@ The purpose is **not** to attribute ownership, but to demonstrate evidence-based
 
 | Domain | Role During Investigation | Status |
 |--------|---------------------------|--------|
-| occupationoasis.com | Initial recruitment platform  | Observed                       |
-| linkroles.my        | Initial onboarding portal     | Replaced                       |
-| unitelmatch.top     | Replacement onboarding portal | Replaced                       |
-| unitelmatch.cc      | Subsequent onboarding portal  | Replaced after browser warning |
-| unitelmatch.cyou    | Backup onboarding portal      | Active during investigation    |
+| `occupationoasis[.]com` | Initial recruitment platform  | Observed                       |
+| `linkroles[.]my`        | Initial onboarding portal     | Replaced                       |
+| `unitelmatch[.]top`     | Replacement onboarding portal | Replaced                       |
+| `unitelmatch[.]cc`      | Subsequent onboarding portal  | Replaced after browser warning |
+| `unitelmatch[.]cyou`    | Backup onboarding portal      | Active during investigation    |
 
 ---
 
@@ -38,29 +38,29 @@ The recruiter introduced multiple portals throughout the onboarding process.
 
 ```text
 Recruitment Advertisement
-occupationoasis.com
+occupationoasis[.]com
         │
         ▼
 Initial Onboarding
-linkroles.my
+linkroles[.]my
         │
  Google Safe Browsing Warning
         │
         ▼
 Replacement Portal
-unitelmatch.top
+unitelmatch[.]top
         │
  Google Safe Browsing Warning
         │
         ▼
 Infrastructure Rotation
-unitelmatch.cc
+unitelmatch[.]cc
         │
  Google Safe Browsing Warning
         │
         ▼
 Fallback Portal
-unitelmatch.cyou
+unitelmatch[.]cyou
 ```
 
 Each transition occurred during active communication with the recruiter.
@@ -69,7 +69,7 @@ Each transition occurred during active communication with the recruiter.
 
 # Operational Roles
 
-## occupationoasis.com
+## occupationoasis[.]com
 
 Observed as the initial recruitment website.
 
@@ -83,7 +83,7 @@ No onboarding activities were performed directly through this domain.
 
 ---
 
-## linkroles.my
+## linkroles[.]my
 
 Observed as the first operational platform.
 
@@ -98,7 +98,7 @@ Later replaced during the investigation.
 
 ---
 
-## unitelmatch.top
+## unitelmatch[.]top
 
 Observed as the replacement onboarding platform.
 
@@ -113,7 +113,7 @@ The investigator observed cryptocurrency-related activity while using this porta
 
 ---
 
-## unitelmatch.cc
+## unitelmatch[.]cc
 
 Observed as a subsequent onboarding platform introduced by the recruiter.
 
@@ -128,7 +128,7 @@ The recruiter subsequently supplied another portal.
 
 ---
 
-## unitelmatch.cyou
+## unitelmatch[.]cyou
 
 Observed as a backup onboarding portal.
 
@@ -146,11 +146,11 @@ The recruiter instructed the investigator to continue using this domain while th
 
 | Approximate Order | Domain | How Introduced |
 |-------------------|--------|----------------|
-| 1 | occupationoasis.com | Public job advertisement                                   |
-| 2 | linkroles.my        | Recruiter onboarding instructions                          |
-| 3 | unitelmatch.top     | Replacement after browser warning                          |
-| 4 | unitelmatch.cc      | Recruiter introduced upgraded portal                       |
-| 5 | unitelmatch.cyou    | Recruiter supplied backup portal following browser warning |
+| 1 | `occupationoasis[.]com` | Public job advertisement                                   |
+| 2 | `linkroles[.]my`        | Recruiter onboarding instructions                          |
+| 3 | `unitelmatch[.]top`     | Replacement after browser warning                          |
+| 4 | `unitelmatch[.]cc`      | Recruiter introduced upgraded portal                       |
+| 5 | `unitelmatch[.]cyou`    | Recruiter supplied backup portal following browser warning |
 
 ---
 
@@ -158,16 +158,16 @@ The recruiter instructed the investigator to continue using this domain while th
 
 | Domain | Hosting / CDN | Registrar | Certificate | Notes |
 |--------|---------------|-----------|-------------|-------|
-| occupationoasis.com | AWS / CloudFront | Amazon Registrar     | AWS Certificate Manager               | Nuxt.js, Vue.js           |
-| linkroles.my        | Cloudflare       | Gname.com            | Google Trust Services / Cloudflare    | Vue.js                    |
-| unitelmatch.top     | Cloudflare       | Global Asset Domains | Google Trust Services / Let's Encrypt | Vue.js                    |
-| unitelmatch.cc      | Cloudflare       | Dynadot Inc          | Google Trust Services /  SSL.com      | Vue.js                    |
-| unitelmatch.cyou    | Cloudflare       | Global Asset Domains | SSL.com / Google Trust Services       | Nuxt.js, Vue.js           |
+| `occupationoasis[.]com` | AWS / CloudFront | Amazon Registrar     | AWS Certificate Manager               | Nuxt.js, Vue.js           |
+| `linkroles[.]my`        | Cloudflare       | Gname.com            | Google Trust Services / Cloudflare    | Vue.js                    |
+| `unitelmatch[.]top`     | Cloudflare       | Global Asset Domains | Google Trust Services / Let's Encrypt | Vue.js                    |
+| `unitelmatch[.]cc`      | Cloudflare       | Dynadot Inc          | Google Trust Services /  SSL.com      | Vue.js                    |
+| `unitelmatch[.]cyou`    | Cloudflare       | Global Asset Domains | SSL.com / Google Trust Services       | Nuxt.js, Vue.js           |
 
 ## Infrastructure Correlation Matrix
 
-| Indicator                 | OccupationOasis | LinkRoles | UnitelMatch.top | UnitelMatch.cc | UnitelMatch.cyou |
-| ------------------------- | --------------- | --------- | --------------- | -------------- | ---------------- |
+| Indicator                 | OccupationOasis[.]com | LinkRoles[.]my | UnitelMatch[.]top | UnitelMatch[.]cc | UnitelMatch[.]cyou |
+|---------------------------|-----------------|-----------|-----------------|----------------|------------------|
 | Vue.js                    | ✓               | ✓         | ✓              | ✓              | ✓                |
 | Cloudflare                | ✗               | ✓         | ✓              | ✓              | ✓                |
 | Google Trust Services TLS | ✗               | ✓         | ✓              | ✓              | ✓                |
@@ -251,19 +251,19 @@ The investigation documented repeated migration between onboarding portals.
 Observed sequence:
 
 ```text
-linkroles.my
+linkroles[.]my
 
 ↓
 
-unitelmatch.top
+unitelmatch[.]top
 
 ↓
 
-unitelmatch.cc
+unitelmatch[.]cc
 
 ↓
 
-unitelmatch.cyou
+unitelmatch[.]cyou
 ```
 
 Each transition was initiated by the recruiter.
@@ -365,7 +365,7 @@ This document supports:
 | Version | Date | Change |
 |---------|------|--------|
 | 1.0 | 2026-08-03 | Initial document created to document observed relationships between campaign domains. |
-| 1.1 | 2026-08-15 | Added `unitelmatch.cc` and `unitelmatch.cyou`, expanded domain progression, infrastructure comparison, and confidence assessment. |
+| 1.1 | 2026-08-15 | Added `unitelmatch[.]cc` and `unitelmatch[.]cyou`, expanded domain progression, infrastructure comparison, and confidence assessment. |
 | 2.0 | 2026-09-28 | Expanded from a domain relationship summary into a comprehensive infrastructure correlation assessment. Added campaign infrastructure inventory, infrastructure correlation matrix, shared application fingerprints, backend architecture relationships, updated confidence assessment, revised intelligence gaps, enhanced analytical assessment, and aligned terminology with the completed Operation Phantom Store CTI investigation. |
 
 ---

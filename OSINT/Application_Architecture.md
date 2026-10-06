@@ -29,11 +29,11 @@ Rather than hosting a complete application on each domain, multiple frontend por
         ┌─────────────────────────────┐
         │ Recruitment Portal          │
         │                             │
-        │ occupationoasis.com         │
-        │ linkroles.my                │
-        │ unitelmatch.top             │
-        │ unitelmatch.cc              │
-        │ unitelmatch.cyou            │
+        │ occupationoasis[.]com       │
+        │ linkroles[.]my              │
+        │ unitelmatch[.]top           │
+        │ unitelmatch[.]cc            │
+        │ unitelmatch[.]cyou          │
         └──────────────┬──────────────┘
                        │
                HTTPS / HTTP3
@@ -47,7 +47,7 @@ Rather than hosting a complete application on each domain, multiple frontend por
           JavaScript API Requests
                        │
                        ▼
-        www.ioutrankap.cyou
+        www.ioutrankap[.]cyou
            /tiny-shop/v1/
                        │
       ┌────────────────┴──────────────┐
@@ -82,7 +82,7 @@ Multiple domains communicate with the same backend infrastructure.
 Observed backend:
 
 ```
-www.ioutrankap.cyou
+www.ioutrankap[.]cyou
 ```
 
 Observed API base path:

@@ -85,11 +85,11 @@ No conclusions were based on a single unsupported source.
 
 The recruitment process involved five separate domains:
 
-- `occupationoasis.com`
-- `linkroles.my`
-- `unitelmatch.top`
-- `unitelmatch.cc`
-- `unitelmatch.cyou`
+- `occupationoasis[.]com`
+- `linkroles[.]my`
+- `unitelmatch[.]top`
+- `unitelmatch[.]cc`
+- `unitelmatch[.]cyou`
 
 ### Supporting Evidence
 
@@ -136,11 +136,11 @@ The investigator directly participated in the onboarding process and documented 
 
 ### Assessment
 
-A browser warning for `linkroles.my` was immediately followed by recruiter instructions to continue using `unitelmatch.top`. Subsequent recruiter communications directed the transition to `unitelmatch.cc`, and later to `unitelmatch.cyou`, establishing a multi-stage domain migration chain.
+A browser warning for `linkroles[.]my` was immediately followed by recruiter instructions to continue using `unitelmatch[.]top`. Subsequent recruiter communications directed the transition to `unitelmatch[.]cc`, and later to `unitelmatch[.]cyou`, establishing a multi-stage domain migration chain.
 
 ### Supporting Evidence
 
-- Browser warning (`linkroles.my`; `unitelmatch.top`; `unitelmatch.cc`; `unitelmatch.cyou`)
+- Browser warning (`linkroles[.]my`; `unitelmatch[.]top`; `unitelmatch[.]cc`; `unitelmatch[.]cyou`)
 - Recruiter messages directing each domain transition
 - Timeline of domain migration sequence
 - Screenshots
@@ -153,7 +153,7 @@ A browser warning for `linkroles.my` was immediately followed by recruiter instr
 
 The migration sequence was directly observed and recorded via recruiter chat instructions. The chain progressed as follows:
 
-`linkroles.my` → `unitelmatch.top` → `unitelmatch.cc` → `unitelmatch.cyou`
+`linkroles[.]my` → `unitelmatch[.]top` → `unitelmatch[.]cc` → `unitelmatch[.]cyou`
 
 The investigation does not infer why the migrations occurred beyond the observable evidence.
 
@@ -237,7 +237,7 @@ The same backend architecture was observed across multiple domains despite domai
 
 ### Assessment
 
-Across the observed domain migration chain (`linkroles.my` → `unitelmatch.top` → `unitelmatch.cc` → `unitelmatch.cyou`), the underlying infrastructure remained consistent despite the front-end domain changes. The following elements were preserved across rotations:
+Across the observed domain migration chain (`linkroles[.]my` → `unitelmatch[.]top` → `unitelmatch[.]cc` → `unitelmatch[.]cyou`), the underlying infrastructure remained consistent despite the front-end domain changes. The following elements were preserved across rotations:
 
 - Backend infrastructure
 - APIs
@@ -537,7 +537,7 @@ This assessment reflects a fundamental principle of cyber threat intelligence: c
 
 | Version | Date | Change |
 |---------|------|--------|
-| 2.0 | 2026-09-28 | Updated the assessment to reflect the expanded **Operation Phantom Store** investigation. Added findings for the `unitelmatch.cc` and `unitelmatch.cyou` domains, incorporated backend infrastructure correlation and domain rotation analysis, revised confidence levels based on additional evidence, updated supporting evidence sources, expanded related documentation, and aligned the document with Version 2.0 of the intelligence package. |
+| 2.0 | 2026-09-28 | Updated the assessment to reflect the expanded **Operation Phantom Store** investigation. Added findings for the `unitelmatch[.]cc` and `unitelmatch[.]cyou` domains, incorporated backend infrastructure correlation and domain rotation analysis, revised confidence levels based on additional evidence, updated supporting evidence sources, expanded related documentation, and aligned the document with Version 2.0 of the intelligence package. |
 
 ---
 

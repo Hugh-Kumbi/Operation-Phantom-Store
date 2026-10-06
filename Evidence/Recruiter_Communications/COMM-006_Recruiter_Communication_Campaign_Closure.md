@@ -10,7 +10,7 @@
 | **Collection Method** | Direct Communication                                                                 |
 | **Source**            | [Recruiter Chat Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                            |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.              |
-| **Related Domains**   | `occupationoasis.com`, `linkroles.my`, `unitelmatch.top`, `unitelmatch.cc`, `unitelmatch.cyou` |
+| **Related Domains**   | `occupationoasis[.]com`, `linkroles[.]my`, `unitelmatch[.]top`, `unitelmatch[.]cc`, `unitelmatch[.]cyou` |
 | **Related Analysis**  | [Lessons_Learned.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Lessons_Learned.md), [Findings.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Findings.md), [Confidence_Assessment.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md), [Executive_Report.pdf](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/docs/Executive_Report.pdf)      |
 
 ---
@@ -269,7 +269,7 @@ Not yet, I will sort it out tomorrow morning when I get home
 ---
 
 **16:56** Hugh K:  
-I understand, I will make sure to get it done. Should I use the site [https://www.unitelmatch.top](https://www.unitelmatch.top/) or the link one?
+I understand, I will make sure to get it done. Should I use the site [https://www.unitelmatch[.]top](https://www.unitelmatch[.]top/) or the link one?
 
 > **Analyst Observation**
 >
@@ -379,11 +379,11 @@ Can I have the upgraded site?
 ---
 
 **12:06** チェ・ジュン:  
-[https://www.unitelmatch.cc](https://www.unitelmatch.cc/)
+[https://www.unitelmatch[.]cc](https://www.unitelmatch[.]cc/)
 
 > **Analyst Observation**
 >
-> Provides new domain (`unitelmatch.cc`). This is the second domain rotation in the campaign (after `.top`).
+> Provides new domain (`unitelmatch[.]cc`). This is the second domain rotation in the campaign (after `[.]top`).
 >
 > 📎 Related Screenshot  
 ![`CTI-2026-07_closure_domain_cc.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cc.png)
@@ -427,7 +427,7 @@ Thank you, I will get started soon. Give me a few minutes to settle down
 ---
 
 **19:35** Hugh K:  
-Yes, I am ready. I tried to login but google is saying that [https://www.unitelmatch.cc](https://www.unitelmatch.cc/) is a dangerous site
+Yes, I am ready. I tried to login but google is saying that [https://www.unitelmatch[.]cc](https://www.unitelmatch[.]cc/) is a dangerous site
 
 > **Analyst Observation**
 >
@@ -466,11 +466,11 @@ Okay cool
 ---
 
 **19:38** チェ・ジュン:  
-[https://www.unitelmatch.cyou](https://www.unitelmatch.cyou/)
+[https://www.unitelmatch[.]cyou](https://www.unitelmatch[.]cyou/)
 
 > **Analyst Observation**
 >
-> Third domain rotation within hours (`unitelmatch.cyou`). Rapid URL changes correlate with security warnings.
+> Third domain rotation within hours (`unitelmatch[.]cyou`). Rapid URL changes correlate with security warnings.
 >
 > 📎 Related Screenshot  
 ![`CTI-2026-07_closure_domain_cyou_backup.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_closure_domain_cyou_backup.png)
@@ -482,7 +482,7 @@ Okay cool
 
 > **Analyst Observation**
 >
-> Frames `.cyou` as a “backup link” while awaiting “technical answer.” Maintains momentum despite warning.
+> Frames `[.]cyou` as a “backup link” while awaiting “technical answer.” Maintains momentum despite warning.
 
 ---
 

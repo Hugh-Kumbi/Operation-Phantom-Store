@@ -33,11 +33,11 @@ The objective is to determine whether publicly available reputation services had
 
 | Domain | Operational Role |
 |--------|------------------|
-| occupationoasis.com | Recruitment website       |
-| linkroles.my        | First operational portal  |
-| unitelmatch.top     | Second operational portal |
-| unitelmatch.cc      | Third operational portal  |
-| unitelmatch.cyou    | Backup operational portal |
+| occupationoasis[.]com | Recruitment website       |
+| linkroles[.]my        | First operational portal  |
+| unitelmatch[.]top     | Second operational portal |
+| unitelmatch[.]cc      | Third operational portal  |
+| unitelmatch[.]cyou    | Backup operational portal |
 
 ---
 
@@ -45,11 +45,11 @@ The objective is to determine whether publicly available reputation services had
 
 | Domain              | Reputation Assessment                                                                          |
 | ------------------- | ---------------------------------------------------------------------------------------------- |
-| occupationoasis.com | No significant reputation indicators observed                                                  |
-| linkroles.my        | Suspicious; browser security warning observed                                                  |
-| unitelmatch.top     | Multiple public reputation detections                                                          |
-| unitelmatch.cc      | Multiple public reputation detections and browser warning observed                             |
-| unitelmatch.cyou    | Limited public reputation data; technically correlated with previously observed infrastructure |
+| occupationoasis[.]com | No significant reputation indicators observed                                                  |
+| linkroles[.]my        | Suspicious; browser security warning observed                                                  |
+| unitelmatch[.]top     | Multiple public reputation detections                                                          |
+| unitelmatch[.]cc      | Multiple public reputation detections and browser warning observed                             |
+| unitelmatch[.]cyou    | Limited public reputation data; technically correlated with previously observed infrastructure |
 
 ---
 
@@ -58,7 +58,7 @@ The objective is to determine whether publicly available reputation services had
 The reputation of the observed infrastructure deteriorated throughout the investigation.
 
 ```text
-OccupationOasis
+OccupationOasis[.]com
 Legitimate
 
         │
@@ -67,25 +67,25 @@ Recruitment
 
         ▼
 
-LinkRoles
+LinkRoles[.]my
 
 High Risk
 
         ▼
 
-UnitelMatch.top
+UnitelMatch[.]top
 
 Malicious
 
         ▼
 
-UnitelMatch.cc
+UnitelMatch[.]cc
 
 Malicious
 
         ▼
 
-UnitelMatch.cyou
+UnitelMatch[.]cyou
 
 Malicious
 ```
@@ -94,7 +94,7 @@ This progression closely matched the recruiter's migration of users between oper
 
 ---
 
-# OccupationOasis
+# OccupationOasis[.]com
 
 ## VirusTotal
 
@@ -139,7 +139,7 @@ No significant public reputation indicators suggested malicious activity at the 
 
 ---
 
-# LinkRoles
+# LinkRoles[.]my
 
 ## VirusTotal
 
@@ -191,7 +191,7 @@ This demonstrates that reputation systems can differ significantly depending on 
 
 ---
 
-# UnitelMatch.top
+# UnitelMatch[.]top
 
 ## VirusTotal
 
@@ -233,7 +233,7 @@ This was the first observed onboarding portal for which multiple public reputati
 
 ---
 
-# UnitelMatch.cc
+# UnitelMatch[.]cc
 
 ## VirusTotal
 
@@ -255,7 +255,7 @@ Examples included:
 
 Google Chrome displayed a "Dangerous Site" warning when attempting to access the portal.
 
-The recruiter immediately responded by providing an alternative domain (`unitelmatch.cyou`) and described the warning as a routine platform upgrade.
+The recruiter immediately responded by providing an alternative domain (`unitelmatch[.]cyou`) and described the warning as a routine platform upgrade.
 
 This interaction directly links the infrastructure rotation to browser security detections.
 
@@ -277,7 +277,7 @@ The immediate transition to an alternate domain following the browser warning pr
 
 ---
 
-# UnitelMatch.cyou
+# UnitelMatch[.]cyou
 
 ## VirusTotal
 
@@ -303,9 +303,9 @@ No formal classification.
 
 URLScan identified structural similarity with:
 
-- linkroles.my
-- unitelmatch.top
-- unitelmatch.cc
+- `linkroles[.]my`
+- `unitelmatch[.]top`
+- `unitelmatch[.]cc`
 
 This independent observation supports the technical correlation between the operational portals.
 
@@ -327,8 +327,8 @@ Although public reputation services had not yet classified the domain as malicio
 
 # Reputation Comparison
 
-| Feature | OccupationOasis | LinkRoles | UnitelMatch.top | UnitelMatch.cc | UnitelMatch.cyou |
-|---------|-----------------|-----------|-----------------|----------------|------------------|
+| Feature | OccupationOasis[.]com | LinkRoles[.]my | UnitelMatch[.]top | UnitelMatch[.]cc | UnitelMatch[.]cyou |
+|---------|-----------------------|----------------|-------------------|------------------|----==--------------|
 | VirusTotal Detection      | 0/92      | 0/92       | 4/92     | 2/92     | 0/92             |
 | URLScan Classification    | Jobs      | Suspicious | Phishing | Limited  | None             |
 | Google Warning            | No        | Yes        | Yes      | Yes      | No               |
@@ -344,23 +344,23 @@ Throughout the investigation, the recruiter repeatedly migrated victims between 
 Observed sequence:
 
 ```
-occupationoasis.com
+occupationoasis[.]com
 
 ↓
 
-linkroles.my
+linkroles[.]my
 
 ↓
 
-unitelmatch.top
+unitelmatch[.]top
 
 ↓
 
-unitelmatch.cc
+unitelmatch[.]cc
 
 ↓
 
-unitelmatch.cyou
+unitelmatch[.]cyou
 ```
 
 Each migration occurred shortly after operational issues or browser security warnings.
@@ -394,12 +394,12 @@ While reputation data alone is insufficient to establish malicious intent, it pr
 # Confidence Assessment
 
 | Assessment                                                                                                    | Confidence                      |
-| ------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| Browser security warnings were observed during the investigation                                              | High                            |
-| Public reputation services identified `unitelmatch.top` and `unitelmatch.cc` as malicious or phishing-related | High                            |
-| `unitelmatch.cyou` shared technical characteristics with previously observed infrastructure                   | Medium                          |
-| Domain rotation occurred in response to operational disruption or browser warnings                            | Medium                          |
-| All onboarding domains were operated by the same threat actor                                                 | Low (not directly attributable) |
+|-------------------------------------------------------------------------------------------------------------------| ------------------------------- |
+| Browser security warnings were observed during the investigation                                                  | High                            |
+| Public reputation services identified `unitelmatch[.]top` and `unitelmatch[.]cc` as malicious or phishing-related | High                            |
+| `unitelmatch[.]cyou` shared technical characteristics with previously observed infrastructure                     | Medium                          |
+| Domain rotation occurred in response to operational disruption or browser warnings                                | Medium                          |
+| All onboarding domains were operated by the same threat actor                                                     | Low (not directly attributable) |
 
 ---
 
@@ -408,27 +408,28 @@ While reputation data alone is insufficient to establish malicious intent, it pr
 | Evidence ID | Description |
 |-------------|-------------|
 | [EV-002-65](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-002-65.png) | Recruiter instructions directing migration to `unitelmatch.top` |
-| [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png) |  Browser warning – `linkroles.my` |
-| [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png) |  Browser warning – `unitelmatch.top` |
-| [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png) |  Browser warning – `unitelmatch.cc` |
-| [EV-012-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-04.png) |  Browser warning – `unitelmatch.cyou` |
-| [EV-039-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-039-01.png) | Operational Platform – `unitelmatch.top` |
-| [EV-040-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-040-01.png) | Operational Platform – `unitelmatch.top` |
-| [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png) | Recruiter providing `unitelmatch.cc` |
+| [EV-012-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-01.png) |  Browser warning – `linkroles[.]my` |
+| [EV-012-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-02.png) |  Browser warning – `unitelmatch[.]top` |
+| [EV-012-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-03.png) |  Browser warning – `unitelmatch[.]cc` |
+| [EV-012-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-012-04.png) |  Browser warning – `unitelmatch[.]cyou` |
+| [EV-039-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-039-01.png) | Operational Platform – `unitelmatch[.]top` |
+| [EV-040-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-040-01.png) | Operational Platform – `unitelmatch[.]top` |
+| [EV-045-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-045-01.png) | Recruiter providing `unitelmatch[.]cc` |
 | [EV-047-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-047-01.png) | Investigator reporting the Google warning. |  
-| [EV-049-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png) | Recruiter providing `unitelmatch.cyou` | 
+| [EV-049-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-049-01.png) | Recruiter providing `unitelmatch[.]cyou` | 
 | [EV-051-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-051-01.png) | Recruiter explaining that the warning was due to a "platform upgrade." |   
-| [EV-066-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-01.png), [EV-066-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-02.png), [EV-066-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-03.png), [EV-066-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-04.png) | VirusTotal Detection results & history – `occupationoasis.com` |
-| [EV-067-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-01.png), [EV-067-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-02.png), [EV-067-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-03.png), [EV-067-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-04.png) | VirusTotal Detection results & history – `linkroles` |
-| [EV-068-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-01.png), [EV-068-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-02.png), [EV-068-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-03.png), [EV-068-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-04.png) | VirusTotal Detection results & history – `unitelmatch.top` |
-| [EV-069-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-01.png), [EV-069-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-02.png), [EV-069-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-03.png), [EV-069-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-04.png) | VirusTotal Detection results & history – `unitelmatch.cc` |
-| [EV-076-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-076-01.png), [EV-076-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-076-02.png), [EV-076-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-076-03.png), [EV-076-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-076-04.png) | Web Address Scan | VirusTotal Detection results & history – `ioutrankap.cyou` | Collected |
-| [EV-070-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-01.png), [EV-070-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-02.png), [EV-070-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-03.png), [EV-070-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-04.png) | VirusTotal Detection results & history – `unitelmatch.cyou` |
-| [EV-071-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-01.png), [EV-071-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-02.png), [EV-071-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-03.png), [EV-071-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-04.png), [EV-071-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-05.png), [EV-071-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-06.png), [EV-071-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `occupationoasis.com` |
-| [EV-072-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-01.png), [EV-072-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-02.png), [EV-072-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-03.png), [EV-072-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-04.png), [EV-072-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-05.png), [EV-072-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-06.png), [EV-072-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `linkroles.my` |
-| [EV-073-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-01.png), [EV-073-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-02.png), [EV-073-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-03.png), [EV-073-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-04.png), [EV-073-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-05.png), [EV-073-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-06.png), [EV-073-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `unitelmatch.top` |
-| [EV-074-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-01.png), [EV-074-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-02.png), [EV-074-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-03.png), [EV-074-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-04.png), [EV-074-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-05.png), [EV-074-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-06.png), [EV-074-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `unitelmatch.cc` |
-| [EV-075-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-01.png), [EV-075-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-02.png), [EV-075-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-03.png), [EV-075-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-04.png), [EV-075-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-05.png), [EV-075-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-06.png), [EV-075-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `unitelmatch.cyou` |
+| [EV-066-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-01.png), [EV-066-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-02.png), [EV-066-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-03.png), [EV-066-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-066-04.png) | VirusTotal Detection results & history – `occupationoasis[.]com` |
+| [EV-067-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-01.png), [EV-067-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-02.png), [EV-067-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-03.png), [EV-067-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-067-04.png) | VirusTotal Detection results & history – `linkroles[.]my` |
+| [EV-068-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-01.png), [EV-068-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-02.png), [EV-068-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-03.png), [EV-068-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-068-04.png) | VirusTotal Detection results & history – `unitelmatch[.]top` |
+| [EV-069-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-01.png), [EV-069-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-02.png), [EV-069-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-03.png), [EV-069-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-069-04.png) | VirusTotal Detection results & history – `unitelmatch[.]cc` |
+| [EV-076-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-076-01.png), [EV-076-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-076-02.png), [EV-076-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-076-03.png), [EV-076-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-076-04.png) | Web Address Scan | VirusTotal Detection results & history – `ioutrankap[.]cyou` | Collected |
+| [EV-070-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-01.png), [EV-070-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-02.png), [EV-070-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-03.png), [EV-070-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-070-04.png) | VirusTotal Detection results & history – `unitelmatch[.]cyou` |
+| [EV-071-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-01.png), [EV-071-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-02.png), [EV-071-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-03.png), [EV-071-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-04.png), [EV-071-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-05.png), [EV-071-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-06.png), [EV-071-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-071-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `occupationoasis[.]com` |
+| [EV-072-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-01.png), [EV-072-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-02.png), [EV-072-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-03.png), [EV-072-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-04.png), [EV-072-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-05.png), [EV-072-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-06.png), [EV-072-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-072-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `linkroles[.]my` |
+| [EV-073-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-01.png), [EV-073-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-02.png), [EV-073-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-03.png), [EV-073-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-04.png), [EV-073-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-05.png), [EV-073-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-06.png), [EV-073-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-073-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `unitelmatch[.]top` |
+| [EV-074-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-01.png), [EV-074-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-02.png), [EV-074-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-03.png), [EV-074-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-04.png), [EV-074-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-05.png), [EV-074-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-06.png), [EV-074-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-074-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `unitelmatch[.]cc` |
+| [EV-075-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-01.png), [EV-075-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-02.png), [EV-075-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-03.png), [EV-075-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-04.png), [EV-075-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-05.png), [EV-075-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-06.png), [EV-075-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-075-07.png) | URLScan summary pages, Classification results & Structural similarity findings – `unitelmatch[.]cyou` |
+| [EV-077-01](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-01.png), [EV-077-02](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-02.png), [EV-077-03](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-03.png), [EV-077-04](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-04.png), [EV-077-05](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-05.png) [EV-077-06](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-06.png), [EV-077-07](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/EV-077-07.png) | Threat Intelligence | URLScan summary pages, Classification results & Structural similarity findings – `ioutrankap[.]cyou` | Collected |
 
 ---
 
@@ -453,7 +454,7 @@ While reputation data alone is insufficient to establish malicious intent, it pr
 | Version | Date | Change |
 |---------|------|--------|
 | 1.0 | 2026-08-27 | Initial investigation methodology created. |
-| 1.1 | 2026-09-24 | AAdded reputation analysis for `unitelmatch.cc` and `unitelmatch.cyou`; expanded analysis from three to five domains; documented Google Safe Browsing warnings; added infrastructure rotation analysis; correlated browser warnings with recruiter behaviour; and included URLScan structural similarity observations. |
+| 1.1 | 2026-09-24 | AAdded reputation analysis for `unitelmatch[.]cc` and `unitelmatch[.]cyou`; expanded analysis from three to five domains; documented Google Safe Browsing warnings; added infrastructure rotation analysis; correlated browser warnings with recruiter behaviour; and included URLScan structural similarity observations. |
 | 2.1 | 2026-09-28 | Refined reputation assessments using evidence-based language; replaced categorical labels with observed public reputation indicators; added Confidence Assessment and Evidence sections; expanded behavioural analysis of infrastructure rotation; aligned terminology with the Operation Phantom Store repository; and updated document metadata and references. |
 
 ---

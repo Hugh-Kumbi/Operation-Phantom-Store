@@ -16,9 +16,9 @@
 
 This investigation examined a remote recruitment workflow involving three publicly accessible domains:
 
-- occupationoasis.com
-- linkroles.my
-- unitelmatch.top
+- occupationoasis[.]com
+- linkroles[.]my
+- unitelmatch[.]top
 
 The investigation combined Open Source Intelligence (OSINT), technical infrastructure analysis, behavioral analysis, and threat intelligence methodologies to document the observed campaign.
 
@@ -72,8 +72,8 @@ Browser Warnings Observed: 3
 
 Continued engagement with the recruiter identified two additional onboarding domains:
 
-- unitelmatch.cc
-- unitelmatch.cyou
+- unitelmatch[.]cc
+- unitelmatch[.]cyou
 
 These domains were introduced after the completion of the initial investigation and expanded the observed campaign infrastructure from three to five operational domains.
 
@@ -129,11 +129,11 @@ The investigation documents these behaviors without attributing intent beyond th
 
 Across both phases of the investigation, the recruiter introduced the following operational sequence:
 
-1. occupationoasis.com
-2. linkroles.my
-3. unitelmatch.top
-4. unitelmatch.cc
-5. unitelmatch.cyou
+1. occupationoasis[.]com
+2. linkroles[.]my
+3. unitelmatch[.]top
+4. unitelmatch[.]cc
+5. unitelmatch[.]cyou
 
 Each domain fulfilled a similar onboarding function while preserving the overall workflow.
 
@@ -145,9 +145,9 @@ This progression demonstrates observable infrastructure evolution during the inv
 
 ## Finding 5: Browser Warning and Platform Migration
 
-During onboarding, Google displayed a browser warning for **linkroles.my**.
+During onboarding, Google displayed a browser warning for **linkroles[.]my**.
 
-The recruiter immediately instructed the investigator to continue using **unitelmatch.top**.
+The recruiter immediately instructed the investigator to continue using **unitelmatch[.]top**.
 
 This transition demonstrates operational continuity despite disruption.
 
@@ -377,7 +377,7 @@ The resulting intelligence should be viewed as an evidence-based assessment rath
 | Version | Date | Change |
 |---------|------|--------|
 | 1.0 | 2026-08-21 | Initial investigation methodology created. |
-| 2.0 | 2026-09-17 | Expanded investigative findings following identification of `unitelmatch.cc` and `unitelmatch.cyou`, including browser security warnings, recruiter-supplied replacement infrastructure, and updated campaign assessment. |
+| 2.0 | 2026-09-17 | Expanded investigative findings following identification of `unitelmatch[.]cc` and `unitelmatch[.]cyou`, including browser security warnings, recruiter-supplied replacement infrastructure, and updated campaign assessment. |
 
 ---
 

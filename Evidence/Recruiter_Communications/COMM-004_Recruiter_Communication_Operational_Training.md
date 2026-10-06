@@ -10,7 +10,7 @@
 | **Collection Method** | Direct Communication                                                                                      |
 | **Source**            | [Recruiter Chat Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                                                 |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.                                   |
-| **Related Domains**   | `unitelmatch.top`, `unitelmatch.cc`, `unitelmatch.cyou`                                                         |
+| **Related Domains**   | `unitelmatch[.]top`, `unitelmatch[.]cc`, `unitelmatch[.]cyou`                                                         |
 | **Related Analysis**  | [Attack_Lifecycle.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Attack_Lifecycle.md), [Social_Engineering_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Social_Engineering_Analysis.md), [Confidence_Assessment.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Confidence_Assessment.md), [Detection_Opportunities.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Analysis/Detection_Opportunities.md) |
 
 ---

@@ -10,7 +10,7 @@
 | **Collection Method** | Direct Communication                                                                                 |
 | **Source**            | [Recruiter Chat Transcript](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Recruiter_Communications/Recruiter_Chat_Transcript.md)                                                                            |
 | **Integrity**         | Original conversation preserved. Formatting converted to Markdown only.                              |
-| **Related Domains**   | `linkroles.my`, `unitelmatch.top`, `unitelmatch.cc`, `unitelmatch.cyou`                              |
+| **Related Domains**   | `linkroles[.]my`, `unitelmatch[.]top`, `unitelmatch[.]cc`, `unitelmatch[.]cyou`                              |
 | **Related Analysis**  | [Infrastructure_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Infrastructure_Analysis.md), [Domain_Relationships.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Domain_Relationships.md), [Certificate_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Certificate_Analysis.md), [Reputation_Analysis.md](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/OSINT/Reputation_Analysis.md) |
 
 ---
@@ -95,11 +95,11 @@ This evidence supports the following investigation artifacts:
 ---
 
 **12:21** チェ・ジュン:  
-[https://www.unitelmatch.top](https://www.unitelmatch.top/) 今日、あなたは自分のネットショップにログインして確認しましたか？
+[https://www.unitelmatch[.]top](https://www.unitelmatch[.]top/) 今日、あなたは自分のネットショップにログインして確認しましたか？
 
 > **Analyst Observation**
 >
-> First introduction of a task-related link (`unitelmatch.top`). The message shifts from greeting to prompting action: logging into an “online shop.”
+> First introduction of a task-related link (`unitelmatch[.]top`). The message shifts from greeting to prompting action: logging into an “online shop.”
 >
 📎 Related Screenshot  
 ![`CTI-2026-07_unitelmatch_login_prompt`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_unitelmatch_login_prompt.png)
@@ -118,11 +118,11 @@ This evidence supports the following investigation artifacts:
 ### 2026.08.04 Tuesday
 
 **12:06** チェ・ジュン:  
-[https://www.unitelmatch.cc](https://www.unitelmatch.cc/)
+[https://www.unitelmatch[.]cc](https://www.unitelmatch[.]cc/)
 
 > **Analyst Observation**
 >
-> New domain (`unitelmatch.cc`) introduced without explanation, first sign of domain rotation. No accompanying instruction beyond the URL itself.
+> New domain (`unitelmatch[.]cc`) introduced without explanation, first sign of domain rotation. No accompanying instruction beyond the URL itself.
 >
 📎 Related Screenshot  
 ![`CTI-2026-07_unitelmatch.cc_domain_change.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_unitelmatch.cc_domain_change.png)
@@ -130,7 +130,7 @@ This evidence supports the following investigation artifacts:
 ---
 
 **19:35** Hugh K:  
-Yes, I am ready. I tried to login but google is saying that [https://www.unitelmatch.cc](https://www.unitelmatch.cc/) is a dangerous site
+Yes, I am ready. I tried to login but google is saying that [https://www.unitelmatch[.]cc](https://www.unitelmatch[.]cc/) is a dangerous site
 
 > **Analyst Observation**
 >
@@ -166,11 +166,11 @@ Okay cool
 ---
 
 **19:38** チェ・ジュン:  
-[https://www.unitelmatch.cyou](https://www.unitelmatch.cyou/)
+[https://www.unitelmatch[.]cyou](https://www.unitelmatch[.]cyou/)
 
 > **Analyst Observation**
 >
-> Second domain rotation within minutes (`unitelmatch.cyou`). Rapid URL changes may indicate infrastructure instability or deliberate obfuscation.
+> Second domain rotation within minutes (`unitelmatch[.]cyou`). Rapid URL changes may indicate infrastructure instability or deliberate obfuscation.
 >
 📎 Related Screenshot  
 ![`CTI-2026-07_unitelmatch.cyou_backup_link.png`](https://github.com/Hugh-Kumbi/Operation-Phantom-Store/blob/main/Evidence/Screenshots/CTI-2026-07_unitelmatch.cyou_backup_link.png)
@@ -232,11 +232,11 @@ The investigation identified the following progression:
 
 | Order | Domain | Status |
 |-------|--------|--------|
-| 1 | `occupationoasis.com` | Initial recruitment platform  |
-| 2 | `linkroles.my`        | Initial onboarding portal     |
-| 3 | `unitelmatch.top`     | Replacement onboarding portal |
-| 4 | `unitelmatch.cc`      | Subsequent replacement portal |
-| 5 | `unitelmatch.cyou`    | Additional operational portal |
+| 1 | `occupationoasis[.]com` | Initial recruitment platform  |
+| 2 | `linkroles[.]my`        | Initial onboarding portal     |
+| 3 | `unitelmatch[.]top`     | Replacement onboarding portal |
+| 4 | `unitelmatch[.]cc`      | Subsequent replacement portal |
+| 5 | `unitelmatch[.]cyou`    | Additional operational portal |
 
 This sequence demonstrates a structured pattern of infrastructure replacement rather than isolated domain changes.
 
